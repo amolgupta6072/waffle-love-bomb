@@ -275,18 +275,40 @@ function brandPhotos(slug) {
 }
 
 // Picks the product whose title shares the most words with the model name.
+// The model's last word (usually the dial colour or variant) must match, and
+// full-watch photos win over case-only (carrure) or movement-only (capsule) shots.
 export function matchPhoto(products, brandName, modelName) {
   const brandWords = new Set(normalise(brandName));
   const want = normalise(modelName).filter((w) => !brandWords.has(w) && !['son', 'mai', 'the'].includes(w));
   if (!want.length) return '';
+  const last = want[want.length - 1];
+  const parts = /\b(carrure|capsule|strap|bracelet)\b/;
+  const SAME = { blue: ['bleu', 'bleue'], green: ['vert', 'verte'], black: ['noir', 'noire'], silver: ['argent'], white: ['blanc', 'blanche'], grey: ['gris'] };
+  const has = (set, w) => set.has(w) || (SAME[w] || []).some((x) => set.has(x));
   let best = null;
   for (const p of products) {
-    const have = new Set(normalise(`${p.title} ${p.handle.replace(/-/g, ' ')}`));
-    const hits = want.filter((w) => have.has(w)).length;
-    const score = hits / want.length - have.size * 0.001;
+    const words = normalise(`${p.title} ${p.handle.replace(/-/g, ' ')}`);
+    const have = new Set(words);
+    if (last !== 'steel' && !has(have, last)) continue;
+    const hits = want.filter((w) => has(have, w)).length;
+    let score = hits / want.length - have.size * 0.001;
+    if (!want.some((w) => parts.test(w)) && parts.test(words.join(' '))) score -= 0.2;
+    if (have.has('montre') || have.has('watch')) score += 0.05;
     if (hits && (!best || score > best.score)) best = { score, image: p.image };
   }
   return best && best.score >= 0.6 ? best.image : '';
+}
+
+// Photos whose product names differ too much from the model name to match automatically.
+const PHOTO_OVERRIDES = {
+  fears: { 'Redcliff 39.5 Date ‘Endurance Specification’': 'redcliff-39-5-date-es' },
+  formex: { AirField: 'air-field-automatic-tarmac-grey-40-mm' },
+};
+
+function photoFor(photos, brand, model) {
+  const handle = PHOTO_OVERRIDES[brand.slug]?.[model];
+  if (handle) return photos.find((p) => p.handle === handle)?.image || '';
+  return matchPhoto(photos, brand.name, model);
 }
 
 export function seedIfEmpty(db) {
@@ -303,7 +325,7 @@ export function seedIfEmpty(db) {
       b.watches.forEach(([name, collection, curation, shape, style, dial, metal, strap, featured = 0, availability = 'request'], j) => {
         const note = b.notes?.[collection] || `From the ${collection} collection by ${b.name}.`;
         insWatch.run(slugify(`${b.name} ${name}`), brandId, name, collection, curation,
-          `${note}\n\n${b.tagline}`, shape, style, dial, metal, strap, featured, availability, j, matchPhoto(photos, b.name, name));
+          `${note}\n\n${b.tagline}`, shape, style, dial, metal, strap, featured, availability, j, photoFor(photos, b, name));
       });
     });
     db.prepare(`INSERT INTO locations (slug, name, city, status, status_note, description, position)
