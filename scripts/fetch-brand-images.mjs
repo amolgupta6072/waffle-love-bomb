@@ -102,7 +102,7 @@ for (const [brand, base] of Object.entries(BRANDS)) {
   const dir = join('public/images/brands', brand);
   mkdirSync(dir, { recursive: true });
   const saved = [];
-  for (const p of watches.slice(0, 150)) {
+  for (const p of watches.slice(0, 500)) {
     try {
       const src = sized(p.image);
       const ext = (new URL(src).pathname.match(/\.(jpe?g|png|webp)$/i)?.[1] || 'jpg').toLowerCase().replace('jpeg', 'jpg');
