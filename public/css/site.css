@@ -69,7 +69,7 @@ p { margin: 0 0 1em; }
 .link-arrow:hover { color: var(--red); }
 
 /* ---------- Header ---------- */
-.site-header { position: sticky; top: 0; z-index: 50; background: var(--ink); color: var(--paper); transition: box-shadow .2s; }
+.site-header { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 50; background: var(--ink); color: var(--paper); transition: box-shadow .2s; }
 .site-header.scrolled { box-shadow: 0 1px 0 rgb(255 255 255 / 8%); }
 .header-inner { display: flex; align-items: center; justify-content: space-between; height: 72px; }
 .brandmark { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; font-family: var(--sans); font-weight: 600; letter-spacing: .32em; font-size: 1rem; }

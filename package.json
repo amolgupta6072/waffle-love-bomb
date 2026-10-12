@@ -12,7 +12,8 @@
     "start": "node --disable-warning=ExperimentalWarning src/server.js",
     "dev": "node --disable-warning=ExperimentalWarning --watch src/server.js",
     "create-admin": "node --disable-warning=ExperimentalWarning src/create-admin.js",
-    "test": "node --disable-warning=ExperimentalWarning --test test/*.test.js"
+    "test": "node --disable-warning=ExperimentalWarning --test test/*.test.js",
+    "demo": "node --disable-warning=ExperimentalWarning scripts/build-demo.mjs"
   },
   "dependencies": {
     "cookie-parser": "^1.4.7",

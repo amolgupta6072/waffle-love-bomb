@@ -13,7 +13,7 @@ export function watchVisual(w) {
 const priceLabel = (w) => (w.price_inr ? formatInr(w.price_inr) : 'Price on request');
 
 function watchCard(w) {
-  return html`<a class="watch-card" href="/watches/${w.slug}">
+  return html`<a class="watch-card" href="/watches/${w.slug}" data-brand="${w.brand_slug || ''}" data-country="${w.brand_country || ''}" data-availability="${w.availability}">
     <div class="watch-stage">${watchVisual(w)}</div>
     <div class="watch-meta">
       <span class="eyebrow">${w.brand_name}</span>
