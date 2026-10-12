@@ -1,0 +1,32 @@
+name: Fetch brand product photos
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [claude/lynq-website-1dqqw4]
+    paths:
+      - scripts/fetch-brand-images.mjs
+      - .github/workflows/fetch-brand-images.yml
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Download product listings and photos
+        run: node scripts/fetch-brand-images.mjs
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add data/brand-products public/images/brands
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Add brand product photos from official websites"
+          git push
