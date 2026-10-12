@@ -1,0 +1,65 @@
+/* Public profile pages. Each theme sets the same handful of tokens. */
+* { box-sizing: border-box; }
+html, body { margin: 0; min-height: 100%; }
+body {
+  --bg: #0f0d1a; --text: #fff; --muted: rgb(255 255 255 / 70%);
+  --btn-bg: rgb(255 255 255 / 10%); --btn-text: #fff; --btn-border: rgb(255 255 255 / 18%);
+  --btn-hover: rgb(255 255 255 / 18%); --avatar-bg: linear-gradient(135deg, #8b6dff, #ff4fa3);
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background: var(--bg); background-attachment: fixed; color: var(--text);
+  min-height: 100vh; -webkit-font-smoothing: antialiased;
+}
+.theme-midnight {
+  --bg: radial-gradient(circle at 20% 0%, #3b2a8f 0%, transparent 50%), radial-gradient(circle at 100% 100%, #7a1f5c 0%, transparent 45%), #120f24;
+}
+.theme-sunrise {
+  --bg: linear-gradient(160deg, #ffb36b 0%, #ff6f91 50%, #8e54e9 100%);
+  --btn-bg: rgb(255 255 255 / 22%); --btn-border: rgb(255 255 255 / 35%); --btn-hover: rgb(255 255 255 / 32%);
+  --avatar-bg: linear-gradient(135deg, #fff1c1, #ffd0e0);
+}
+.theme-forest {
+  --bg: linear-gradient(180deg, #13261c, #1f3d2b 60%, #2e5a3c);
+  --btn-bg: #e8f3ea; --btn-text: #13261c; --btn-border: transparent; --btn-hover: #ffffff;
+  --avatar-bg: linear-gradient(135deg, #a8e6a1, #e8f3ea);
+}
+.theme-ocean {
+  --bg: linear-gradient(180deg, #0b3d5c 0%, #0e7490 55%, #22d3ee 130%);
+  --btn-bg: rgb(255 255 255 / 12%); --btn-border: rgb(255 255 255 / 30%);
+  --avatar-bg: linear-gradient(135deg, #67e8f9, #a5f3fc);
+}
+.theme-paper {
+  --bg: #f6f3ec; --text: #1d1b16; --muted: #6b665a;
+  --btn-bg: #ffffff; --btn-text: #1d1b16; --btn-border: #1d1b16; --btn-hover: #fff6d6;
+  --avatar-bg: linear-gradient(135deg, #1d1b16, #4a463c);
+}
+.theme-paper .link { box-shadow: 4px 4px 0 #1d1b16; }
+.theme-paper .link:hover { box-shadow: 2px 2px 0 #1d1b16; transform: translate(2px, 2px); }
+.theme-paper .avatar-initial { color: #f6f3ec; }
+.theme-candy {
+  --bg: linear-gradient(135deg, #ffe1f0 0%, #e4dcff 50%, #d5f5ff 100%);
+  --text: #3a1d4f; --muted: #7a5e8c;
+  --btn-bg: #ffffff; --btn-text: #3a1d4f; --btn-border: transparent; --btn-hover: #fff0f8;
+  --avatar-bg: linear-gradient(135deg, #ff8fc7, #a78bfa);
+}
+.theme-candy .link { box-shadow: 0 6px 18px -8px rgb(122 60 160 / 35%); }
+
+.profile { max-width: 580px; margin: 0 auto; padding: 56px 20px 40px; text-align: center; }
+.avatar { width: 96px; height: 96px; border-radius: 50%; object-fit: cover; margin: 0 auto 14px; display: block; }
+.avatar-initial { display: grid; place-items: center; background: var(--avatar-bg); font-size: 2.4rem; font-weight: 800; color: #1a1430; }
+h1 { font-size: 1.4rem; margin: 0; letter-spacing: -0.02em; }
+.handle { margin: 2px 0 0; color: var(--muted); font-size: 0.95rem; }
+.bio { margin: 12px auto 0; max-width: 42ch; line-height: 1.5; white-space: pre-line; }
+.links { list-style: none; padding: 0; margin: 28px 0 0; display: grid; gap: 14px; }
+.link {
+  display: block; padding: 16px 20px; border-radius: 16px;
+  background: var(--btn-bg); color: var(--btn-text); border: 1.5px solid var(--btn-border);
+  text-decoration: none; font-weight: 650; overflow-wrap: anywhere;
+  backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+  transition: transform .12s ease, background .15s ease, box-shadow .12s ease;
+}
+.link:hover { background: var(--btn-hover); transform: translateY(-2px); }
+.link:focus-visible { outline: 3px solid var(--text); outline-offset: 3px; }
+.empty { color: var(--muted); padding: 20px; }
+footer { margin-top: 48px; }
+footer a { color: var(--muted); text-decoration: none; font-size: 0.85rem; }
+footer a:hover { color: var(--text); }

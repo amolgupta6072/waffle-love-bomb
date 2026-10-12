@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Log in · lynq</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <main class="auth-wrap">
+    <div class="auth-card">
+      <a class="logo" href="/"><span class="logo-mark">⌁</span>lynq</a>
+      <h1>Welcome back</h1>
+      <p class="sub">Log in to manage your lynq.</p>
+      <div class="alert" id="error" role="alert" hidden></div>
+      <form id="login-form" novalidate>
+        <div class="field">
+          <label for="login">Username or email</label>
+          <input id="login" name="login" type="text" autocomplete="username" required autocapitalize="none" spellcheck="false">
+        </div>
+        <div class="field">
+          <label for="password">Password</label>
+          <input id="password" name="password" type="password" autocomplete="current-password" required>
+        </div>
+        <button class="btn btn-primary btn-block btn-lg" type="submit">Log in</button>
+      </form>
+      <p class="auth-switch">New to lynq? <a href="/signup">Create an account</a></p>
+    </div>
+  </main>
+  <script src="/js/api.js"></script>
+  <script>
+    const form = document.getElementById('login-form');
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const btn = form.querySelector('button');
+      btn.disabled = true;
+      try {
+        await api('POST', '/api/login', { login: form.login.value, password: form.password.value });
+        location.href = '/dashboard';
+      } catch (err) {
+        showError(err.message);
+        btn.disabled = false;
+      }
+    });
+  </script>
+</body>
+</html>

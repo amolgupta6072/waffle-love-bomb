@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>lynq — one link for everything you share</title>
+  <meta name="description" content="Create a beautiful page that holds all your links. Share one lynq everywhere.">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="logo" href="/"><span class="logo-mark">⌁</span>lynq</a>
+    <nav class="nav-actions">
+      <a class="btn btn-ghost hide-sm" href="/login">Log in</a>
+      <a class="btn btn-primary" href="/signup">Sign up free</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <h1>One link for <span class="gradient-text">everything</span> you share.</h1>
+        <p class="lead">Put your socials, shop, music, and latest work on a single page. Drop your lynq in any bio and you're done.</p>
+        <form class="claim" action="/signup" method="get">
+          <label class="sr-only" for="claim-username">Choose your username</label>
+          <div class="input-prefix">
+            <span>lynq/</span>
+            <input id="claim-username" name="username" type="text" placeholder="yourname" autocomplete="off" maxlength="30" pattern="[A-Za-z0-9_.\-]{3,30}" title="3–30 letters, numbers, dots, dashes or underscores">
+          </div>
+          <button class="btn btn-primary" type="submit">Claim your lynq</button>
+        </form>
+        <p class="hero-note">Free forever. Set up in under a minute.</p>
+      </div>
+      <div aria-hidden="true">
+        <div class="phone">
+          <div class="phone-screen">
+            <div class="p-avatar">A</div>
+            <h3>Ava Rivera</h3>
+            <p>Illustrator · Coffee · Cats</p>
+            <span class="p-link">🎨 Portfolio</span>
+            <span class="p-link">🛍️ Print shop</span>
+            <span class="p-link">📸 Instagram</span>
+            <span class="p-link">✉️ Newsletter</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Everything your bio link needs</h2>
+      <p class="sub">Simple to set up, easy to update, and built to look great on every phone.</p>
+      <div class="features">
+        <div class="feature"><div class="f-icon">🔗</div><h3>Unlimited links</h3><p>Add, reorder, and toggle links on and off in seconds. Changes go live instantly.</p></div>
+        <div class="feature"><div class="f-icon">🎨</div><h3>Beautiful themes</h3><p>Pick a look that matches your vibe, from bold gradients to clean paper.</p></div>
+        <div class="feature"><div class="f-icon">📈</div><h3>Built-in analytics</h3><p>See how many people visit your page and which links they click.</p></div>
+        <div class="feature"><div class="f-icon">⚡</div><h3>Lightning fast</h3><p>Pages are tiny and load instantly, even on slow mobile connections.</p></div>
+        <div class="feature"><div class="f-icon">📱</div><h3>Mobile first</h3><p>Designed for the thumb. Your page looks right on every screen.</p></div>
+        <div class="feature"><div class="f-icon">🔒</div><h3>Safe by default</h3><p>Only real web links are allowed, and your account is protected with hashed passwords.</p></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Live in three steps</h2>
+      <p class="sub">No design skills, no code. Just your links.</p>
+      <div class="steps">
+        <div class="step"><h3>Claim your name</h3><p>Pick a username and your page lives at lynq/yourname.</p></div>
+        <div class="step"><h3>Add your links</h3><p>Paste in anything: socials, videos, shops, articles.</p></div>
+        <div class="step"><h3>Share everywhere</h3><p>Put your lynq in your bio and watch the clicks roll in.</p></div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h2>Ready to lynq it all together?</h2>
+      <p>Join creators who share everything with one link.</p>
+      <a class="btn btn-lg" href="/signup">Get started for free</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">© <span id="year"></span> lynq</footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
