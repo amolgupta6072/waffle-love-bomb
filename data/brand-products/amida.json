@@ -1,0 +1,64 @@
+{
+  "brand": "amida",
+  "base": "https://www.amida-watches.com",
+  "method": "shopify",
+  "fetched": "2026-10-12T15:07:59.127Z",
+  "products": [
+    {
+      "title": "Digitrend OSII",
+      "handle": "digitrend-open-sapphire-black",
+      "type": "montres",
+      "url": "https://www.amida-watches.com/products/digitrend-open-sapphire-black",
+      "image": "/images/brands/amida/digitrend-open-sapphire-black.jpg"
+    },
+    {
+      "title": "Digitrend Nasa Tribute",
+      "handle": "digitrend-nasa-tribute",
+      "type": "montres",
+      "url": "https://www.amida-watches.com/products/digitrend-nasa-tribute",
+      "image": "/images/brands/amida/digitrend-nasa-tribute.jpg"
+    },
+    {
+      "title": "Metal Bracelet - Digitrend",
+      "handle": "metal-bracelet-digitrend",
+      "type": "",
+      "url": "https://www.amida-watches.com/products/metal-bracelet-digitrend",
+      "image": "/images/brands/amida/metal-bracelet-digitrend.jpg"
+    },
+    {
+      "title": "Digitrend OSI",
+      "handle": "digitrend-open-sapphire",
+      "type": "montres",
+      "url": "https://www.amida-watches.com/products/digitrend-open-sapphire",
+      "image": "/images/brands/amida/digitrend-open-sapphire.webp"
+    },
+    {
+      "title": "Digitrend Steel",
+      "handle": "digitrend-steel",
+      "type": "montres",
+      "url": "https://www.amida-watches.com/products/digitrend-steel",
+      "image": "/images/brands/amida/digitrend-steel.jpg"
+    },
+    {
+      "title": "Digitrend Gold",
+      "handle": "digitrend-gold",
+      "type": "montres",
+      "url": "https://www.amida-watches.com/products/digitrend-gold",
+      "image": "/images/brands/amida/digitrend-gold.jpg"
+    },
+    {
+      "title": "Digitrend Black",
+      "handle": "digitrend-black",
+      "type": "montres",
+      "url": "https://www.amida-watches.com/products/digitrend-black",
+      "image": "/images/brands/amida/digitrend-black.jpg"
+    },
+    {
+      "title": "Digitrend Steel Take Off Edition",
+      "handle": "digitrend-take-off-edition",
+      "type": "montres",
+      "url": "https://www.amida-watches.com/products/digitrend-take-off-edition",
+      "image": "/images/brands/amida/digitrend-take-off-edition.jpg"
+    }
+  ]
+}

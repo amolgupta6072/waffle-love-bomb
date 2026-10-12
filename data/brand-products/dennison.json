@@ -1,0 +1,708 @@
+{
+  "brand": "dennison",
+  "base": "https://dennisonwatch.com",
+  "method": "shopify",
+  "fetched": "2026-10-12T15:07:46.304Z",
+  "products": [
+    {
+      "title": "ALD Checker Full Set Capsule Collection",
+      "handle": "ald-checker-full-set-capsule-collection",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/ald-checker-full-set-capsule-collection",
+      "image": "/images/brands/dennison/ald-checker-full-set-capsule-collection.jpg"
+    },
+    {
+      "title": "ALD Checker Balance",
+      "handle": "ald-checker-no-3-capsule-collection",
+      "type": "watch",
+      "url": "https://dennisonwatch.com/products/ald-checker-no-3-capsule-collection",
+      "image": "/images/brands/dennison/ald-checker-no-3-capsule-collection.jpg"
+    },
+    {
+      "title": "ALD Checker Draw",
+      "handle": "ald-checker-no-2-capsule-collection",
+      "type": "watch",
+      "url": "https://dennisonwatch.com/products/ald-checker-no-2-capsule-collection",
+      "image": "/images/brands/dennison/ald-checker-no-2-capsule-collection.jpg"
+    },
+    {
+      "title": "ALD Checker Gambit",
+      "handle": "ald-checker-no-1",
+      "type": "watch",
+      "url": "https://dennisonwatch.com/products/ald-checker-no-1",
+      "image": "/images/brands/dennison/ald-checker-no-1.jpg"
+    },
+    {
+      "title": "Gold Bark-Mesh Bracelet",
+      "handle": "gold-bark-mesh-bracelet",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/gold-bark-mesh-bracelet",
+      "image": "/images/brands/dennison/gold-bark-mesh-bracelet.jpg"
+    },
+    {
+      "title": "Mini Opal in Gold",
+      "handle": "mini-opal-in-gold",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/mini-opal-in-gold",
+      "image": "/images/brands/dennison/mini-opal-in-gold.jpg"
+    },
+    {
+      "title": "Mini Opal in Steel",
+      "handle": "mini-opal-in-silver",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/mini-opal-in-silver",
+      "image": "/images/brands/dennison/mini-opal-in-silver.jpg"
+    },
+    {
+      "title": "Mini Opal Diamonds",
+      "handle": "mini-opal-diamonds",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/mini-opal-diamonds",
+      "image": "/images/brands/dennison/mini-opal-diamonds.jpg"
+    },
+    {
+      "title": "Dual Time Mini – Tiger Eye & Opal",
+      "handle": "dual-time-mini-tiger-eye-opal",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/dual-time-mini-tiger-eye-opal",
+      "image": "/images/brands/dennison/dual-time-mini-tiger-eye-opal.jpg"
+    },
+    {
+      "title": "ALD Elements In Gold",
+      "handle": "ald-mix-in-gold",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/ald-mix-in-gold",
+      "image": "/images/brands/dennison/ald-mix-in-gold.jpg"
+    },
+    {
+      "title": "ALD Elements In Steel",
+      "handle": "ald-mix-in-steel",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/ald-mix-in-steel",
+      "image": "/images/brands/dennison/ald-mix-in-steel.jpg"
+    },
+    {
+      "title": "Time Keeper Edition",
+      "handle": "time-keeper-qatar-edition",
+      "type": "watch",
+      "url": "https://dennisonwatch.com/products/time-keeper-qatar-edition",
+      "image": "/images/brands/dennison/time-keeper-qatar-edition.jpg"
+    },
+    {
+      "title": "ALD Dual Time “Carnaby Blue” Time+Tide Studio Edition",
+      "handle": "ald-dual-time-carnaby-blue-time-tide-studio-edition",
+      "type": "watch",
+      "url": "https://dennisonwatch.com/products/ald-dual-time-carnaby-blue-time-tide-studio-edition",
+      "image": "/images/brands/dennison/ald-dual-time-carnaby-blue-time-tide-studio-edition.jpg"
+    },
+    {
+      "title": "Oblique Vector",
+      "handle": "oblique-vector",
+      "type": "watch",
+      "url": "https://dennisonwatch.com/products/oblique-vector",
+      "image": "/images/brands/dennison/oblique-vector.jpg"
+    },
+    {
+      "title": "Oblique Enigma",
+      "handle": "oblique-enigma",
+      "type": "watch",
+      "url": "https://dennisonwatch.com/products/oblique-enigma",
+      "image": "/images/brands/dennison/oblique-enigma.jpg"
+    },
+    {
+      "title": "Sunray Salmon In Steel",
+      "handle": "sunray-salmon-silver",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/sunray-salmon-silver",
+      "image": "/images/brands/dennison/sunray-salmon-silver.jpg"
+    },
+    {
+      "title": "Sunray Ice Blue In Steel",
+      "handle": "sunray-ice-blue-silver",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/sunray-ice-blue-silver",
+      "image": "/images/brands/dennison/sunray-ice-blue-silver.jpg"
+    },
+    {
+      "title": "Turquoise & Falcon Eye Stone In Gold",
+      "handle": "dual-time-mini-turquoise-falcon-eye-stone-gold-pvd-taupe-epsom",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/dual-time-mini-turquoise-falcon-eye-stone-gold-pvd-taupe-epsom",
+      "image": "/images/brands/dennison/dual-time-mini-turquoise-falcon-eye-stone-gold-pvd-taupe-epsom.jpg"
+    },
+    {
+      "title": "Turquoise & Falcon Eye Stone In Steel",
+      "handle": "dual-time-mini-turquoise-falcon-eye-stone-silver-taupe-epsom",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/dual-time-mini-turquoise-falcon-eye-stone-silver-taupe-epsom",
+      "image": "/images/brands/dennison/dual-time-mini-turquoise-falcon-eye-stone-silver-taupe-epsom.jpg"
+    },
+    {
+      "title": "Natural Turquoise Stone In Gold",
+      "handle": "natural-turquoise-stone-gold-pvd",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/natural-turquoise-stone-gold-pvd",
+      "image": "/images/brands/dennison/natural-turquoise-stone-gold-pvd.jpg"
+    },
+    {
+      "title": "Natural Turquoise Stone In Steel",
+      "handle": "natural-turquoise-stone-in-steel",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/natural-turquoise-stone-in-steel",
+      "image": "/images/brands/dennison/natural-turquoise-stone-in-steel.jpg"
+    },
+    {
+      "title": "Mini Bark Mesh In Gold",
+      "handle": "mini-bark-mesh-in-gold",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/mini-bark-mesh-in-gold",
+      "image": "/images/brands/dennison/mini-bark-mesh-in-gold.jpg"
+    },
+    {
+      "title": "Mini Bark Mesh In Steel",
+      "handle": "mini-bark-mesh-in-steel",
+      "type": "Watch Accessories",
+      "url": "https://dennisonwatch.com/products/mini-bark-mesh-in-steel",
+      "image": "/images/brands/dennison/mini-bark-mesh-in-steel.jpg"
+    },
+    {
+      "title": "Mini Pink Malaysian Jade Diamonds",
+      "handle": "mini-pink-malaysian-jade-diamonds",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/mini-pink-malaysian-jade-diamonds",
+      "image": "/images/brands/dennison/mini-pink-malaysian-jade-diamonds.jpg"
+    },
+    {
+      "title": "Mini Pink Malaysian Jade In Gold",
+      "handle": "mini-pink-malaysian-jade-in-gold",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/mini-pink-malaysian-jade-in-gold",
+      "image": "/images/brands/dennison/mini-pink-malaysian-jade-in-gold.jpg"
+    },
+    {
+      "title": "Mini Pink Malaysian Jade In Steel",
+      "handle": "mini-pink-malaysian-jade-in-steel",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/mini-pink-malaysian-jade-in-steel",
+      "image": "/images/brands/dennison/mini-pink-malaysian-jade-in-steel.jpg"
+    },
+    {
+      "title": "Mini Tiger Eye In Steel",
+      "handle": "mini-tiger-eye-in-steel",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/mini-tiger-eye-in-steel",
+      "image": "/images/brands/dennison/mini-tiger-eye-in-steel.jpg"
+    },
+    {
+      "title": "Mini Lagoon Jadeite Diamonds",
+      "handle": "mini-lagoon-jadeite-diamonds",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/mini-lagoon-jadeite-diamonds",
+      "image": "/images/brands/dennison/mini-lagoon-jadeite-diamonds.jpg"
+    },
+    {
+      "title": "Mini Lagoon Jadeite In Gold",
+      "handle": "mini-lagoon-jadeite-in-gold",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/mini-lagoon-jadeite-in-gold",
+      "image": "/images/brands/dennison/mini-lagoon-jadeite-in-gold.jpg"
+    },
+    {
+      "title": "Mini Lagoon Jadeite In Steel",
+      "handle": "mini-lagoon-jadeite-in-steel",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/mini-lagoon-jadeite-in-steel",
+      "image": "/images/brands/dennison/mini-lagoon-jadeite-in-steel.jpg"
+    },
+    {
+      "title": "Mini Aventurine In Gold",
+      "handle": "mini-aventurine-in-gold",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/mini-aventurine-in-gold",
+      "image": "/images/brands/dennison/mini-aventurine-in-gold.jpg"
+    },
+    {
+      "title": "Mini Aventurine In Steel",
+      "handle": "mini-aventurine-in-steel",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/mini-aventurine-in-steel",
+      "image": "/images/brands/dennison/mini-aventurine-in-steel.jpg"
+    },
+    {
+      "title": "Mini Tiger Eye Diamonds",
+      "handle": "mini-tiger-eye-diamonds",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/mini-tiger-eye-diamonds",
+      "image": "/images/brands/dennison/mini-tiger-eye-diamonds.jpg"
+    },
+    {
+      "title": "Mini Tiger Eye In Gold",
+      "handle": "mini-tiger-eye-in-gold",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/mini-tiger-eye-in-gold",
+      "image": "/images/brands/dennison/mini-tiger-eye-in-gold.jpg"
+    },
+    {
+      "title": "Mini Lapis Lazuli Diamonds",
+      "handle": "mini-lapis-lazuli-diamonds",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/mini-lapis-lazuli-diamonds",
+      "image": "/images/brands/dennison/mini-lapis-lazuli-diamonds.jpg"
+    },
+    {
+      "title": "Mini Lapis Lazuli In Gold",
+      "handle": "mini-lapis-lazuli-in-gold",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/mini-lapis-lazuli-in-gold",
+      "image": "/images/brands/dennison/mini-lapis-lazuli-in-gold.jpg"
+    },
+    {
+      "title": "Mini Lapis Lazuli In Steel",
+      "handle": "mini-lapis-lazuli-in-steel",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/mini-lapis-lazuli-in-steel",
+      "image": "/images/brands/dennison/mini-lapis-lazuli-in-steel.jpg"
+    },
+    {
+      "title": "Mini Aventurine Diamonds",
+      "handle": "mini-aventurine-diamonds",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/mini-aventurine-diamonds",
+      "image": "/images/brands/dennison/mini-aventurine-diamonds.jpg"
+    },
+    {
+      "title": "Mini White MOP In Steel",
+      "handle": "mini-white-mop-in-steel",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/mini-white-mop-in-steel",
+      "image": "/images/brands/dennison/mini-white-mop-in-steel.jpg"
+    },
+    {
+      "title": "Mini Black Onyx Diamonds",
+      "handle": "mini-black-onyx-diamonds",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/mini-black-onyx-diamonds",
+      "image": "/images/brands/dennison/mini-black-onyx-diamonds.jpg"
+    },
+    {
+      "title": "Mini Black Onyx In Gold",
+      "handle": "mini-black-onyx-in-gold",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/mini-black-onyx-in-gold",
+      "image": "/images/brands/dennison/mini-black-onyx-in-gold.jpg"
+    },
+    {
+      "title": "Mini  Black Onyx In Steel",
+      "handle": "mini-black-onyx-in-steel",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/mini-black-onyx-in-steel",
+      "image": "/images/brands/dennison/mini-black-onyx-in-steel.jpg"
+    },
+    {
+      "title": "Mini Red Jasper In Gold",
+      "handle": "mini-red-jasper-in-gold",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/mini-red-jasper-in-gold",
+      "image": "/images/brands/dennison/mini-red-jasper-in-gold.jpg"
+    },
+    {
+      "title": "Mini Red Jasper In Steel",
+      "handle": "mini-red-jasper-in-steel",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/mini-red-jasper-in-steel",
+      "image": "/images/brands/dennison/mini-red-jasper-in-steel.jpg"
+    },
+    {
+      "title": "Mini White MOP Diamonds",
+      "handle": "mini-white-mop-diamonds",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/mini-white-mop-diamonds",
+      "image": "/images/brands/dennison/mini-white-mop-diamonds.jpg"
+    },
+    {
+      "title": "Mini White MOP In Gold",
+      "handle": "mini-white-mop-in-gold",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/mini-white-mop-in-gold",
+      "image": "/images/brands/dennison/mini-white-mop-in-gold.jpg"
+    },
+    {
+      "title": "Mini Malachite Diamonds",
+      "handle": "mini-malachite-diamonds",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/mini-malachite-diamonds",
+      "image": "/images/brands/dennison/mini-malachite-diamonds.jpg"
+    },
+    {
+      "title": "Mini Malachite In Gold",
+      "handle": "mini-malachite-in-gold",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/mini-malachite-in-gold",
+      "image": "/images/brands/dennison/mini-malachite-in-gold.jpg"
+    },
+    {
+      "title": "Mini Malachite In Steel",
+      "handle": "mini-malachite-in-steel",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/mini-malachite-in-steel",
+      "image": "/images/brands/dennison/mini-malachite-in-steel.jpg"
+    },
+    {
+      "title": "Mini Red Jasper Diamonds",
+      "handle": "mini-red-jasper-diamonds",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/mini-red-jasper-diamonds",
+      "image": "/images/brands/dennison/mini-red-jasper-diamonds.jpg"
+    },
+    {
+      "title": "Dual Time Mini – White MOP & Malachite",
+      "handle": "dual-time-mini-white-mop-malachite-diamonds",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/dual-time-mini-white-mop-malachite-diamonds",
+      "image": "/images/brands/dennison/dual-time-mini-white-mop-malachite-diamonds.jpg"
+    },
+    {
+      "title": "Dual Time Mini – Red Jasper & Black Onyx",
+      "handle": "dual-time-mini-red-jasper-black-onyx-diamonds",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/dual-time-mini-red-jasper-black-onyx-diamonds",
+      "image": "/images/brands/dennison/dual-time-mini-red-jasper-black-onyx-diamonds.jpg"
+    },
+    {
+      "title": "Dual Time Mini – Lagoon Jadeite & Lapis Lazuli",
+      "handle": "dual-time-mini-jadeite-lapis-lazuli-diamonds",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/dual-time-mini-jadeite-lapis-lazuli-diamonds",
+      "image": "/images/brands/dennison/dual-time-mini-jadeite-lapis-lazuli-diamonds.jpg"
+    },
+    {
+      "title": "Dual Time Mini – Pink Malaysian Jade & Aventurine",
+      "handle": "dual-time-mini-malaysian-jade-blue-goldsand-diamonds",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/dual-time-mini-malaysian-jade-blue-goldsand-diamonds",
+      "image": "/images/brands/dennison/dual-time-mini-malaysian-jade-blue-goldsand-diamonds.jpg"
+    },
+    {
+      "title": "Sunray Green In Steel",
+      "handle": "sunray-green-in-steel",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/sunray-green-in-steel",
+      "image": "/images/brands/dennison/sunray-green-in-steel.jpg"
+    },
+    {
+      "title": "Sunray Green In Gold",
+      "handle": "sunray-blue-in-gold-copy-1",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/sunray-blue-in-gold-copy-1",
+      "image": "/images/brands/dennison/sunray-blue-in-gold-copy-1.jpg"
+    },
+    {
+      "title": "Sunray Black In Gold",
+      "handle": "sunray-blue-in-gold-copy",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/sunray-blue-in-gold-copy",
+      "image": "/images/brands/dennison/sunray-blue-in-gold-copy.jpg"
+    },
+    {
+      "title": "Sunray Blue In Gold",
+      "handle": "sunray-blue-in-steel-copy",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/sunray-blue-in-steel-copy",
+      "image": "/images/brands/dennison/sunray-blue-in-steel-copy.jpg"
+    },
+    {
+      "title": "Pebble Link Bracelet",
+      "handle": "pebble-link-bracelet",
+      "type": "Watch Accessories",
+      "url": "https://dennisonwatch.com/products/pebble-link-bracelet",
+      "image": "/images/brands/dennison/pebble-link-bracelet.jpg"
+    },
+    {
+      "title": "Shades Of Green",
+      "handle": "shades-dial-green",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/shades-dial-green",
+      "image": "/images/brands/dennison/shades-dial-green.jpg"
+    },
+    {
+      "title": "Shades Of Brown",
+      "handle": "shades-dial-brown",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/shades-dial-brown",
+      "image": "/images/brands/dennison/shades-dial-brown.jpg"
+    },
+    {
+      "title": "Shades Of Blue",
+      "handle": "shades-dial-blue",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/shades-dial-blue",
+      "image": "/images/brands/dennison/shades-dial-blue.jpg"
+    },
+    {
+      "title": "Infinite Blue (Unique Piece for TimeForArt 2024)",
+      "handle": "infinite-blue-unique-piece-for-timeforart-2024",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/infinite-blue-unique-piece-for-timeforart-2024",
+      "image": "/images/brands/dennison/infinite-blue-unique-piece-for-timeforart-2024.jpg"
+    },
+    {
+      "title": "Safari Capsule",
+      "handle": "safari-capsule",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/safari-capsule",
+      "image": "/images/brands/dennison/safari-capsule.jpg"
+    },
+    {
+      "title": "ALD White MOP \"Ghost\" In Gold",
+      "handle": "ald-white-mop-ghost-in-gold",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/ald-white-mop-ghost-in-gold",
+      "image": "/images/brands/dennison/ald-white-mop-ghost-in-gold.jpg"
+    },
+    {
+      "title": "ALD Black Marble In Gold",
+      "handle": "ald-black-marble-in-gold",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/ald-black-marble-in-gold",
+      "image": "/images/brands/dennison/ald-black-marble-in-gold.jpg"
+    },
+    {
+      "title": "ALD Black Marble In Steel",
+      "handle": "ald-black-marble",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/ald-black-marble",
+      "image": "/images/brands/dennison/ald-black-marble.jpg"
+    },
+    {
+      "title": "ALD White MOP \"Ghost\" In Steel",
+      "handle": "ald-white-mop-ghost",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/ald-white-mop-ghost",
+      "image": "/images/brands/dennison/ald-white-mop-ghost.jpg"
+    },
+    {
+      "title": "Dual Time - Capsule Collection II",
+      "handle": "dual-time-capsule-collection-ii",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/dual-time-capsule-collection-ii",
+      "image": "/images/brands/dennison/dual-time-capsule-collection-ii.jpg"
+    },
+    {
+      "title": "Bark-Mesh Bracelet",
+      "handle": "mesh-bark-bracelet-in-steel",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/mesh-bark-bracelet-in-steel",
+      "image": "/images/brands/dennison/mesh-bark-bracelet-in-steel.jpg"
+    },
+    {
+      "title": "Aventurine & Black Sunray In Gold",
+      "handle": "aventurine-black-sunray-in-gold",
+      "type": "watch",
+      "url": "https://dennisonwatch.com/products/aventurine-black-sunray-in-gold",
+      "image": "/images/brands/dennison/aventurine-black-sunray-in-gold.jpg"
+    },
+    {
+      "title": "Aventurine & Black Sunray In Steel",
+      "handle": "aventurine-black-sunray-in-steel",
+      "type": "watch",
+      "url": "https://dennisonwatch.com/products/aventurine-black-sunray-in-steel",
+      "image": "/images/brands/dennison/aventurine-black-sunray-in-steel.jpg"
+    },
+    {
+      "title": "Tiger Eye & Gold Sunray In Steel",
+      "handle": "tiger-eye-gold-sunray-in-steel",
+      "type": "watch",
+      "url": "https://dennisonwatch.com/products/tiger-eye-gold-sunray-in-steel",
+      "image": "/images/brands/dennison/tiger-eye-gold-sunray-in-steel.jpg"
+    },
+    {
+      "title": "Tiger Eye & Gold Sunray In Gold",
+      "handle": "tiger-eye-gold-sunray-in-gold",
+      "type": "watch",
+      "url": "https://dennisonwatch.com/products/tiger-eye-gold-sunray-in-gold",
+      "image": "/images/brands/dennison/tiger-eye-gold-sunray-in-gold.jpg"
+    },
+    {
+      "title": "Lapis & Blue Sunray In Gold",
+      "handle": "lapis-blue-sunray-in-gold",
+      "type": "watch",
+      "url": "https://dennisonwatch.com/products/lapis-blue-sunray-in-gold",
+      "image": "/images/brands/dennison/lapis-blue-sunray-in-gold.jpg"
+    },
+    {
+      "title": "Lapis & Blue Sunray In Steel",
+      "handle": "lapis-blue-sunray-in-steel",
+      "type": "watch",
+      "url": "https://dennisonwatch.com/products/lapis-blue-sunray-in-steel",
+      "image": "/images/brands/dennison/lapis-blue-sunray-in-steel.jpg"
+    },
+    {
+      "title": "Malachite & Green Sunray In Steel",
+      "handle": "malachite-green-sunray-in-steel",
+      "type": "watch",
+      "url": "https://dennisonwatch.com/products/malachite-green-sunray-in-steel",
+      "image": "/images/brands/dennison/malachite-green-sunray-in-steel.jpg"
+    },
+    {
+      "title": "Malachite & Green Sunray In Gold",
+      "handle": "malachite-green-sunray-in-gold",
+      "type": "watch",
+      "url": "https://dennisonwatch.com/products/malachite-green-sunray-in-gold",
+      "image": "/images/brands/dennison/malachite-green-sunray-in-gold.jpg"
+    },
+    {
+      "title": "Tiger Eye & Marble In Gold",
+      "handle": "tiger-eye-marble-in-gold",
+      "type": "watch",
+      "url": "https://dennisonwatch.com/products/tiger-eye-marble-in-gold",
+      "image": "/images/brands/dennison/tiger-eye-marble-in-gold.jpg"
+    },
+    {
+      "title": "Tiger Eye & Marble In Steel",
+      "handle": "tiger-eye-marble-in-steel",
+      "type": "watch",
+      "url": "https://dennisonwatch.com/products/tiger-eye-marble-in-steel",
+      "image": "/images/brands/dennison/tiger-eye-marble-in-steel.jpg"
+    },
+    {
+      "title": "Bloodstone & Lapis In Steel",
+      "handle": "bloodstone-lapis-in-steel",
+      "type": "watch",
+      "url": "https://dennisonwatch.com/products/bloodstone-lapis-in-steel",
+      "image": "/images/brands/dennison/bloodstone-lapis-in-steel.jpg"
+    },
+    {
+      "title": "Bloodstone & Lapis In Gold",
+      "handle": "bloodstone-lapis-in-gold",
+      "type": "watch",
+      "url": "https://dennisonwatch.com/products/bloodstone-lapis-in-gold",
+      "image": "/images/brands/dennison/bloodstone-lapis-in-gold.jpg"
+    },
+    {
+      "title": "Time+Tide X Dennison 'DateNight'",
+      "handle": "time-tide-x-dennison-datenight",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/time-tide-x-dennison-datenight",
+      "image": "/images/brands/dennison/time-tide-x-dennison-datenight.jpg"
+    },
+    {
+      "title": "Natural Wood In Gold",
+      "handle": "natural-wood-in-gold",
+      "type": "watch",
+      "url": "https://dennisonwatch.com/products/natural-wood-in-gold",
+      "image": "/images/brands/dennison/natural-wood-in-gold.jpg"
+    },
+    {
+      "title": "Natural Rubellite Stone In Gold",
+      "handle": "natural-rubellite-stone-in-gold",
+      "type": "watch",
+      "url": "https://dennisonwatch.com/products/natural-rubellite-stone-in-gold",
+      "image": "/images/brands/dennison/natural-rubellite-stone-in-gold.jpg"
+    },
+    {
+      "title": "Natural Wood In Steel",
+      "handle": "ald-wood-dial",
+      "type": "watch",
+      "url": "https://dennisonwatch.com/products/ald-wood-dial",
+      "image": "/images/brands/dennison/ald-wood-dial.jpg"
+    },
+    {
+      "title": "Dennison + Collectability",
+      "handle": "collectability",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/collectability",
+      "image": "/images/brands/dennison/collectability.jpg"
+    },
+    {
+      "title": "Capsule Collection Dunes Dial",
+      "handle": "capsule-collection-dunes-dial",
+      "type": "watch",
+      "url": "https://dennisonwatch.com/products/capsule-collection-dunes-dial",
+      "image": "/images/brands/dennison/capsule-collection-dunes-dial.jpg"
+    },
+    {
+      "title": "Natural Red Agate Stone In Steel",
+      "handle": "ald-stone-dial-coral-agate",
+      "type": "watch",
+      "url": "https://dennisonwatch.com/products/ald-stone-dial-coral-agate",
+      "image": "/images/brands/dennison/ald-stone-dial-coral-agate.jpg"
+    },
+    {
+      "title": "Natural Rubellite Stone In Steel",
+      "handle": "ald-stone-dial-rubellite",
+      "type": "watch",
+      "url": "https://dennisonwatch.com/products/ald-stone-dial-rubellite",
+      "image": "/images/brands/dennison/ald-stone-dial-rubellite.jpg"
+    },
+    {
+      "title": "Natural Stone Tiger Eye In Steel",
+      "handle": "natural-stone-tiger-eye-in-stainless",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/natural-stone-tiger-eye-in-stainless",
+      "image": "/images/brands/dennison/natural-stone-tiger-eye-in-stainless.jpg"
+    },
+    {
+      "title": "Natural Stone Lapis Lazuli In Gold",
+      "handle": "natural-stone-lapis-lazuli-in-gold",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/natural-stone-lapis-lazuli-in-gold",
+      "image": "/images/brands/dennison/natural-stone-lapis-lazuli-in-gold.jpg"
+    },
+    {
+      "title": "Natural Malachite Stone In Gold",
+      "handle": "natural-malachite-stone-in-gold",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/natural-malachite-stone-in-gold",
+      "image": "/images/brands/dennison/natural-malachite-stone-in-gold.jpg"
+    },
+    {
+      "title": "Sunray Blue In Steel",
+      "handle": "sunray-blue-in-stainless",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/sunray-blue-in-stainless",
+      "image": "/images/brands/dennison/sunray-blue-in-stainless.jpg"
+    },
+    {
+      "title": "Sunray Black In Steel",
+      "handle": "sunray-black-in-stainless",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/sunray-black-in-stainless",
+      "image": "/images/brands/dennison/sunray-black-in-stainless.jpg"
+    },
+    {
+      "title": "Natural Stone Tiger Eye In Gold",
+      "handle": "natural-stone-tiger-eye-in-gold-stainless",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/natural-stone-tiger-eye-in-gold-stainless",
+      "image": "/images/brands/dennison/natural-stone-tiger-eye-in-gold-stainless.jpg"
+    },
+    {
+      "title": "Natural Malachite Stone In Steel",
+      "handle": "natural-malachite-stone-in-stainless",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/natural-malachite-stone-in-stainless",
+      "image": "/images/brands/dennison/natural-malachite-stone-in-stainless.jpg"
+    },
+    {
+      "title": "Natural Stone Lapis Lazuli In Steel",
+      "handle": "natural-stone-lapis-lazul-in-stainless",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/natural-stone-lapis-lazul-in-stainless",
+      "image": "/images/brands/dennison/natural-stone-lapis-lazul-in-stainless.jpg"
+    },
+    {
+      "title": "Midnight Aventurine In Steel",
+      "handle": "midnight-aventurine-in-stainless",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/midnight-aventurine-in-stainless",
+      "image": "/images/brands/dennison/midnight-aventurine-in-stainless.jpg"
+    },
+    {
+      "title": "Midnight Aventurine In Gold",
+      "handle": "midnight-aventurine-in-gold-stainless",
+      "type": "",
+      "url": "https://dennisonwatch.com/products/midnight-aventurine-in-gold-stainless",
+      "image": "/images/brands/dennison/midnight-aventurine-in-gold-stainless.jpg"
+    }
+  ]
+}

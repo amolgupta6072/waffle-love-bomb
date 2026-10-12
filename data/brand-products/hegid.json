@@ -1,0 +1,3004 @@
+{
+  "brand": "hegid",
+  "base": "https://hegid.com",
+  "method": "shopify",
+  "fetched": "2026-10-12T15:12:44.545Z",
+  "products": [
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-72890303-8c6b-4d26-b96b-c32679696f2e",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-72890303-8c6b-4d26-b96b-c32679696f2e",
+      "image": "/images/brands/hegid/cpb-order-72890303-8c6b-4d26-b96b-c32679696f2e.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-0f20319c-4283-41cd-883c-613421a72c4e",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-0f20319c-4283-41cd-883c-613421a72c4e",
+      "image": "/images/brands/hegid/cpb-order-0f20319c-4283-41cd-883c-613421a72c4e.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-1ce707b4-a4af-4ee9-9783-ccadf8ba293a",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-1ce707b4-a4af-4ee9-9783-ccadf8ba293a",
+      "image": "/images/brands/hegid/cpb-order-1ce707b4-a4af-4ee9-9783-ccadf8ba293a.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-a38aa568-3191-4935-b946-b3817e090f59",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-a38aa568-3191-4935-b946-b3817e090f59",
+      "image": "/images/brands/hegid/cpb-order-a38aa568-3191-4935-b946-b3817e090f59.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-aae05a51-bc78-4e21-885d-a247d3442519",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-aae05a51-bc78-4e21-885d-a247d3442519",
+      "image": "/images/brands/hegid/cpb-order-aae05a51-bc78-4e21-885d-a247d3442519.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-cbbd589e-df04-4cf1-800c-858b59fbb1cb",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-cbbd589e-df04-4cf1-800c-858b59fbb1cb",
+      "image": "/images/brands/hegid/cpb-order-cbbd589e-df04-4cf1-800c-858b59fbb1cb.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-211e0899-4492-448d-9563-bc97a0482e34",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-211e0899-4492-448d-9563-bc97a0482e34",
+      "image": "/images/brands/hegid/cpb-order-211e0899-4492-448d-9563-bc97a0482e34.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-61500d95-73a4-4236-ad87-97a67bc7b45d",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-61500d95-73a4-4236-ad87-97a67bc7b45d",
+      "image": "/images/brands/hegid/cpb-order-61500d95-73a4-4236-ad87-97a67bc7b45d.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-e770466b-8765-4b19-a273-dc5e4cc869b7",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-e770466b-8765-4b19-a273-dc5e4cc869b7",
+      "image": "/images/brands/hegid/cpb-order-e770466b-8765-4b19-a273-dc5e4cc869b7.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-2a93cbcf-2de2-4f13-95c5-993eab6ce00b",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-2a93cbcf-2de2-4f13-95c5-993eab6ce00b",
+      "image": "/images/brands/hegid/cpb-order-2a93cbcf-2de2-4f13-95c5-993eab6ce00b.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-a6384f57-fe7c-46bb-823c-562031ba1edd",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-a6384f57-fe7c-46bb-823c-562031ba1edd",
+      "image": "/images/brands/hegid/cpb-order-a6384f57-fe7c-46bb-823c-562031ba1edd.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-6e937dd5-74dc-4ba7-8a81-11e51c2b831a",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-6e937dd5-74dc-4ba7-8a81-11e51c2b831a",
+      "image": "/images/brands/hegid/cpb-order-6e937dd5-74dc-4ba7-8a81-11e51c2b831a.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-9711dadf-d6df-45c0-a13b-fa6bee016fec",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-9711dadf-d6df-45c0-a13b-fa6bee016fec",
+      "image": "/images/brands/hegid/cpb-order-9711dadf-d6df-45c0-a13b-fa6bee016fec.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-24c304a6-373b-4da9-8a1a-a77d1d0ec151",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-24c304a6-373b-4da9-8a1a-a77d1d0ec151",
+      "image": "/images/brands/hegid/cpb-order-24c304a6-373b-4da9-8a1a-a77d1d0ec151.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-e15ed284-7b95-436c-a1ae-c7d4f7089987",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-e15ed284-7b95-436c-a1ae-c7d4f7089987",
+      "image": "/images/brands/hegid/cpb-order-e15ed284-7b95-436c-a1ae-c7d4f7089987.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-a3ea4281-1093-4174-847e-d85072b8dbf2",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-a3ea4281-1093-4174-847e-d85072b8dbf2",
+      "image": "/images/brands/hegid/cpb-order-a3ea4281-1093-4174-847e-d85072b8dbf2.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-76a57484-95b8-4558-a92c-1a88ab4c0c08",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-76a57484-95b8-4558-a92c-1a88ab4c0c08",
+      "image": "/images/brands/hegid/cpb-order-76a57484-95b8-4558-a92c-1a88ab4c0c08.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-3b880863-8dec-4008-948f-07477fa18e93",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-3b880863-8dec-4008-948f-07477fa18e93",
+      "image": "/images/brands/hegid/cpb-order-3b880863-8dec-4008-948f-07477fa18e93.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-a13f567e-8c26-4ba1-9a2d-0786372cc2c0",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-a13f567e-8c26-4ba1-9a2d-0786372cc2c0",
+      "image": "/images/brands/hegid/cpb-order-a13f567e-8c26-4ba1-9a2d-0786372cc2c0.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-b671a71d-6e85-4246-b0d0-b2db36991053",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-b671a71d-6e85-4246-b0d0-b2db36991053",
+      "image": "/images/brands/hegid/cpb-order-b671a71d-6e85-4246-b0d0-b2db36991053.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-05975429-233e-474d-af47-d71b8ae6a300",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-05975429-233e-474d-af47-d71b8ae6a300",
+      "image": "/images/brands/hegid/cpb-order-05975429-233e-474d-af47-d71b8ae6a300.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-0a743011-db7e-4a45-8027-9a7b8e3cf2f0",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-0a743011-db7e-4a45-8027-9a7b8e3cf2f0",
+      "image": "/images/brands/hegid/cpb-order-0a743011-db7e-4a45-8027-9a7b8e3cf2f0.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-2831f0d0-64eb-4250-9fb5-94659e0e24de",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-2831f0d0-64eb-4250-9fb5-94659e0e24de",
+      "image": "/images/brands/hegid/cpb-order-2831f0d0-64eb-4250-9fb5-94659e0e24de.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-ee81f1c7-bbe0-4646-99a4-d239762c3758",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-ee81f1c7-bbe0-4646-99a4-d239762c3758",
+      "image": "/images/brands/hegid/cpb-order-ee81f1c7-bbe0-4646-99a4-d239762c3758.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-d8e9de35-8370-4eb0-809a-3385e9c50b46",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-d8e9de35-8370-4eb0-809a-3385e9c50b46",
+      "image": "/images/brands/hegid/cpb-order-d8e9de35-8370-4eb0-809a-3385e9c50b46.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-10027c96-223a-428b-9224-ecccc1df2687",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-10027c96-223a-428b-9224-ecccc1df2687",
+      "image": "/images/brands/hegid/cpb-order-10027c96-223a-428b-9224-ecccc1df2687.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-dede0a1b-e9ad-4801-856b-6f6c2074d726",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-dede0a1b-e9ad-4801-856b-6f6c2074d726",
+      "image": "/images/brands/hegid/cpb-order-dede0a1b-e9ad-4801-856b-6f6c2074d726.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-d70d3610-5818-4797-b3e7-3cffc41edb44",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-d70d3610-5818-4797-b3e7-3cffc41edb44",
+      "image": "/images/brands/hegid/cpb-order-d70d3610-5818-4797-b3e7-3cffc41edb44.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-8dbc6dee-78ce-4e5f-9699-66af4b404089",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-8dbc6dee-78ce-4e5f-9699-66af4b404089",
+      "image": "/images/brands/hegid/cpb-order-8dbc6dee-78ce-4e5f-9699-66af4b404089.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-90a0d25a-41e3-4b2b-aa8f-8e12204de915",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-90a0d25a-41e3-4b2b-aa8f-8e12204de915",
+      "image": "/images/brands/hegid/cpb-order-90a0d25a-41e3-4b2b-aa8f-8e12204de915.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-5a3fd623-63dd-4055-9b28-5e737318033d",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-5a3fd623-63dd-4055-9b28-5e737318033d",
+      "image": "/images/brands/hegid/cpb-order-5a3fd623-63dd-4055-9b28-5e737318033d.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-fd199a90-fa90-4db3-9d28-c86f2eebd9aa",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-fd199a90-fa90-4db3-9d28-c86f2eebd9aa",
+      "image": "/images/brands/hegid/cpb-order-fd199a90-fa90-4db3-9d28-c86f2eebd9aa.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-f7419733-dae1-47ed-b966-1bccc4e585d3",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-f7419733-dae1-47ed-b966-1bccc4e585d3",
+      "image": "/images/brands/hegid/cpb-order-f7419733-dae1-47ed-b966-1bccc4e585d3.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-bd946304-2071-4f66-bab4-1397285690af",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-bd946304-2071-4f66-bab4-1397285690af",
+      "image": "/images/brands/hegid/cpb-order-bd946304-2071-4f66-bab4-1397285690af.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-9fee3b32-8005-4b50-be3d-1ef6c0e14ef9",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-9fee3b32-8005-4b50-be3d-1ef6c0e14ef9",
+      "image": "/images/brands/hegid/cpb-order-9fee3b32-8005-4b50-be3d-1ef6c0e14ef9.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-907f6501-f0ab-4e5e-8fe6-43ca6662a1c9",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-907f6501-f0ab-4e5e-8fe6-43ca6662a1c9",
+      "image": "/images/brands/hegid/cpb-order-907f6501-f0ab-4e5e-8fe6-43ca6662a1c9.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-b8fab8eb-769f-4a4d-a0ce-662a6433a225",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-b8fab8eb-769f-4a4d-a0ce-662a6433a225",
+      "image": "/images/brands/hegid/cpb-order-b8fab8eb-769f-4a4d-a0ce-662a6433a225.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-9a503122-6f4f-4a54-b1f4-84cc06d85e9d",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-9a503122-6f4f-4a54-b1f4-84cc06d85e9d",
+      "image": "/images/brands/hegid/cpb-order-9a503122-6f4f-4a54-b1f4-84cc06d85e9d.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-7f290570-9890-4f74-bf40-1280b0b58ec9",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-7f290570-9890-4f74-bf40-1280b0b58ec9",
+      "image": "/images/brands/hegid/cpb-order-7f290570-9890-4f74-bf40-1280b0b58ec9.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-81b662b7-393e-42bb-bce7-997f3d0ddd9d",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-81b662b7-393e-42bb-bce7-997f3d0ddd9d",
+      "image": "/images/brands/hegid/cpb-order-81b662b7-393e-42bb-bce7-997f3d0ddd9d.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-f9c52c57-35b9-44e2-b055-0ebd776bfe03",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-f9c52c57-35b9-44e2-b055-0ebd776bfe03",
+      "image": "/images/brands/hegid/cpb-order-f9c52c57-35b9-44e2-b055-0ebd776bfe03.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-535e9d5b-c8d5-4eb8-8adc-24fe52c9cd99",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-535e9d5b-c8d5-4eb8-8adc-24fe52c9cd99",
+      "image": "/images/brands/hegid/cpb-order-535e9d5b-c8d5-4eb8-8adc-24fe52c9cd99.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-3cc27960-c14f-4e32-91ae-bea0262130a4",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-3cc27960-c14f-4e32-91ae-bea0262130a4",
+      "image": "/images/brands/hegid/cpb-order-3cc27960-c14f-4e32-91ae-bea0262130a4.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-6813d0ee-56b5-4cde-8690-74561d223603",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-6813d0ee-56b5-4cde-8690-74561d223603",
+      "image": "/images/brands/hegid/cpb-order-6813d0ee-56b5-4cde-8690-74561d223603.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-60153067-ae4b-4989-8a42-51c3145b5dda",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-60153067-ae4b-4989-8a42-51c3145b5dda",
+      "image": "/images/brands/hegid/cpb-order-60153067-ae4b-4989-8a42-51c3145b5dda.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-0f1e6d1c-5805-429d-990d-6e4cf714abc4",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-0f1e6d1c-5805-429d-990d-6e4cf714abc4",
+      "image": "/images/brands/hegid/cpb-order-0f1e6d1c-5805-429d-990d-6e4cf714abc4.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-7dacc03a-e631-49f5-94b4-cf33043b348f",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-7dacc03a-e631-49f5-94b4-cf33043b348f",
+      "image": "/images/brands/hegid/cpb-order-7dacc03a-e631-49f5-94b4-cf33043b348f.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-9c4407ea-497c-4002-b25a-156eb8fe1c04",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-9c4407ea-497c-4002-b25a-156eb8fe1c04",
+      "image": "/images/brands/hegid/cpb-order-9c4407ea-497c-4002-b25a-156eb8fe1c04.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-96f7dea0-0fc9-4a9d-aeaa-099dc3ffb304",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-96f7dea0-0fc9-4a9d-aeaa-099dc3ffb304",
+      "image": "/images/brands/hegid/cpb-order-96f7dea0-0fc9-4a9d-aeaa-099dc3ffb304.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-4e04c12d-6662-400c-9f5e-3593019b105b",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-4e04c12d-6662-400c-9f5e-3593019b105b",
+      "image": "/images/brands/hegid/cpb-order-4e04c12d-6662-400c-9f5e-3593019b105b.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-62872e79-adaf-44da-a6c3-caf05a0e2e9b",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-62872e79-adaf-44da-a6c3-caf05a0e2e9b",
+      "image": "/images/brands/hegid/cpb-order-62872e79-adaf-44da-a6c3-caf05a0e2e9b.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-d85c3dca-a32f-43d8-b872-3f4ba749080c",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-d85c3dca-a32f-43d8-b872-3f4ba749080c",
+      "image": "/images/brands/hegid/cpb-order-d85c3dca-a32f-43d8-b872-3f4ba749080c.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-cdd96cca-9625-4bdf-b6b7-a7455ec5a9a8",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-cdd96cca-9625-4bdf-b6b7-a7455ec5a9a8",
+      "image": "/images/brands/hegid/cpb-order-cdd96cca-9625-4bdf-b6b7-a7455ec5a9a8.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-48af7b42-6d61-4729-929c-1ecc15570e25",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-48af7b42-6d61-4729-929c-1ecc15570e25",
+      "image": "/images/brands/hegid/cpb-order-48af7b42-6d61-4729-929c-1ecc15570e25.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-9c572f49-7877-4e9c-b608-93b05f3197c1",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-9c572f49-7877-4e9c-b608-93b05f3197c1",
+      "image": "/images/brands/hegid/cpb-order-9c572f49-7877-4e9c-b608-93b05f3197c1.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-f2ad525e-b2f0-4250-94c7-b73c809ba340",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-f2ad525e-b2f0-4250-94c7-b73c809ba340",
+      "image": "/images/brands/hegid/cpb-order-f2ad525e-b2f0-4250-94c7-b73c809ba340.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-ef1f84b4-b5db-463f-8e51-208e2debde70",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-ef1f84b4-b5db-463f-8e51-208e2debde70",
+      "image": "/images/brands/hegid/cpb-order-ef1f84b4-b5db-463f-8e51-208e2debde70.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-d7599cc0-f007-4040-8dff-13695b1b5b84",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-d7599cc0-f007-4040-8dff-13695b1b5b84",
+      "image": "/images/brands/hegid/cpb-order-d7599cc0-f007-4040-8dff-13695b1b5b84.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-84e8cf0a-190b-4c93-8647-e817513004a3",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-84e8cf0a-190b-4c93-8647-e817513004a3",
+      "image": "/images/brands/hegid/cpb-order-84e8cf0a-190b-4c93-8647-e817513004a3.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-c504eca5-2df8-49cb-870a-53d54e4d8107",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-c504eca5-2df8-49cb-870a-53d54e4d8107",
+      "image": "/images/brands/hegid/cpb-order-c504eca5-2df8-49cb-870a-53d54e4d8107.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-69eaac00-c780-4747-951d-6962cbf42344",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-69eaac00-c780-4747-951d-6962cbf42344",
+      "image": "/images/brands/hegid/cpb-order-69eaac00-c780-4747-951d-6962cbf42344.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-82b06acd-d26e-43d5-8b0f-8a1cf3f6228c",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-82b06acd-d26e-43d5-8b0f-8a1cf3f6228c",
+      "image": "/images/brands/hegid/cpb-order-82b06acd-d26e-43d5-8b0f-8a1cf3f6228c.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-ad8f364f-05e2-464f-8f79-6e1e16e1316d",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-ad8f364f-05e2-464f-8f79-6e1e16e1316d",
+      "image": "/images/brands/hegid/cpb-order-ad8f364f-05e2-464f-8f79-6e1e16e1316d.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-1326eb29-7ba2-4b38-8b17-f797bb7a3017",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-1326eb29-7ba2-4b38-8b17-f797bb7a3017",
+      "image": "/images/brands/hegid/cpb-order-1326eb29-7ba2-4b38-8b17-f797bb7a3017.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-81fd1e81-d4ec-457e-91e0-20ff1f046c2e",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-81fd1e81-d4ec-457e-91e0-20ff1f046c2e",
+      "image": "/images/brands/hegid/cpb-order-81fd1e81-d4ec-457e-91e0-20ff1f046c2e.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-f695a471-8f44-4fe6-8c7a-afc3f4efe976",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-f695a471-8f44-4fe6-8c7a-afc3f4efe976",
+      "image": "/images/brands/hegid/cpb-order-f695a471-8f44-4fe6-8c7a-afc3f4efe976.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-67e8c029-a179-49ac-8046-5f8c9ae7addf",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-67e8c029-a179-49ac-8046-5f8c9ae7addf",
+      "image": "/images/brands/hegid/cpb-order-67e8c029-a179-49ac-8046-5f8c9ae7addf.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-21306138-c2cc-48ee-8d84-5caaacc75d47",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-21306138-c2cc-48ee-8d84-5caaacc75d47",
+      "image": "/images/brands/hegid/cpb-order-21306138-c2cc-48ee-8d84-5caaacc75d47.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-cdb3a95f-4a82-4247-9ce8-42c150c72e77",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-cdb3a95f-4a82-4247-9ce8-42c150c72e77",
+      "image": "/images/brands/hegid/cpb-order-cdb3a95f-4a82-4247-9ce8-42c150c72e77.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-d89d1813-d2b1-419f-9744-eddf7469ebac",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-d89d1813-d2b1-419f-9744-eddf7469ebac",
+      "image": "/images/brands/hegid/cpb-order-d89d1813-d2b1-419f-9744-eddf7469ebac.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-9ef9da7d-fa43-40d0-991d-e417bde12ed8",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-9ef9da7d-fa43-40d0-991d-e417bde12ed8",
+      "image": "/images/brands/hegid/cpb-order-9ef9da7d-fa43-40d0-991d-e417bde12ed8.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-382a66ef-1147-4670-80e5-a319cdae05c7",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-382a66ef-1147-4670-80e5-a319cdae05c7",
+      "image": "/images/brands/hegid/cpb-order-382a66ef-1147-4670-80e5-a319cdae05c7.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-29e9be58-3151-481f-bf76-0837e7fb8aa9",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-29e9be58-3151-481f-bf76-0837e7fb8aa9",
+      "image": "/images/brands/hegid/cpb-order-29e9be58-3151-481f-bf76-0837e7fb8aa9.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-ef58b7e5-36a3-46da-b82f-23406824bf5e",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-ef58b7e5-36a3-46da-b82f-23406824bf5e",
+      "image": "/images/brands/hegid/cpb-order-ef58b7e5-36a3-46da-b82f-23406824bf5e.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-50880169-d572-402b-845c-5af41b481123",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-50880169-d572-402b-845c-5af41b481123",
+      "image": "/images/brands/hegid/cpb-order-50880169-d572-402b-845c-5af41b481123.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-4fb8878c-c6cd-4a25-a1b0-dd7474bcc765",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-4fb8878c-c6cd-4a25-a1b0-dd7474bcc765",
+      "image": "/images/brands/hegid/cpb-order-4fb8878c-c6cd-4a25-a1b0-dd7474bcc765.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-a93a2f6f-ea41-4de5-a3bc-59e73131de21",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-a93a2f6f-ea41-4de5-a3bc-59e73131de21",
+      "image": "/images/brands/hegid/cpb-order-a93a2f6f-ea41-4de5-a3bc-59e73131de21.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-b354322a-ab71-424b-a759-e60abc1dbd29",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-b354322a-ab71-424b-a759-e60abc1dbd29",
+      "image": "/images/brands/hegid/cpb-order-b354322a-ab71-424b-a759-e60abc1dbd29.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-a0e70ff7-4031-485e-adda-69ac6cb0b9d4",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-a0e70ff7-4031-485e-adda-69ac6cb0b9d4",
+      "image": "/images/brands/hegid/cpb-order-a0e70ff7-4031-485e-adda-69ac6cb0b9d4.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-a34285dc-0ba6-41bc-9e12-09079bed0087",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-a34285dc-0ba6-41bc-9e12-09079bed0087",
+      "image": "/images/brands/hegid/cpb-order-a34285dc-0ba6-41bc-9e12-09079bed0087.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-d2f32d1c-641f-42d5-8b36-db1ed35721b9",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-d2f32d1c-641f-42d5-8b36-db1ed35721b9",
+      "image": "/images/brands/hegid/cpb-order-d2f32d1c-641f-42d5-8b36-db1ed35721b9.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-24a8abe8-b598-4351-bd10-f68159c35492",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-24a8abe8-b598-4351-bd10-f68159c35492",
+      "image": "/images/brands/hegid/cpb-order-24a8abe8-b598-4351-bd10-f68159c35492.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-fb64795c-25ee-4fca-8fc3-2b29de960124",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-fb64795c-25ee-4fca-8fc3-2b29de960124",
+      "image": "/images/brands/hegid/cpb-order-fb64795c-25ee-4fca-8fc3-2b29de960124.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-90c35127-9928-463b-b72e-eee84ecbb887",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-90c35127-9928-463b-b72e-eee84ecbb887",
+      "image": "/images/brands/hegid/cpb-order-90c35127-9928-463b-b72e-eee84ecbb887.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-a763de4a-6e52-4dce-8286-c744b6fe3e3d",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-a763de4a-6e52-4dce-8286-c744b6fe3e3d",
+      "image": "/images/brands/hegid/cpb-order-a763de4a-6e52-4dce-8286-c744b6fe3e3d.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-e99a45cc-27d5-43d0-8564-330fb7699089",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-e99a45cc-27d5-43d0-8564-330fb7699089",
+      "image": "/images/brands/hegid/cpb-order-e99a45cc-27d5-43d0-8564-330fb7699089.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-ce8ce227-e62b-462e-afaa-e27ad1d0c430",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-ce8ce227-e62b-462e-afaa-e27ad1d0c430",
+      "image": "/images/brands/hegid/cpb-order-ce8ce227-e62b-462e-afaa-e27ad1d0c430.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-e4810069-adb1-4b88-9baf-469bd0bb2bd0",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-e4810069-adb1-4b88-9baf-469bd0bb2bd0",
+      "image": "/images/brands/hegid/cpb-order-e4810069-adb1-4b88-9baf-469bd0bb2bd0.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-4639b029-1653-487e-9b6b-9a5b2c9ed06c",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-4639b029-1653-487e-9b6b-9a5b2c9ed06c",
+      "image": "/images/brands/hegid/cpb-order-4639b029-1653-487e-9b6b-9a5b2c9ed06c.webp"
+    },
+    {
+      "title": "EVOL 16 - Monochrome",
+      "handle": "coffret-evol-16-monochrome",
+      "type": "Coffret",
+      "url": "https://hegid.com/products/coffret-evol-16-monochrome",
+      "image": "/images/brands/hegid/coffret-evol-16-monochrome.jpg"
+    },
+    {
+      "title": "EVOL 9 - Série Noire",
+      "handle": "evol-9-serie-noire",
+      "type": "Coffret",
+      "url": "https://hegid.com/products/evol-9-serie-noire",
+      "image": "/images/brands/hegid/evol-9-serie-noire.jpg"
+    },
+    {
+      "title": "EVOL 9 - Bleu Blanc Rouge",
+      "handle": "evol-9-bleu-blanc-rouge",
+      "type": "Coffret",
+      "url": "https://hegid.com/products/evol-9-bleu-blanc-rouge",
+      "image": "/images/brands/hegid/evol-9-bleu-blanc-rouge.jpg"
+    },
+    {
+      "title": "EVOL 4 - Mirage Soleil Verte",
+      "handle": "evol-4-mirage-soleil-verte",
+      "type": "Coffret",
+      "url": "https://hegid.com/products/evol-4-mirage-soleil-verte",
+      "image": "/images/brands/hegid/evol-4-mirage-soleil-verte.jpg"
+    },
+    {
+      "title": "EVOL 4 - Vision Bleue",
+      "handle": "evol-4-vision-bleue",
+      "type": "Coffret",
+      "url": "https://hegid.com/products/evol-4-vision-bleue",
+      "image": "/images/brands/hegid/evol-4-vision-bleue.jpg"
+    },
+    {
+      "title": "EVOL 4 - Expedition",
+      "handle": "evol-4-expedition",
+      "type": "Coffret",
+      "url": "https://hegid.com/products/evol-4-expedition",
+      "image": "/images/brands/hegid/evol-4-expedition.jpg"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-fe135f10-1cb1-44f2-b637-2cf37bae4fb5",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-fe135f10-1cb1-44f2-b637-2cf37bae4fb5",
+      "image": "/images/brands/hegid/cpb-order-fe135f10-1cb1-44f2-b637-2cf37bae4fb5.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-47df092d-a5d0-437e-8dbe-9114be405f35",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-47df092d-a5d0-437e-8dbe-9114be405f35",
+      "image": "/images/brands/hegid/cpb-order-47df092d-a5d0-437e-8dbe-9114be405f35.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-dab4477d-dfc0-4b8b-a1a8-a7034c938f91",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-dab4477d-dfc0-4b8b-a1a8-a7034c938f91",
+      "image": "/images/brands/hegid/cpb-order-dab4477d-dfc0-4b8b-a1a8-a7034c938f91.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-46846301-0bdd-4d56-acbd-99d0e4bfd241",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-46846301-0bdd-4d56-acbd-99d0e4bfd241",
+      "image": "/images/brands/hegid/cpb-order-46846301-0bdd-4d56-acbd-99d0e4bfd241.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-8f1a4e41-1879-4565-9738-794f1550e031",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-8f1a4e41-1879-4565-9738-794f1550e031",
+      "image": "/images/brands/hegid/cpb-order-8f1a4e41-1879-4565-9738-794f1550e031.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-d1982d4a-96d8-460f-a44e-2e7229a334ca",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-d1982d4a-96d8-460f-a44e-2e7229a334ca",
+      "image": "/images/brands/hegid/cpb-order-d1982d4a-96d8-460f-a44e-2e7229a334ca.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-382ef054-cde3-4265-a244-cec48f7ad694",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-382ef054-cde3-4265-a244-cec48f7ad694",
+      "image": "/images/brands/hegid/cpb-order-382ef054-cde3-4265-a244-cec48f7ad694.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-0f4dc19e-b053-4462-8022-7d8f696ac8ae",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-0f4dc19e-b053-4462-8022-7d8f696ac8ae",
+      "image": "/images/brands/hegid/cpb-order-0f4dc19e-b053-4462-8022-7d8f696ac8ae.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-54d387ab-fac5-499a-b00b-7357b515d399",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-54d387ab-fac5-499a-b00b-7357b515d399",
+      "image": "/images/brands/hegid/cpb-order-54d387ab-fac5-499a-b00b-7357b515d399.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-585f78b7-9611-4562-9619-13121d2e3818",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-585f78b7-9611-4562-9619-13121d2e3818",
+      "image": "/images/brands/hegid/cpb-order-585f78b7-9611-4562-9619-13121d2e3818.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-e6ddd434-cc7e-47a9-a914-ddb1ceb9acca",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-e6ddd434-cc7e-47a9-a914-ddb1ceb9acca",
+      "image": "/images/brands/hegid/cpb-order-e6ddd434-cc7e-47a9-a914-ddb1ceb9acca.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-262b27ae-bd82-4c87-8093-6bf03a57d006",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-262b27ae-bd82-4c87-8093-6bf03a57d006",
+      "image": "/images/brands/hegid/cpb-order-262b27ae-bd82-4c87-8093-6bf03a57d006.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-0129efd0-f0b0-4626-94d8-66dc0a49635f",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-0129efd0-f0b0-4626-94d8-66dc0a49635f",
+      "image": "/images/brands/hegid/cpb-order-0129efd0-f0b0-4626-94d8-66dc0a49635f.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-33d46fad-273f-458d-a8ed-74f9f9551f6a",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-33d46fad-273f-458d-a8ed-74f9f9551f6a",
+      "image": "/images/brands/hegid/cpb-order-33d46fad-273f-458d-a8ed-74f9f9551f6a.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-11b4aa42-ef11-45e3-a81d-543dcd0096d1",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-11b4aa42-ef11-45e3-a81d-543dcd0096d1",
+      "image": "/images/brands/hegid/cpb-order-11b4aa42-ef11-45e3-a81d-543dcd0096d1.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-7497ae8c-6f62-4a45-8e06-7dcff0be6498",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-7497ae8c-6f62-4a45-8e06-7dcff0be6498",
+      "image": "/images/brands/hegid/cpb-order-7497ae8c-6f62-4a45-8e06-7dcff0be6498.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-ba026d9a-0066-4e24-b39c-8725eb35bcff",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-ba026d9a-0066-4e24-b39c-8725eb35bcff",
+      "image": "/images/brands/hegid/cpb-order-ba026d9a-0066-4e24-b39c-8725eb35bcff.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-5f53c315-5ed2-4919-ab10-01a6028b2ee4",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-5f53c315-5ed2-4919-ab10-01a6028b2ee4",
+      "image": "/images/brands/hegid/cpb-order-5f53c315-5ed2-4919-ab10-01a6028b2ee4.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-0cc816bd-c468-42cf-856f-95e378398673",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-0cc816bd-c468-42cf-856f-95e378398673",
+      "image": "/images/brands/hegid/cpb-order-0cc816bd-c468-42cf-856f-95e378398673.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-a79f922d-9785-431c-82aa-003c4f2219bf",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-a79f922d-9785-431c-82aa-003c4f2219bf",
+      "image": "/images/brands/hegid/cpb-order-a79f922d-9785-431c-82aa-003c4f2219bf.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-c5cc1917-2862-4835-a48f-cc7f4911afa3",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-c5cc1917-2862-4835-a48f-cc7f4911afa3",
+      "image": "/images/brands/hegid/cpb-order-c5cc1917-2862-4835-a48f-cc7f4911afa3.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-8b6d3bc7-eb36-40e0-953f-12fee133b098",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-8b6d3bc7-eb36-40e0-953f-12fee133b098",
+      "image": "/images/brands/hegid/cpb-order-8b6d3bc7-eb36-40e0-953f-12fee133b098.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-a2f3339b-9369-4a8d-a3bb-957a3e0d042a",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-a2f3339b-9369-4a8d-a3bb-957a3e0d042a",
+      "image": "/images/brands/hegid/cpb-order-a2f3339b-9369-4a8d-a3bb-957a3e0d042a.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-19b79df4-8150-4f08-8016-8cc23252cc03",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-19b79df4-8150-4f08-8016-8cc23252cc03",
+      "image": "/images/brands/hegid/cpb-order-19b79df4-8150-4f08-8016-8cc23252cc03.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-9f213aaa-8fe5-4561-ac4d-8590a9e47e7a",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-9f213aaa-8fe5-4561-ac4d-8590a9e47e7a",
+      "image": "/images/brands/hegid/cpb-order-9f213aaa-8fe5-4561-ac4d-8590a9e47e7a.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-4d4b97bb-3ae2-4144-8a79-c3efcf3318a2",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-4d4b97bb-3ae2-4144-8a79-c3efcf3318a2",
+      "image": "/images/brands/hegid/cpb-order-4d4b97bb-3ae2-4144-8a79-c3efcf3318a2.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-eeba15fb-55b7-46a0-9b7f-8f94528192bf",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-eeba15fb-55b7-46a0-9b7f-8f94528192bf",
+      "image": "/images/brands/hegid/cpb-order-eeba15fb-55b7-46a0-9b7f-8f94528192bf.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-c54f127c-d6f5-4fbd-8060-32a53882abe2",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-c54f127c-d6f5-4fbd-8060-32a53882abe2",
+      "image": "/images/brands/hegid/cpb-order-c54f127c-d6f5-4fbd-8060-32a53882abe2.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-aef4da6c-6e85-47ba-9861-960f9ee25666",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-aef4da6c-6e85-47ba-9861-960f9ee25666",
+      "image": "/images/brands/hegid/cpb-order-aef4da6c-6e85-47ba-9861-960f9ee25666.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-f81b1fca-2bac-419c-a069-5dff526d4a46",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-f81b1fca-2bac-419c-a069-5dff526d4a46",
+      "image": "/images/brands/hegid/cpb-order-f81b1fca-2bac-419c-a069-5dff526d4a46.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-143e64da-fe23-4410-a356-826b204d66a7",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-143e64da-fe23-4410-a356-826b204d66a7",
+      "image": "/images/brands/hegid/cpb-order-143e64da-fe23-4410-a356-826b204d66a7.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-87cf625b-13a0-4c65-840f-ae935a482587",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-87cf625b-13a0-4c65-840f-ae935a482587",
+      "image": "/images/brands/hegid/cpb-order-87cf625b-13a0-4c65-840f-ae935a482587.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-63b54bf9-e1f9-471b-b975-f2476780989d",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-63b54bf9-e1f9-471b-b975-f2476780989d",
+      "image": "/images/brands/hegid/cpb-order-63b54bf9-e1f9-471b-b975-f2476780989d.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-64bee599-46bc-4989-abcd-6d5a781cc9c1",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-64bee599-46bc-4989-abcd-6d5a781cc9c1",
+      "image": "/images/brands/hegid/cpb-order-64bee599-46bc-4989-abcd-6d5a781cc9c1.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-16fbd634-03d1-4629-9818-d7bf0b092b6a",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-16fbd634-03d1-4629-9818-d7bf0b092b6a",
+      "image": "/images/brands/hegid/cpb-order-16fbd634-03d1-4629-9818-d7bf0b092b6a.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-177954b0-01b2-40e8-b7f3-864b7bf2c1f8",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-177954b0-01b2-40e8-b7f3-864b7bf2c1f8",
+      "image": "/images/brands/hegid/cpb-order-177954b0-01b2-40e8-b7f3-864b7bf2c1f8.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-a28e4ce3-9b39-4674-834a-6d1c5d6c9d2b",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-a28e4ce3-9b39-4674-834a-6d1c5d6c9d2b",
+      "image": "/images/brands/hegid/cpb-order-a28e4ce3-9b39-4674-834a-6d1c5d6c9d2b.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-19b852e7-cae1-41da-85a5-f64d2620bf4f",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-19b852e7-cae1-41da-85a5-f64d2620bf4f",
+      "image": "/images/brands/hegid/cpb-order-19b852e7-cae1-41da-85a5-f64d2620bf4f.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-f5dbf5a9-f6b0-4300-8927-3b34968294bf",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-f5dbf5a9-f6b0-4300-8927-3b34968294bf",
+      "image": "/images/brands/hegid/cpb-order-f5dbf5a9-f6b0-4300-8927-3b34968294bf.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-7a2b2b13-afa5-4800-a7bd-e54055e0d14f",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-7a2b2b13-afa5-4800-a7bd-e54055e0d14f",
+      "image": "/images/brands/hegid/cpb-order-7a2b2b13-afa5-4800-a7bd-e54055e0d14f.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-776aa383-d91a-4c47-81c6-f494cde52cf3",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-776aa383-d91a-4c47-81c6-f494cde52cf3",
+      "image": "/images/brands/hegid/cpb-order-776aa383-d91a-4c47-81c6-f494cde52cf3.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-40aec7e9-8921-4e21-9ab1-11290dcd4ff5",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-40aec7e9-8921-4e21-9ab1-11290dcd4ff5",
+      "image": "/images/brands/hegid/cpb-order-40aec7e9-8921-4e21-9ab1-11290dcd4ff5.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-79dad84e-dafc-4d50-a673-d0dd3e914b39",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-79dad84e-dafc-4d50-a673-d0dd3e914b39",
+      "image": "/images/brands/hegid/cpb-order-79dad84e-dafc-4d50-a673-d0dd3e914b39.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-0449ef0e-64b8-4337-b0eb-39e06bde523f",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-0449ef0e-64b8-4337-b0eb-39e06bde523f",
+      "image": "/images/brands/hegid/cpb-order-0449ef0e-64b8-4337-b0eb-39e06bde523f.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-469b00da-ec93-4872-99f9-acb7a20a1f5c",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-469b00da-ec93-4872-99f9-acb7a20a1f5c",
+      "image": "/images/brands/hegid/cpb-order-469b00da-ec93-4872-99f9-acb7a20a1f5c.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-bc47bb1a-ab39-4ed0-afa8-a8e418f75154",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-bc47bb1a-ab39-4ed0-afa8-a8e418f75154",
+      "image": "/images/brands/hegid/cpb-order-bc47bb1a-ab39-4ed0-afa8-a8e418f75154.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-4c88d685-5c02-457a-92ac-0ac0d174b4fe",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-4c88d685-5c02-457a-92ac-0ac0d174b4fe",
+      "image": "/images/brands/hegid/cpb-order-4c88d685-5c02-457a-92ac-0ac0d174b4fe.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-185961ce-c8e9-4917-987a-ee334819b8e4",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-185961ce-c8e9-4917-987a-ee334819b8e4",
+      "image": "/images/brands/hegid/cpb-order-185961ce-c8e9-4917-987a-ee334819b8e4.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-5fb5ad5e-628b-4654-8aeb-7de2c3b93439",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-5fb5ad5e-628b-4654-8aeb-7de2c3b93439",
+      "image": "/images/brands/hegid/cpb-order-5fb5ad5e-628b-4654-8aeb-7de2c3b93439.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-02f28487-6c52-4db2-9117-2812d8eb75d1",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-02f28487-6c52-4db2-9117-2812d8eb75d1",
+      "image": "/images/brands/hegid/cpb-order-02f28487-6c52-4db2-9117-2812d8eb75d1.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-adc9b100-67e2-438c-a5cf-ccc518789ca4",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-adc9b100-67e2-438c-a5cf-ccc518789ca4",
+      "image": "/images/brands/hegid/cpb-order-adc9b100-67e2-438c-a5cf-ccc518789ca4.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-58fcd10e-a99b-4474-bae4-16523dd67381",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-58fcd10e-a99b-4474-bae4-16523dd67381",
+      "image": "/images/brands/hegid/cpb-order-58fcd10e-a99b-4474-bae4-16523dd67381.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-94108793-d576-4087-904c-5a3c1e067a5b",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-94108793-d576-4087-904c-5a3c1e067a5b",
+      "image": "/images/brands/hegid/cpb-order-94108793-d576-4087-904c-5a3c1e067a5b.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-36d9f8d4-a38f-4826-83c1-42ed682fab61",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-36d9f8d4-a38f-4826-83c1-42ed682fab61",
+      "image": "/images/brands/hegid/cpb-order-36d9f8d4-a38f-4826-83c1-42ed682fab61.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-df7c49bf-f571-4cfd-908c-f329b96f5793",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-df7c49bf-f571-4cfd-908c-f329b96f5793",
+      "image": "/images/brands/hegid/cpb-order-df7c49bf-f571-4cfd-908c-f329b96f5793.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-de87bf5a-ba14-43f2-b66c-95d65aed1f78",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-de87bf5a-ba14-43f2-b66c-95d65aed1f78",
+      "image": "/images/brands/hegid/cpb-order-de87bf5a-ba14-43f2-b66c-95d65aed1f78.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-387b4c41-058d-4681-bafe-91ff0de9fc4b",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-387b4c41-058d-4681-bafe-91ff0de9fc4b",
+      "image": "/images/brands/hegid/cpb-order-387b4c41-058d-4681-bafe-91ff0de9fc4b.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-2ff9484a-0a36-44e6-b46b-04a5aea33dbf",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-2ff9484a-0a36-44e6-b46b-04a5aea33dbf",
+      "image": "/images/brands/hegid/cpb-order-2ff9484a-0a36-44e6-b46b-04a5aea33dbf.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-cc8298f1-3a75-4ab3-985c-dba79ed56ec6",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-cc8298f1-3a75-4ab3-985c-dba79ed56ec6",
+      "image": "/images/brands/hegid/cpb-order-cc8298f1-3a75-4ab3-985c-dba79ed56ec6.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-e6b15e34-b2ef-433d-923b-1161547f12ea",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-e6b15e34-b2ef-433d-923b-1161547f12ea",
+      "image": "/images/brands/hegid/cpb-order-e6b15e34-b2ef-433d-923b-1161547f12ea.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-aa7ff09a-4779-4d5f-94b0-572390be1928",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-aa7ff09a-4779-4d5f-94b0-572390be1928",
+      "image": "/images/brands/hegid/cpb-order-aa7ff09a-4779-4d5f-94b0-572390be1928.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-7683c0b5-a8d0-4d0e-b12b-805693b05f11",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-7683c0b5-a8d0-4d0e-b12b-805693b05f11",
+      "image": "/images/brands/hegid/cpb-order-7683c0b5-a8d0-4d0e-b12b-805693b05f11.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-715fda35-710d-4b65-ab1d-030dec499848",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-715fda35-710d-4b65-ab1d-030dec499848",
+      "image": "/images/brands/hegid/cpb-order-715fda35-710d-4b65-ab1d-030dec499848.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-e5f35b39-4043-41b3-b764-b0a6bf8e2c21",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-e5f35b39-4043-41b3-b764-b0a6bf8e2c21",
+      "image": "/images/brands/hegid/cpb-order-e5f35b39-4043-41b3-b764-b0a6bf8e2c21.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-e94f9bb4-961f-4e44-bbe9-9e3edde49371",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-e94f9bb4-961f-4e44-bbe9-9e3edde49371",
+      "image": "/images/brands/hegid/cpb-order-e94f9bb4-961f-4e44-bbe9-9e3edde49371.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-69c57cac-27ce-438b-8b0f-1295384c4f8c",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-69c57cac-27ce-438b-8b0f-1295384c4f8c",
+      "image": "/images/brands/hegid/cpb-order-69c57cac-27ce-438b-8b0f-1295384c4f8c.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-4d86a610-b41e-4dd3-9d80-42401b59c6b1",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-4d86a610-b41e-4dd3-9d80-42401b59c6b1",
+      "image": "/images/brands/hegid/cpb-order-4d86a610-b41e-4dd3-9d80-42401b59c6b1.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-42ed4420-55fb-4c6b-8284-876520d56dca",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-42ed4420-55fb-4c6b-8284-876520d56dca",
+      "image": "/images/brands/hegid/cpb-order-42ed4420-55fb-4c6b-8284-876520d56dca.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-231c3ddd-0175-4e19-99ef-af9e27db1d3c",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-231c3ddd-0175-4e19-99ef-af9e27db1d3c",
+      "image": "/images/brands/hegid/cpb-order-231c3ddd-0175-4e19-99ef-af9e27db1d3c.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-df2eccc5-31ea-4d2d-9778-cfc2660d1262",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-df2eccc5-31ea-4d2d-9778-cfc2660d1262",
+      "image": "/images/brands/hegid/cpb-order-df2eccc5-31ea-4d2d-9778-cfc2660d1262.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-41cf60ab-4559-46e2-85d9-f7e7117be735",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-41cf60ab-4559-46e2-85d9-f7e7117be735",
+      "image": "/images/brands/hegid/cpb-order-41cf60ab-4559-46e2-85d9-f7e7117be735.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-e662509e-b56d-439c-a318-780dc5f45dac",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-e662509e-b56d-439c-a318-780dc5f45dac",
+      "image": "/images/brands/hegid/cpb-order-e662509e-b56d-439c-a318-780dc5f45dac.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-dbd1664e-56cc-4562-8e7f-c3fb2aadd468",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-dbd1664e-56cc-4562-8e7f-c3fb2aadd468",
+      "image": "/images/brands/hegid/cpb-order-dbd1664e-56cc-4562-8e7f-c3fb2aadd468.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-36455c4e-9784-4880-a40b-98de2c5ad448",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-36455c4e-9784-4880-a40b-98de2c5ad448",
+      "image": "/images/brands/hegid/cpb-order-36455c4e-9784-4880-a40b-98de2c5ad448.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-7f10f962-47d4-46f2-b6b5-d037b16cc577",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-7f10f962-47d4-46f2-b6b5-d037b16cc577",
+      "image": "/images/brands/hegid/cpb-order-7f10f962-47d4-46f2-b6b5-d037b16cc577.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-e0521226-70b5-46b4-8b34-32ecfb0692ca",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-e0521226-70b5-46b4-8b34-32ecfb0692ca",
+      "image": "/images/brands/hegid/cpb-order-e0521226-70b5-46b4-8b34-32ecfb0692ca.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-f756e432-7450-4bf0-8392-3b48babd6c4f",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-f756e432-7450-4bf0-8392-3b48babd6c4f",
+      "image": "/images/brands/hegid/cpb-order-f756e432-7450-4bf0-8392-3b48babd6c4f.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-11bc775c-9ee8-4d2f-81ee-cca36df3fb57",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-11bc775c-9ee8-4d2f-81ee-cca36df3fb57",
+      "image": "/images/brands/hegid/cpb-order-11bc775c-9ee8-4d2f-81ee-cca36df3fb57.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-6c83d130-4304-437f-800f-309aebae44a2",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-6c83d130-4304-437f-800f-309aebae44a2",
+      "image": "/images/brands/hegid/cpb-order-6c83d130-4304-437f-800f-309aebae44a2.webp"
+    },
+    {
+      "title": "GOOD TIMES",
+      "handle": "good-times",
+      "type": "Montre",
+      "url": "https://hegid.com/products/good-times",
+      "image": "/images/brands/hegid/good-times.jpg"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-1019e33e-3a1c-43ca-bb0b-90829b3eebc2",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-1019e33e-3a1c-43ca-bb0b-90829b3eebc2",
+      "image": "/images/brands/hegid/cpb-order-1019e33e-3a1c-43ca-bb0b-90829b3eebc2.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-9973643c-d54d-45cb-b4e6-8f787235fd85",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-9973643c-d54d-45cb-b4e6-8f787235fd85",
+      "image": "/images/brands/hegid/cpb-order-9973643c-d54d-45cb-b4e6-8f787235fd85.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-fe1dafcc-a6a7-4528-8d97-bc8d485c87b4",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-fe1dafcc-a6a7-4528-8d97-bc8d485c87b4",
+      "image": "/images/brands/hegid/cpb-order-fe1dafcc-a6a7-4528-8d97-bc8d485c87b4.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-be60d099-fc16-4730-8c2a-60723ce26d98",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-be60d099-fc16-4730-8c2a-60723ce26d98",
+      "image": "/images/brands/hegid/cpb-order-be60d099-fc16-4730-8c2a-60723ce26d98.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-e0887460-8688-4dc8-a57c-8e4a539733ed",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-e0887460-8688-4dc8-a57c-8e4a539733ed",
+      "image": "/images/brands/hegid/cpb-order-e0887460-8688-4dc8-a57c-8e4a539733ed.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-b9f1aa94-7146-4f4d-a481-98265589bdfb",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-b9f1aa94-7146-4f4d-a481-98265589bdfb",
+      "image": "/images/brands/hegid/cpb-order-b9f1aa94-7146-4f4d-a481-98265589bdfb.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-25ddfc29-35a4-4220-a946-6afa42c6c288",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-25ddfc29-35a4-4220-a946-6afa42c6c288",
+      "image": "/images/brands/hegid/cpb-order-25ddfc29-35a4-4220-a946-6afa42c6c288.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-9e965c5b-65dc-4f80-bacc-980bb6125554",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-9e965c5b-65dc-4f80-bacc-980bb6125554",
+      "image": "/images/brands/hegid/cpb-order-9e965c5b-65dc-4f80-bacc-980bb6125554.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-42b80b02-71b5-423a-b2e2-1a2109d07af9",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-42b80b02-71b5-423a-b2e2-1a2109d07af9",
+      "image": "/images/brands/hegid/cpb-order-42b80b02-71b5-423a-b2e2-1a2109d07af9.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-48b816fc-776d-4291-b3e5-9c553bc0b171",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-48b816fc-776d-4291-b3e5-9c553bc0b171",
+      "image": "/images/brands/hegid/cpb-order-48b816fc-776d-4291-b3e5-9c553bc0b171.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-157836d7-21e1-44df-8a8f-a309f603221f",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-157836d7-21e1-44df-8a8f-a309f603221f",
+      "image": "/images/brands/hegid/cpb-order-157836d7-21e1-44df-8a8f-a309f603221f.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-01b470c6-78d1-41bb-a507-0863df5e42a4",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-01b470c6-78d1-41bb-a507-0863df5e42a4",
+      "image": "/images/brands/hegid/cpb-order-01b470c6-78d1-41bb-a507-0863df5e42a4.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-472f8010-bddb-406c-85f1-ee6d95902b9d",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-472f8010-bddb-406c-85f1-ee6d95902b9d",
+      "image": "/images/brands/hegid/cpb-order-472f8010-bddb-406c-85f1-ee6d95902b9d.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-eb65b364-006d-4721-a7f0-660727db45f1",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-eb65b364-006d-4721-a7f0-660727db45f1",
+      "image": "/images/brands/hegid/cpb-order-eb65b364-006d-4721-a7f0-660727db45f1.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-06d1cf44-57bd-41be-aa8c-c9293970fa8a",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-06d1cf44-57bd-41be-aa8c-c9293970fa8a",
+      "image": "/images/brands/hegid/cpb-order-06d1cf44-57bd-41be-aa8c-c9293970fa8a.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-cbfafba6-deb6-42a6-88b0-19a946d45a1c",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-cbfafba6-deb6-42a6-88b0-19a946d45a1c",
+      "image": "/images/brands/hegid/cpb-order-cbfafba6-deb6-42a6-88b0-19a946d45a1c.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-4e0825d7-415e-4936-8393-70546f61763d",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-4e0825d7-415e-4936-8393-70546f61763d",
+      "image": "/images/brands/hegid/cpb-order-4e0825d7-415e-4936-8393-70546f61763d.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-1261d02d-b199-4ef6-ad7b-adc1dcf7b72f",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-1261d02d-b199-4ef6-ad7b-adc1dcf7b72f",
+      "image": "/images/brands/hegid/cpb-order-1261d02d-b199-4ef6-ad7b-adc1dcf7b72f.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-07dfe334-bde1-4cc9-a89a-80734545edea",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-07dfe334-bde1-4cc9-a89a-80734545edea",
+      "image": "/images/brands/hegid/cpb-order-07dfe334-bde1-4cc9-a89a-80734545edea.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-48f941d4-ed36-4dba-b625-fe7a6cac9646",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-48f941d4-ed36-4dba-b625-fe7a6cac9646",
+      "image": "/images/brands/hegid/cpb-order-48f941d4-ed36-4dba-b625-fe7a6cac9646.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-ac78c76a-511e-4c78-928f-fe3dd0a91d50",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-ac78c76a-511e-4c78-928f-fe3dd0a91d50",
+      "image": "/images/brands/hegid/cpb-order-ac78c76a-511e-4c78-928f-fe3dd0a91d50.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-93e6aecc-74b1-4409-bd53-abd47a35c74a",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-93e6aecc-74b1-4409-bd53-abd47a35c74a",
+      "image": "/images/brands/hegid/cpb-order-93e6aecc-74b1-4409-bd53-abd47a35c74a.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-23c8e494-8714-4649-b1f4-a8f45c5c236e",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-23c8e494-8714-4649-b1f4-a8f45c5c236e",
+      "image": "/images/brands/hegid/cpb-order-23c8e494-8714-4649-b1f4-a8f45c5c236e.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-a26c6b3d-5d8f-454a-8ccb-30481f498a79",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-a26c6b3d-5d8f-454a-8ccb-30481f498a79",
+      "image": "/images/brands/hegid/cpb-order-a26c6b3d-5d8f-454a-8ccb-30481f498a79.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-a9050521-c8d6-4e9e-acd0-286715876035",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-a9050521-c8d6-4e9e-acd0-286715876035",
+      "image": "/images/brands/hegid/cpb-order-a9050521-c8d6-4e9e-acd0-286715876035.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-016cee28-c4df-41db-a823-1cee53d5d274",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-016cee28-c4df-41db-a823-1cee53d5d274",
+      "image": "/images/brands/hegid/cpb-order-016cee28-c4df-41db-a823-1cee53d5d274.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-0a563e39-510f-4224-b864-e1cece487af7",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-0a563e39-510f-4224-b864-e1cece487af7",
+      "image": "/images/brands/hegid/cpb-order-0a563e39-510f-4224-b864-e1cece487af7.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-804ef80b-85a3-4043-b64d-bed54eaf72a2",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-804ef80b-85a3-4043-b64d-bed54eaf72a2",
+      "image": "/images/brands/hegid/cpb-order-804ef80b-85a3-4043-b64d-bed54eaf72a2.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-90f9ee21-b372-4bc8-b19f-b2c274698434",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-90f9ee21-b372-4bc8-b19f-b2c274698434",
+      "image": "/images/brands/hegid/cpb-order-90f9ee21-b372-4bc8-b19f-b2c274698434.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-8e6f13e5-35b0-4b4c-b10f-6389b022403f",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-8e6f13e5-35b0-4b4c-b10f-6389b022403f",
+      "image": "/images/brands/hegid/cpb-order-8e6f13e5-35b0-4b4c-b10f-6389b022403f.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-2a5f1169-767d-4291-94e1-5a3f251d5de0",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-2a5f1169-767d-4291-94e1-5a3f251d5de0",
+      "image": "/images/brands/hegid/cpb-order-2a5f1169-767d-4291-94e1-5a3f251d5de0.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-12122e16-3388-44ae-aa4f-85d91012fd14",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-12122e16-3388-44ae-aa4f-85d91012fd14",
+      "image": "/images/brands/hegid/cpb-order-12122e16-3388-44ae-aa4f-85d91012fd14.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-d236a4d6-21fb-42c1-b342-904231db8876",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-d236a4d6-21fb-42c1-b342-904231db8876",
+      "image": "/images/brands/hegid/cpb-order-d236a4d6-21fb-42c1-b342-904231db8876.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-5331788e-4522-48cb-86ff-d0a6da4d4ace",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-5331788e-4522-48cb-86ff-d0a6da4d4ace",
+      "image": "/images/brands/hegid/cpb-order-5331788e-4522-48cb-86ff-d0a6da4d4ace.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-9ba04a39-cfd1-4fdc-91eb-8048acfd3709",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-9ba04a39-cfd1-4fdc-91eb-8048acfd3709",
+      "image": "/images/brands/hegid/cpb-order-9ba04a39-cfd1-4fdc-91eb-8048acfd3709.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-b0b07d3b-ee5c-4581-b233-6ccbc907c6f3",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-b0b07d3b-ee5c-4581-b233-6ccbc907c6f3",
+      "image": "/images/brands/hegid/cpb-order-b0b07d3b-ee5c-4581-b233-6ccbc907c6f3.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-c06e4df1-f87a-44a7-8f68-634231d94e2f",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-c06e4df1-f87a-44a7-8f68-634231d94e2f",
+      "image": "/images/brands/hegid/cpb-order-c06e4df1-f87a-44a7-8f68-634231d94e2f.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-df4c1492-fe26-45bc-8537-b2639fcff058",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-df4c1492-fe26-45bc-8537-b2639fcff058",
+      "image": "/images/brands/hegid/cpb-order-df4c1492-fe26-45bc-8537-b2639fcff058.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-8e98bb7e-ea73-4f11-bf7a-4819798596b5",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-8e98bb7e-ea73-4f11-bf7a-4819798596b5",
+      "image": "/images/brands/hegid/cpb-order-8e98bb7e-ea73-4f11-bf7a-4819798596b5.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-7c5f5dd5-4365-4df8-a164-70ded061a0dd",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-7c5f5dd5-4365-4df8-a164-70ded061a0dd",
+      "image": "/images/brands/hegid/cpb-order-7c5f5dd5-4365-4df8-a164-70ded061a0dd.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-6e1b0021-e576-443d-8b85-44b276d42915",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-6e1b0021-e576-443d-8b85-44b276d42915",
+      "image": "/images/brands/hegid/cpb-order-6e1b0021-e576-443d-8b85-44b276d42915.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-c843d423-7d50-4f19-9da3-7255399e860d",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-c843d423-7d50-4f19-9da3-7255399e860d",
+      "image": "/images/brands/hegid/cpb-order-c843d423-7d50-4f19-9da3-7255399e860d.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-dd595f1d-835d-4f71-ab6a-543da307363b",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-dd595f1d-835d-4f71-ab6a-543da307363b",
+      "image": "/images/brands/hegid/cpb-order-dd595f1d-835d-4f71-ab6a-543da307363b.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-fe81a1af-9ea9-46d0-be0f-74dc0529746c",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-fe81a1af-9ea9-46d0-be0f-74dc0529746c",
+      "image": "/images/brands/hegid/cpb-order-fe81a1af-9ea9-46d0-be0f-74dc0529746c.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-2e501193-318c-44ff-8e46-f5a15c2a11ff",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-2e501193-318c-44ff-8e46-f5a15c2a11ff",
+      "image": "/images/brands/hegid/cpb-order-2e501193-318c-44ff-8e46-f5a15c2a11ff.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-4815f642-370e-447b-b2ef-95c5531bf45b",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-4815f642-370e-447b-b2ef-95c5531bf45b",
+      "image": "/images/brands/hegid/cpb-order-4815f642-370e-447b-b2ef-95c5531bf45b.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-207cec7b-73bc-4a67-ad8a-6d04647a503a",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-207cec7b-73bc-4a67-ad8a-6d04647a503a",
+      "image": "/images/brands/hegid/cpb-order-207cec7b-73bc-4a67-ad8a-6d04647a503a.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-4a063e24-65ca-4199-85cf-ed07ca23036a",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-4a063e24-65ca-4199-85cf-ed07ca23036a",
+      "image": "/images/brands/hegid/cpb-order-4a063e24-65ca-4199-85cf-ed07ca23036a.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-5a74a50d-2ca8-482d-b9f0-f217d7bd85a8",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-5a74a50d-2ca8-482d-b9f0-f217d7bd85a8",
+      "image": "/images/brands/hegid/cpb-order-5a74a50d-2ca8-482d-b9f0-f217d7bd85a8.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-4cbc4b21-10f9-42a3-8541-684aca0c3b7d",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-4cbc4b21-10f9-42a3-8541-684aca0c3b7d",
+      "image": "/images/brands/hegid/cpb-order-4cbc4b21-10f9-42a3-8541-684aca0c3b7d.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-4c74a78f-bb36-4d4e-99a1-564425d61bda",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-4c74a78f-bb36-4d4e-99a1-564425d61bda",
+      "image": "/images/brands/hegid/cpb-order-4c74a78f-bb36-4d4e-99a1-564425d61bda.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-29af2f83-7413-48e3-a4fb-21b9bccca508",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-29af2f83-7413-48e3-a4fb-21b9bccca508",
+      "image": "/images/brands/hegid/cpb-order-29af2f83-7413-48e3-a4fb-21b9bccca508.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-f4b04a7d-443d-424e-8670-e24bd45a1048",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-f4b04a7d-443d-424e-8670-e24bd45a1048",
+      "image": "/images/brands/hegid/cpb-order-f4b04a7d-443d-424e-8670-e24bd45a1048.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-bbef7961-102b-4818-a7d6-75d2c56f4f84",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-bbef7961-102b-4818-a7d6-75d2c56f4f84",
+      "image": "/images/brands/hegid/cpb-order-bbef7961-102b-4818-a7d6-75d2c56f4f84.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-f2c0a44d-6c80-4cf8-a734-1a3f7359499a",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-f2c0a44d-6c80-4cf8-a734-1a3f7359499a",
+      "image": "/images/brands/hegid/cpb-order-f2c0a44d-6c80-4cf8-a734-1a3f7359499a.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-dee9ec6f-8a8f-47a0-b75d-e0883296096a",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-dee9ec6f-8a8f-47a0-b75d-e0883296096a",
+      "image": "/images/brands/hegid/cpb-order-dee9ec6f-8a8f-47a0-b75d-e0883296096a.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-944cc6de-2cee-4207-b3c2-04bed9569eca",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-944cc6de-2cee-4207-b3c2-04bed9569eca",
+      "image": "/images/brands/hegid/cpb-order-944cc6de-2cee-4207-b3c2-04bed9569eca.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-e0b43748-5cb3-49cb-a153-2d1ae87ccdd6",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-e0b43748-5cb3-49cb-a153-2d1ae87ccdd6",
+      "image": "/images/brands/hegid/cpb-order-e0b43748-5cb3-49cb-a153-2d1ae87ccdd6.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-b7c70741-3eb4-4dc1-b1d4-1cf2fa6ef3e7",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-b7c70741-3eb4-4dc1-b1d4-1cf2fa6ef3e7",
+      "image": "/images/brands/hegid/cpb-order-b7c70741-3eb4-4dc1-b1d4-1cf2fa6ef3e7.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-ddec62e5-db6a-4990-b191-aa5e788ad0e5",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-ddec62e5-db6a-4990-b191-aa5e788ad0e5",
+      "image": "/images/brands/hegid/cpb-order-ddec62e5-db6a-4990-b191-aa5e788ad0e5.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-022d9800-255c-44f8-8f51-28efc3681752",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-022d9800-255c-44f8-8f51-28efc3681752",
+      "image": "/images/brands/hegid/cpb-order-022d9800-255c-44f8-8f51-28efc3681752.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-a9c81e9f-0ada-4189-aa18-cc38311825bd",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-a9c81e9f-0ada-4189-aa18-cc38311825bd",
+      "image": "/images/brands/hegid/cpb-order-a9c81e9f-0ada-4189-aa18-cc38311825bd.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-59db76ad-d673-4c2b-b2a7-69fcd8c2e698",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-59db76ad-d673-4c2b-b2a7-69fcd8c2e698",
+      "image": "/images/brands/hegid/cpb-order-59db76ad-d673-4c2b-b2a7-69fcd8c2e698.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-5c56dfa3-a360-4062-bace-779df03890b9",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-5c56dfa3-a360-4062-bace-779df03890b9",
+      "image": "/images/brands/hegid/cpb-order-5c56dfa3-a360-4062-bace-779df03890b9.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-391e3ed4-be0f-4296-95ee-4a243a4ff4af",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-391e3ed4-be0f-4296-95ee-4a243a4ff4af",
+      "image": "/images/brands/hegid/cpb-order-391e3ed4-be0f-4296-95ee-4a243a4ff4af.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-6a69127b-9eb0-4924-8027-3ee5ee8a3018",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-6a69127b-9eb0-4924-8027-3ee5ee8a3018",
+      "image": "/images/brands/hegid/cpb-order-6a69127b-9eb0-4924-8027-3ee5ee8a3018.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-fa2a4abd-edc8-4412-9a18-619c6983e965",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-fa2a4abd-edc8-4412-9a18-619c6983e965",
+      "image": "/images/brands/hegid/cpb-order-fa2a4abd-edc8-4412-9a18-619c6983e965.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-3ca915be-10c8-4309-9958-69b9a2e12f9b",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-3ca915be-10c8-4309-9958-69b9a2e12f9b",
+      "image": "/images/brands/hegid/cpb-order-3ca915be-10c8-4309-9958-69b9a2e12f9b.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-9e842891-010a-4f65-82a3-a9304a2535ca",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-9e842891-010a-4f65-82a3-a9304a2535ca",
+      "image": "/images/brands/hegid/cpb-order-9e842891-010a-4f65-82a3-a9304a2535ca.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-9aab3948-e8a8-4f33-a5e5-ff768858ffa0",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-9aab3948-e8a8-4f33-a5e5-ff768858ffa0",
+      "image": "/images/brands/hegid/cpb-order-9aab3948-e8a8-4f33-a5e5-ff768858ffa0.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-7e85af3b-ba93-4c87-898b-80b3b65997fc",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-7e85af3b-ba93-4c87-898b-80b3b65997fc",
+      "image": "/images/brands/hegid/cpb-order-7e85af3b-ba93-4c87-898b-80b3b65997fc.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-61cfc664-6b14-48c3-88b8-dc08b4955919",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-61cfc664-6b14-48c3-88b8-dc08b4955919",
+      "image": "/images/brands/hegid/cpb-order-61cfc664-6b14-48c3-88b8-dc08b4955919.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-3a352ca8-fc55-43ac-ab80-20a1865075a7",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-3a352ca8-fc55-43ac-ab80-20a1865075a7",
+      "image": "/images/brands/hegid/cpb-order-3a352ca8-fc55-43ac-ab80-20a1865075a7.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-efaa8555-58f2-4e0d-aade-486370f3265c",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-efaa8555-58f2-4e0d-aade-486370f3265c",
+      "image": "/images/brands/hegid/cpb-order-efaa8555-58f2-4e0d-aade-486370f3265c.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-09686e34-d175-4ada-b49e-b52c2ee16ff2",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-09686e34-d175-4ada-b49e-b52c2ee16ff2",
+      "image": "/images/brands/hegid/cpb-order-09686e34-d175-4ada-b49e-b52c2ee16ff2.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-06a78eec-f8fc-4650-9f3a-5de36e57eba6",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-06a78eec-f8fc-4650-9f3a-5de36e57eba6",
+      "image": "/images/brands/hegid/cpb-order-06a78eec-f8fc-4650-9f3a-5de36e57eba6.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-aefd4d51-672c-4e81-abbe-62d22d6768ec",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-aefd4d51-672c-4e81-abbe-62d22d6768ec",
+      "image": "/images/brands/hegid/cpb-order-aefd4d51-672c-4e81-abbe-62d22d6768ec.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-1e2ebc43-c62d-4ef1-b034-ee3625c53213",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-1e2ebc43-c62d-4ef1-b034-ee3625c53213",
+      "image": "/images/brands/hegid/cpb-order-1e2ebc43-c62d-4ef1-b034-ee3625c53213.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-25ccdfcb-ed8c-4843-bec0-816b3277d6ee",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-25ccdfcb-ed8c-4843-bec0-816b3277d6ee",
+      "image": "/images/brands/hegid/cpb-order-25ccdfcb-ed8c-4843-bec0-816b3277d6ee.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-ed743281-682f-4486-a49e-a12e762130ef",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-ed743281-682f-4486-a49e-a12e762130ef",
+      "image": "/images/brands/hegid/cpb-order-ed743281-682f-4486-a49e-a12e762130ef.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-b2d12808-429d-46fe-b4a5-2ce46cbc0eb1",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-b2d12808-429d-46fe-b4a5-2ce46cbc0eb1",
+      "image": "/images/brands/hegid/cpb-order-b2d12808-429d-46fe-b4a5-2ce46cbc0eb1.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-3bb65dba-85b8-4488-9d8c-3989e60c5b61",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-3bb65dba-85b8-4488-9d8c-3989e60c5b61",
+      "image": "/images/brands/hegid/cpb-order-3bb65dba-85b8-4488-9d8c-3989e60c5b61.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-a0d08a6d-1f93-4172-958c-dbea68b313d8",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-a0d08a6d-1f93-4172-958c-dbea68b313d8",
+      "image": "/images/brands/hegid/cpb-order-a0d08a6d-1f93-4172-958c-dbea68b313d8.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-76ee53ab-3409-4aea-87c5-ff1c94960e00",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-76ee53ab-3409-4aea-87c5-ff1c94960e00",
+      "image": "/images/brands/hegid/cpb-order-76ee53ab-3409-4aea-87c5-ff1c94960e00.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-3a9fc625-48e2-451c-9899-17fbc93dedf8",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-3a9fc625-48e2-451c-9899-17fbc93dedf8",
+      "image": "/images/brands/hegid/cpb-order-3a9fc625-48e2-451c-9899-17fbc93dedf8.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-1f9fa39d-99f7-4381-a1c2-6de5b2d4e59c",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-1f9fa39d-99f7-4381-a1c2-6de5b2d4e59c",
+      "image": "/images/brands/hegid/cpb-order-1f9fa39d-99f7-4381-a1c2-6de5b2d4e59c.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-430c6b00-d1d8-49d6-b520-131676f8edc3",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-430c6b00-d1d8-49d6-b520-131676f8edc3",
+      "image": "/images/brands/hegid/cpb-order-430c6b00-d1d8-49d6-b520-131676f8edc3.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-788b5abd-3135-410a-ad27-897d3773d6cd",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-788b5abd-3135-410a-ad27-897d3773d6cd",
+      "image": "/images/brands/hegid/cpb-order-788b5abd-3135-410a-ad27-897d3773d6cd.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-2863a200-5080-421d-933a-b7a7c126a39d",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-2863a200-5080-421d-933a-b7a7c126a39d",
+      "image": "/images/brands/hegid/cpb-order-2863a200-5080-421d-933a-b7a7c126a39d.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-0473d33a-1391-481e-87f6-6aafd18b82da",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-0473d33a-1391-481e-87f6-6aafd18b82da",
+      "image": "/images/brands/hegid/cpb-order-0473d33a-1391-481e-87f6-6aafd18b82da.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-19f4598d-f404-459b-8ce8-358e801b8bc2",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-19f4598d-f404-459b-8ce8-358e801b8bc2",
+      "image": "/images/brands/hegid/cpb-order-19f4598d-f404-459b-8ce8-358e801b8bc2.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-7795ac46-5dde-4f87-95fd-0a7e737271f8",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-7795ac46-5dde-4f87-95fd-0a7e737271f8",
+      "image": "/images/brands/hegid/cpb-order-7795ac46-5dde-4f87-95fd-0a7e737271f8.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-a67d4c92-8afa-4c47-bf24-a06e32f789eb",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-a67d4c92-8afa-4c47-bf24-a06e32f789eb",
+      "image": "/images/brands/hegid/cpb-order-a67d4c92-8afa-4c47-bf24-a06e32f789eb.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-276f6b0e-6d5d-40d7-a8b5-626f06cd8ebc",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-276f6b0e-6d5d-40d7-a8b5-626f06cd8ebc",
+      "image": "/images/brands/hegid/cpb-order-276f6b0e-6d5d-40d7-a8b5-626f06cd8ebc.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-8ad63d73-7812-4fda-8d6d-d0c282462e2a",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-8ad63d73-7812-4fda-8d6d-d0c282462e2a",
+      "image": "/images/brands/hegid/cpb-order-8ad63d73-7812-4fda-8d6d-d0c282462e2a.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-fc755cdf-082e-48a5-a7cb-96ab37c7c3a9",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-fc755cdf-082e-48a5-a7cb-96ab37c7c3a9",
+      "image": "/images/brands/hegid/cpb-order-fc755cdf-082e-48a5-a7cb-96ab37c7c3a9.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-4a20a285-8106-4f4c-96d3-fb969b9055ec",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-4a20a285-8106-4f4c-96d3-fb969b9055ec",
+      "image": "/images/brands/hegid/cpb-order-4a20a285-8106-4f4c-96d3-fb969b9055ec.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-4ac19af3-1313-4f92-9051-db6c695531c6",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-4ac19af3-1313-4f92-9051-db6c695531c6",
+      "image": "/images/brands/hegid/cpb-order-4ac19af3-1313-4f92-9051-db6c695531c6.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-ef2c7091-932e-46fb-ae17-e40fdef6350e",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-ef2c7091-932e-46fb-ae17-e40fdef6350e",
+      "image": "/images/brands/hegid/cpb-order-ef2c7091-932e-46fb-ae17-e40fdef6350e.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-738365d8-4188-40be-832a-62f7dc0d3089",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-738365d8-4188-40be-832a-62f7dc0d3089",
+      "image": "/images/brands/hegid/cpb-order-738365d8-4188-40be-832a-62f7dc0d3089.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-24fa92c3-bc67-44ba-81a2-f837846c1550",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-24fa92c3-bc67-44ba-81a2-f837846c1550",
+      "image": "/images/brands/hegid/cpb-order-24fa92c3-bc67-44ba-81a2-f837846c1550.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-8e6f3998-a19b-4781-8420-8b61dac79be6",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-8e6f3998-a19b-4781-8420-8b61dac79be6",
+      "image": "/images/brands/hegid/cpb-order-8e6f3998-a19b-4781-8420-8b61dac79be6.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-3ca27dda-a212-446b-948f-48ff59de0e9b",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-3ca27dda-a212-446b-948f-48ff59de0e9b",
+      "image": "/images/brands/hegid/cpb-order-3ca27dda-a212-446b-948f-48ff59de0e9b.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-4c4c9305-ccf5-41f4-8151-00c7ff63dad7",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-4c4c9305-ccf5-41f4-8151-00c7ff63dad7",
+      "image": "/images/brands/hegid/cpb-order-4c4c9305-ccf5-41f4-8151-00c7ff63dad7.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-02793e81-af74-410a-8140-85928c1111c8",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-02793e81-af74-410a-8140-85928c1111c8",
+      "image": "/images/brands/hegid/cpb-order-02793e81-af74-410a-8140-85928c1111c8.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-ee353c54-89c2-41e6-b072-867377e4339b",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-ee353c54-89c2-41e6-b072-867377e4339b",
+      "image": "/images/brands/hegid/cpb-order-ee353c54-89c2-41e6-b072-867377e4339b.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-44957a15-a578-44d8-a6d2-40f527db7bf9",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-44957a15-a578-44d8-a6d2-40f527db7bf9",
+      "image": "/images/brands/hegid/cpb-order-44957a15-a578-44d8-a6d2-40f527db7bf9.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-4cc8f233-681b-47ae-82ff-c1ff783c3b93",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-4cc8f233-681b-47ae-82ff-c1ff783c3b93",
+      "image": "/images/brands/hegid/cpb-order-4cc8f233-681b-47ae-82ff-c1ff783c3b93.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-98f8b718-5e2b-4968-b678-16ac0ce396ec",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-98f8b718-5e2b-4968-b678-16ac0ce396ec",
+      "image": "/images/brands/hegid/cpb-order-98f8b718-5e2b-4968-b678-16ac0ce396ec.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-36918164-e243-4d11-996f-81576d1219e1",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-36918164-e243-4d11-996f-81576d1219e1",
+      "image": "/images/brands/hegid/cpb-order-36918164-e243-4d11-996f-81576d1219e1.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-ba2229bc-76a9-4a17-9f6b-a309c8632a89",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-ba2229bc-76a9-4a17-9f6b-a309c8632a89",
+      "image": "/images/brands/hegid/cpb-order-ba2229bc-76a9-4a17-9f6b-a309c8632a89.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-dbc484d5-3a48-4d27-b72f-1163b5756fe3",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-dbc484d5-3a48-4d27-b72f-1163b5756fe3",
+      "image": "/images/brands/hegid/cpb-order-dbc484d5-3a48-4d27-b72f-1163b5756fe3.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-dbafa15f-5257-4862-b52e-d1b47f505a4b",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-dbafa15f-5257-4862-b52e-d1b47f505a4b",
+      "image": "/images/brands/hegid/cpb-order-dbafa15f-5257-4862-b52e-d1b47f505a4b.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-ffc67d8d-6ce9-478a-8836-3722369fd301",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-ffc67d8d-6ce9-478a-8836-3722369fd301",
+      "image": "/images/brands/hegid/cpb-order-ffc67d8d-6ce9-478a-8836-3722369fd301.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-c50ad340-f2b6-4ce9-8112-d5ee1f1e81e4",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-c50ad340-f2b6-4ce9-8112-d5ee1f1e81e4",
+      "image": "/images/brands/hegid/cpb-order-c50ad340-f2b6-4ce9-8112-d5ee1f1e81e4.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-a33aa5fb-81fe-4989-b082-413345c4aed9",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-a33aa5fb-81fe-4989-b082-413345c4aed9",
+      "image": "/images/brands/hegid/cpb-order-a33aa5fb-81fe-4989-b082-413345c4aed9.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-d6f50be9-9dd2-4745-9cfd-5dc4ccb8804e",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-d6f50be9-9dd2-4745-9cfd-5dc4ccb8804e",
+      "image": "/images/brands/hegid/cpb-order-d6f50be9-9dd2-4745-9cfd-5dc4ccb8804e.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-adac4284-e623-4dc0-bff1-1bb4cf5f9b5b",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-adac4284-e623-4dc0-bff1-1bb4cf5f9b5b",
+      "image": "/images/brands/hegid/cpb-order-adac4284-e623-4dc0-bff1-1bb4cf5f9b5b.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-b152633a-42e1-40db-a082-98d4721807c1",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-b152633a-42e1-40db-a082-98d4721807c1",
+      "image": "/images/brands/hegid/cpb-order-b152633a-42e1-40db-a082-98d4721807c1.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-bee3397a-fc91-4e87-8000-a71f885857f4",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-bee3397a-fc91-4e87-8000-a71f885857f4",
+      "image": "/images/brands/hegid/cpb-order-bee3397a-fc91-4e87-8000-a71f885857f4.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-9e76a0c3-3460-45b1-8579-a3fdc7567980",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-9e76a0c3-3460-45b1-8579-a3fdc7567980",
+      "image": "/images/brands/hegid/cpb-order-9e76a0c3-3460-45b1-8579-a3fdc7567980.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-39b6be14-7b9c-44de-bf9e-02ba93ea61b7",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-39b6be14-7b9c-44de-bf9e-02ba93ea61b7",
+      "image": "/images/brands/hegid/cpb-order-39b6be14-7b9c-44de-bf9e-02ba93ea61b7.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-fe04fe96-efb2-4bc3-8c96-6e3090b8f6e7",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-fe04fe96-efb2-4bc3-8c96-6e3090b8f6e7",
+      "image": "/images/brands/hegid/cpb-order-fe04fe96-efb2-4bc3-8c96-6e3090b8f6e7.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-4e230d96-95b1-415d-9a83-6afaa881f1f5",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-4e230d96-95b1-415d-9a83-6afaa881f1f5",
+      "image": "/images/brands/hegid/cpb-order-4e230d96-95b1-415d-9a83-6afaa881f1f5.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-ae64f630-adca-4e56-804c-31308c95b1d1",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-ae64f630-adca-4e56-804c-31308c95b1d1",
+      "image": "/images/brands/hegid/cpb-order-ae64f630-adca-4e56-804c-31308c95b1d1.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-93326ab9-82b3-4858-89cb-66b66a8dffc0",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-93326ab9-82b3-4858-89cb-66b66a8dffc0",
+      "image": "/images/brands/hegid/cpb-order-93326ab9-82b3-4858-89cb-66b66a8dffc0.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-e1048a26-b231-4e80-9bf2-c4e4998c3763",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-e1048a26-b231-4e80-9bf2-c4e4998c3763",
+      "image": "/images/brands/hegid/cpb-order-e1048a26-b231-4e80-9bf2-c4e4998c3763.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-08018d04-63d5-4c54-bf04-495eed606579",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-08018d04-63d5-4c54-bf04-495eed606579",
+      "image": "/images/brands/hegid/cpb-order-08018d04-63d5-4c54-bf04-495eed606579.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-fb7115dc-ec9f-436a-914b-b80b61e960ae",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-fb7115dc-ec9f-436a-914b-b80b61e960ae",
+      "image": "/images/brands/hegid/cpb-order-fb7115dc-ec9f-436a-914b-b80b61e960ae.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-bce202ee-db92-4cdf-96d8-799f27c61ccb",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-bce202ee-db92-4cdf-96d8-799f27c61ccb",
+      "image": "/images/brands/hegid/cpb-order-bce202ee-db92-4cdf-96d8-799f27c61ccb.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-74f521e8-3842-4dc3-a19b-d47b28bbad07",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-74f521e8-3842-4dc3-a19b-d47b28bbad07",
+      "image": "/images/brands/hegid/cpb-order-74f521e8-3842-4dc3-a19b-d47b28bbad07.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-b993afc9-13c6-4a43-84f8-82549c5874c1",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-b993afc9-13c6-4a43-84f8-82549c5874c1",
+      "image": "/images/brands/hegid/cpb-order-b993afc9-13c6-4a43-84f8-82549c5874c1.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-987c1509-5fd3-40cb-b617-3859cfa730ff",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-987c1509-5fd3-40cb-b617-3859cfa730ff",
+      "image": "/images/brands/hegid/cpb-order-987c1509-5fd3-40cb-b617-3859cfa730ff.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-783df735-2f45-427e-8f48-1e17a4062e39",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-783df735-2f45-427e-8f48-1e17a4062e39",
+      "image": "/images/brands/hegid/cpb-order-783df735-2f45-427e-8f48-1e17a4062e39.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-3c8a73c6-b6de-41a7-80cf-5dfddf6c642c",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-3c8a73c6-b6de-41a7-80cf-5dfddf6c642c",
+      "image": "/images/brands/hegid/cpb-order-3c8a73c6-b6de-41a7-80cf-5dfddf6c642c.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-191e63bc-040d-4c08-9c93-b3e24ba6b9d8",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-191e63bc-040d-4c08-9c93-b3e24ba6b9d8",
+      "image": "/images/brands/hegid/cpb-order-191e63bc-040d-4c08-9c93-b3e24ba6b9d8.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-db052deb-7845-414d-bd77-049bbb539969",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-db052deb-7845-414d-bd77-049bbb539969",
+      "image": "/images/brands/hegid/cpb-order-db052deb-7845-414d-bd77-049bbb539969.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-a0c37701-f2a9-42a5-82c5-806a3297f3aa",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-a0c37701-f2a9-42a5-82c5-806a3297f3aa",
+      "image": "/images/brands/hegid/cpb-order-a0c37701-f2a9-42a5-82c5-806a3297f3aa.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-7330ae93-e897-488d-a1e1-55a3a1535bd7",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-7330ae93-e897-488d-a1e1-55a3a1535bd7",
+      "image": "/images/brands/hegid/cpb-order-7330ae93-e897-488d-a1e1-55a3a1535bd7.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-77bcb2b6-0929-4754-a452-f93cb82bab99",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-77bcb2b6-0929-4754-a452-f93cb82bab99",
+      "image": "/images/brands/hegid/cpb-order-77bcb2b6-0929-4754-a452-f93cb82bab99.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-ddf62c8e-8856-43d0-a8fa-533a6c90fa69",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-ddf62c8e-8856-43d0-a8fa-533a6c90fa69",
+      "image": "/images/brands/hegid/cpb-order-ddf62c8e-8856-43d0-a8fa-533a6c90fa69.webp"
+    },
+    {
+      "title": "Mirage Soleil Argent",
+      "handle": "mirage-soleil-argent-bleu",
+      "type": "Montre",
+      "url": "https://hegid.com/products/mirage-soleil-argent-bleu",
+      "image": "/images/brands/hegid/mirage-soleil-argent-bleu.jpg"
+    },
+    {
+      "title": "Mirage Soleil Argent",
+      "handle": "mirage-soleil-argent-marron",
+      "type": "Montre",
+      "url": "https://hegid.com/products/mirage-soleil-argent-marron",
+      "image": "/images/brands/hegid/mirage-soleil-argent-marron.jpg"
+    },
+    {
+      "title": "Mirage Soleil Glacier",
+      "handle": "mirage-soleil-glacier",
+      "type": "Montre",
+      "url": "https://hegid.com/products/mirage-soleil-glacier",
+      "image": "/images/brands/hegid/mirage-soleil-glacier.jpg"
+    },
+    {
+      "title": "Mirage Argent Soleil",
+      "handle": "mirage-argent-soleil",
+      "type": "Capsule",
+      "url": "https://hegid.com/products/mirage-argent-soleil",
+      "image": "/images/brands/hegid/mirage-argent-soleil.jpg"
+    },
+    {
+      "title": "Mirage Glacier Soleil",
+      "handle": "mirage-glacier-soleil",
+      "type": "Capsule",
+      "url": "https://hegid.com/products/mirage-glacier-soleil",
+      "image": "/images/brands/hegid/mirage-glacier-soleil.jpg"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-8a1400a2-ee67-41ad-be60-b6d4df5b8a2b",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-8a1400a2-ee67-41ad-be60-b6d4df5b8a2b",
+      "image": "/images/brands/hegid/cpb-order-8a1400a2-ee67-41ad-be60-b6d4df5b8a2b.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-ec99b512-5197-47ee-83b4-1b9cb3480e4f",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-ec99b512-5197-47ee-83b4-1b9cb3480e4f",
+      "image": "/images/brands/hegid/cpb-order-ec99b512-5197-47ee-83b4-1b9cb3480e4f.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-cba1354c-8acc-4fd4-96ee-cbde0269b81c",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-cba1354c-8acc-4fd4-96ee-cbde0269b81c",
+      "image": "/images/brands/hegid/cpb-order-cba1354c-8acc-4fd4-96ee-cbde0269b81c.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-2347e14a-5cb4-4f16-a2c2-e72c28b00b9e",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-2347e14a-5cb4-4f16-a2c2-e72c28b00b9e",
+      "image": "/images/brands/hegid/cpb-order-2347e14a-5cb4-4f16-a2c2-e72c28b00b9e.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-0dfea9eb-e608-47d7-b469-4b0d4adb655f",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-0dfea9eb-e608-47d7-b469-4b0d4adb655f",
+      "image": "/images/brands/hegid/cpb-order-0dfea9eb-e608-47d7-b469-4b0d4adb655f.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-8b834068-3579-4c34-81f9-df24ab35afd0",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-8b834068-3579-4c34-81f9-df24ab35afd0",
+      "image": "/images/brands/hegid/cpb-order-8b834068-3579-4c34-81f9-df24ab35afd0.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-f499275e-d3d7-4ee0-b59c-b3dbe5f67028",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-f499275e-d3d7-4ee0-b59c-b3dbe5f67028",
+      "image": "/images/brands/hegid/cpb-order-f499275e-d3d7-4ee0-b59c-b3dbe5f67028.webp"
+    },
+    {
+      "title": "Laboratoire Colorama Série Noire",
+      "handle": "laboratoire-colorama-serie-noire",
+      "type": "Montre",
+      "url": "https://hegid.com/products/laboratoire-colorama-serie-noire",
+      "image": "/images/brands/hegid/laboratoire-colorama-serie-noire.png"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-335b05a8-8f5d-4633-8f19-dc6936ae56c0",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-335b05a8-8f5d-4633-8f19-dc6936ae56c0",
+      "image": "/images/brands/hegid/cpb-order-335b05a8-8f5d-4633-8f19-dc6936ae56c0.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-1e0e8912-6752-4baf-9ce7-7226fd86a3d9",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-1e0e8912-6752-4baf-9ce7-7226fd86a3d9",
+      "image": "/images/brands/hegid/cpb-order-1e0e8912-6752-4baf-9ce7-7226fd86a3d9.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-77367d05-b97f-49be-8896-0b55aed2393d",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-77367d05-b97f-49be-8896-0b55aed2393d",
+      "image": "/images/brands/hegid/cpb-order-77367d05-b97f-49be-8896-0b55aed2393d.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-5babff26-a1a8-4df9-bc9d-c259a69b5b62",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-5babff26-a1a8-4df9-bc9d-c259a69b5b62",
+      "image": "/images/brands/hegid/cpb-order-5babff26-a1a8-4df9-bc9d-c259a69b5b62.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-4fe90ad4-25fc-4607-ae4e-2b4027c6228d",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-4fe90ad4-25fc-4607-ae4e-2b4027c6228d",
+      "image": "/images/brands/hegid/cpb-order-4fe90ad4-25fc-4607-ae4e-2b4027c6228d.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-57afbaac-3d06-43eb-9d21-94f4ea0fe7d8",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-57afbaac-3d06-43eb-9d21-94f4ea0fe7d8",
+      "image": "/images/brands/hegid/cpb-order-57afbaac-3d06-43eb-9d21-94f4ea0fe7d8.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-4a7fa17a-634e-458e-b14e-e376bb33b2d4",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-4a7fa17a-634e-458e-b14e-e376bb33b2d4",
+      "image": "/images/brands/hegid/cpb-order-4a7fa17a-634e-458e-b14e-e376bb33b2d4.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-36394a84-451d-48a2-b979-6b319f8f4ce0",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-36394a84-451d-48a2-b979-6b319f8f4ce0",
+      "image": "/images/brands/hegid/cpb-order-36394a84-451d-48a2-b979-6b319f8f4ce0.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-d9cb8148-db00-4a5b-8637-f7098f2deca5",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-d9cb8148-db00-4a5b-8637-f7098f2deca5",
+      "image": "/images/brands/hegid/cpb-order-d9cb8148-db00-4a5b-8637-f7098f2deca5.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-2253355a-6afa-4d48-95f4-041654e0f8ff",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-2253355a-6afa-4d48-95f4-041654e0f8ff",
+      "image": "/images/brands/hegid/cpb-order-2253355a-6afa-4d48-95f4-041654e0f8ff.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-664a3790-045f-4750-ad70-2005e3ccbf5f",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-664a3790-045f-4750-ad70-2005e3ccbf5f",
+      "image": "/images/brands/hegid/cpb-order-664a3790-045f-4750-ad70-2005e3ccbf5f.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-1b2ddb11-bc0b-4efc-87d3-93c52743b689",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-1b2ddb11-bc0b-4efc-87d3-93c52743b689",
+      "image": "/images/brands/hegid/cpb-order-1b2ddb11-bc0b-4efc-87d3-93c52743b689.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-9ded4f1c-560b-43cc-981c-354113b1e6aa",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-9ded4f1c-560b-43cc-981c-354113b1e6aa",
+      "image": "/images/brands/hegid/cpb-order-9ded4f1c-560b-43cc-981c-354113b1e6aa.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-78faab24-8b8e-4727-9177-b9c5cc9d4cd3",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-78faab24-8b8e-4727-9177-b9c5cc9d4cd3",
+      "image": "/images/brands/hegid/cpb-order-78faab24-8b8e-4727-9177-b9c5cc9d4cd3.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-8f21aedd-58c1-4f15-866d-4ecaa013fac0",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-8f21aedd-58c1-4f15-866d-4ecaa013fac0",
+      "image": "/images/brands/hegid/cpb-order-8f21aedd-58c1-4f15-866d-4ecaa013fac0.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-13a03b8a-9e33-4c63-a4c7-7f375585f75b",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-13a03b8a-9e33-4c63-a4c7-7f375585f75b",
+      "image": "/images/brands/hegid/cpb-order-13a03b8a-9e33-4c63-a4c7-7f375585f75b.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-facf1b6f-5951-4e40-b30d-2cf0d22b540e",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-facf1b6f-5951-4e40-b30d-2cf0d22b540e",
+      "image": "/images/brands/hegid/cpb-order-facf1b6f-5951-4e40-b30d-2cf0d22b540e.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-cd045123-c20c-44da-8eb9-53264e2ec74e",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-cd045123-c20c-44da-8eb9-53264e2ec74e",
+      "image": "/images/brands/hegid/cpb-order-cd045123-c20c-44da-8eb9-53264e2ec74e.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-b748c99e-937b-49d1-af7a-780aede698d2",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-b748c99e-937b-49d1-af7a-780aede698d2",
+      "image": "/images/brands/hegid/cpb-order-b748c99e-937b-49d1-af7a-780aede698d2.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-a6d8f4e8-641d-4608-98ba-affa3661fc53",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-a6d8f4e8-641d-4608-98ba-affa3661fc53",
+      "image": "/images/brands/hegid/cpb-order-a6d8f4e8-641d-4608-98ba-affa3661fc53.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-f898ab59-a84c-42f2-860c-288acf511fa1",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-f898ab59-a84c-42f2-860c-288acf511fa1",
+      "image": "/images/brands/hegid/cpb-order-f898ab59-a84c-42f2-860c-288acf511fa1.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-b7c88790-4d76-4ff4-80cd-c9eab0033eb9",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-b7c88790-4d76-4ff4-80cd-c9eab0033eb9",
+      "image": "/images/brands/hegid/cpb-order-b7c88790-4d76-4ff4-80cd-c9eab0033eb9.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-0e7c587d-cbe3-4938-9e6d-b6a52128ab2a",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-0e7c587d-cbe3-4938-9e6d-b6a52128ab2a",
+      "image": "/images/brands/hegid/cpb-order-0e7c587d-cbe3-4938-9e6d-b6a52128ab2a.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-cae776ea-3860-41b5-8eaf-7d197f540c2c",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-cae776ea-3860-41b5-8eaf-7d197f540c2c",
+      "image": "/images/brands/hegid/cpb-order-cae776ea-3860-41b5-8eaf-7d197f540c2c.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-96b65226-4d62-44e3-904a-aa7df69c2bec",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-96b65226-4d62-44e3-904a-aa7df69c2bec",
+      "image": "/images/brands/hegid/cpb-order-96b65226-4d62-44e3-904a-aa7df69c2bec.webp"
+    },
+    {
+      "title": "Expedition",
+      "handle": "carrure-expedition",
+      "type": "Carrures",
+      "url": "https://hegid.com/products/carrure-expedition",
+      "image": "/images/brands/hegid/carrure-expedition.png"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-e19081c6-e2ae-4885-a5b2-508baa6e4936",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-e19081c6-e2ae-4885-a5b2-508baa6e4936",
+      "image": "/images/brands/hegid/cpb-order-e19081c6-e2ae-4885-a5b2-508baa6e4936.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-0e1d5b0f-b2bc-4eed-9e48-724e511b9f4c",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-0e1d5b0f-b2bc-4eed-9e48-724e511b9f4c",
+      "image": "/images/brands/hegid/cpb-order-0e1d5b0f-b2bc-4eed-9e48-724e511b9f4c.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-5bb4b235-7c99-4134-90a0-78428f52c7bd",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-5bb4b235-7c99-4134-90a0-78428f52c7bd",
+      "image": "/images/brands/hegid/cpb-order-5bb4b235-7c99-4134-90a0-78428f52c7bd.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-32a8461f-586b-4244-ba30-2cec902d5cff",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-32a8461f-586b-4244-ba30-2cec902d5cff",
+      "image": "/images/brands/hegid/cpb-order-32a8461f-586b-4244-ba30-2cec902d5cff.webp"
+    },
+    {
+      "title": "Configuration",
+      "handle": "cpb-order-0d44497b-66f6-4f72-b1ce-40bde0422037",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-0d44497b-66f6-4f72-b1ce-40bde0422037",
+      "image": "/images/brands/hegid/cpb-order-0d44497b-66f6-4f72-b1ce-40bde0422037.webp"
+    },
+    {
+      "title": "Black Configuration",
+      "handle": "cpb-order-47cf044d-d673-4aba-928f-da668942a7f1",
+      "type": "cpb_ordered",
+      "url": "https://hegid.com/products/cpb-order-47cf044d-d673-4aba-928f-da668942a7f1",
+      "image": "/images/brands/hegid/cpb-order-47cf044d-d673-4aba-928f-da668942a7f1.webp"
+    },
+    {
+      "title": "Mirage Soleil Série Noire",
+      "handle": "montre-mirage-soleil-serie-noire",
+      "type": "Montre",
+      "url": "https://hegid.com/products/montre-mirage-soleil-serie-noire",
+      "image": "/images/brands/hegid/montre-mirage-soleil-serie-noire.jpg"
+    },
+    {
+      "title": "Expedition Série Noire",
+      "handle": "montre-expedition-serie-noire",
+      "type": "Montre",
+      "url": "https://hegid.com/products/montre-expedition-serie-noire",
+      "image": "/images/brands/hegid/montre-expedition-serie-noire.jpg"
+    },
+    {
+      "title": "Mirage Rallye du Coeur 2025",
+      "handle": "mirage-rallye-du-coeur-2025",
+      "type": "Montre",
+      "url": "https://hegid.com/products/mirage-rallye-du-coeur-2025",
+      "image": "/images/brands/hegid/mirage-rallye-du-coeur-2025.jpg"
+    },
+    {
+      "title": "Expedition",
+      "handle": "montre-expedition",
+      "type": "Montre",
+      "url": "https://hegid.com/products/montre-expedition",
+      "image": "/images/brands/hegid/montre-expedition.jpg"
+    },
+    {
+      "title": "Expedition Eclipse",
+      "handle": "montre-expedition-eclipse",
+      "type": "Montre",
+      "url": "https://hegid.com/products/montre-expedition-eclipse",
+      "image": "/images/brands/hegid/montre-expedition-eclipse.jpg"
+    },
+    {
+      "title": "Expedition Eclipse",
+      "handle": "carrure-expedition-eclipse",
+      "type": "Carrures",
+      "url": "https://hegid.com/products/carrure-expedition-eclipse",
+      "image": "/images/brands/hegid/carrure-expedition-eclipse.jpg"
+    },
+    {
+      "title": "Expedition",
+      "handle": "capsule-expedition",
+      "type": "Capsule",
+      "url": "https://hegid.com/products/capsule-expedition",
+      "image": "/images/brands/hegid/capsule-expedition.jpg"
+    },
+    {
+      "title": "Vision Série Noire",
+      "handle": "montre-vision-serie-noire",
+      "type": "Montre",
+      "url": "https://hegid.com/products/montre-vision-serie-noire",
+      "image": "/images/brands/hegid/montre-vision-serie-noire.jpg"
+    },
+    {
+      "title": "Vision Bleue",
+      "handle": "montre-vision-bleue",
+      "type": "Montre",
+      "url": "https://hegid.com/products/montre-vision-bleue",
+      "image": "/images/brands/hegid/montre-vision-bleue.jpg"
+    },
+    {
+      "title": "Vision Noire",
+      "handle": "montre-vision-noire",
+      "type": "Montre",
+      "url": "https://hegid.com/products/montre-vision-noire",
+      "image": "/images/brands/hegid/montre-vision-noire.jpg"
+    },
+    {
+      "title": "Performance",
+      "handle": "bracelet-performance",
+      "type": "Bracelet",
+      "url": "https://hegid.com/products/bracelet-performance",
+      "image": "/images/brands/hegid/bracelet-performance.jpg"
+    },
+    {
+      "title": "Vision Bleue",
+      "handle": "capsule-vision-bleue",
+      "type": "Capsule",
+      "url": "https://hegid.com/products/capsule-vision-bleue",
+      "image": "/images/brands/hegid/capsule-vision-bleue.jpg"
+    },
+    {
+      "title": "Vision Noire",
+      "handle": "capsule-vision-noire",
+      "type": "Capsule",
+      "url": "https://hegid.com/products/capsule-vision-noire",
+      "image": "/images/brands/hegid/capsule-vision-noire.jpg"
+    },
+    {
+      "title": "Vision Série Noire",
+      "handle": "carrure-vision-sn",
+      "type": "Carrure",
+      "url": "https://hegid.com/products/carrure-vision-sn",
+      "image": "/images/brands/hegid/carrure-vision-sn.jpg"
+    },
+    {
+      "title": "Vision",
+      "handle": "carrure-vision",
+      "type": "Carrure",
+      "url": "https://hegid.com/products/carrure-vision",
+      "image": "/images/brands/hegid/carrure-vision.jpg"
+    },
+    {
+      "title": "Mirage Soleil Noire",
+      "handle": "montre-mirage-soleil-noire",
+      "type": "Montre",
+      "url": "https://hegid.com/products/montre-mirage-soleil-noire",
+      "image": "/images/brands/hegid/montre-mirage-soleil-noire.jpg"
+    },
+    {
+      "title": "Mirage Soleil Verte",
+      "handle": "montre-mirage-soleil-verte",
+      "type": "Montre",
+      "url": "https://hegid.com/products/montre-mirage-soleil-verte",
+      "image": "/images/brands/hegid/montre-mirage-soleil-verte.jpg"
+    },
+    {
+      "title": "Mirage Soleil Bleue",
+      "handle": "montre-mirage-soleil-bleue",
+      "type": "Montre",
+      "url": "https://hegid.com/products/montre-mirage-soleil-bleue",
+      "image": "/images/brands/hegid/montre-mirage-soleil-bleue.jpg"
+    },
+    {
+      "title": "Mirage Noire Soleil",
+      "handle": "capsule-mirage-soleil-noire",
+      "type": "Capsule",
+      "url": "https://hegid.com/products/capsule-mirage-soleil-noire",
+      "image": "/images/brands/hegid/capsule-mirage-soleil-noire.jpg"
+    },
+    {
+      "title": "Mirage Verte Soleil",
+      "handle": "capsule-mirage-soleil-verte",
+      "type": "Capsule",
+      "url": "https://hegid.com/products/capsule-mirage-soleil-verte",
+      "image": "/images/brands/hegid/capsule-mirage-soleil-verte.jpg"
+    },
+    {
+      "title": "Mirage Soleil Bleue",
+      "handle": "capsule-mirage-soleil-bleue",
+      "type": "Capsule",
+      "url": "https://hegid.com/products/capsule-mirage-soleil-bleue",
+      "image": "/images/brands/hegid/capsule-mirage-soleil-bleue.jpg"
+    },
+    {
+      "title": "Celeste Or Jaune",
+      "handle": "montre-celeste-or-jaune",
+      "type": "Montre",
+      "url": "https://hegid.com/products/montre-celeste-or-jaune",
+      "image": "/images/brands/hegid/montre-celeste-or-jaune.jpg"
+    },
+    {
+      "title": "Celeste Or Blanc",
+      "handle": "montre-celeste-or-blanc",
+      "type": "Montre",
+      "url": "https://hegid.com/products/montre-celeste-or-blanc",
+      "image": "/images/brands/hegid/montre-celeste-or-blanc.jpg"
+    },
+    {
+      "title": "Celeste Acier",
+      "handle": "montre-celeste-acier",
+      "type": "Montre",
+      "url": "https://hegid.com/products/montre-celeste-acier",
+      "image": "/images/brands/hegid/montre-celeste-acier.jpg"
+    },
+    {
+      "title": "Mirage Série Noire",
+      "handle": "carrure-mirage-serie-noire",
+      "type": "Carrures",
+      "url": "https://hegid.com/products/carrure-mirage-serie-noire",
+      "image": "/images/brands/hegid/carrure-mirage-serie-noire.jpg"
+    },
+    {
+      "title": "Mirage Série Noire",
+      "handle": "montre-mirage-serie-noire",
+      "type": "Montre",
+      "url": "https://hegid.com/products/montre-mirage-serie-noire",
+      "image": "/images/brands/hegid/montre-mirage-serie-noire.jpg"
+    },
+    {
+      "title": "Coffret \"Bleu Blanc Rouge\" Laboratoire Colorama",
+      "handle": "coffret-aboratoire-colorama-bleu-blanc-rouge",
+      "type": "Montre",
+      "url": "https://hegid.com/products/coffret-aboratoire-colorama-bleu-blanc-rouge",
+      "image": "/images/brands/hegid/coffret-aboratoire-colorama-bleu-blanc-rouge.jpg"
+    },
+    {
+      "title": "Laboratoire Colorama Blanche",
+      "handle": "montre-laboratoire-colorama-blanche",
+      "type": "Montre",
+      "url": "https://hegid.com/products/montre-laboratoire-colorama-blanche",
+      "image": "/images/brands/hegid/montre-laboratoire-colorama-blanche.jpg"
+    },
+    {
+      "title": "Laboratoire Colorama Noire",
+      "handle": "montre-laboratoire-colorama-noire",
+      "type": "Montre",
+      "url": "https://hegid.com/products/montre-laboratoire-colorama-noire",
+      "image": "/images/brands/hegid/montre-laboratoire-colorama-noire.jpg"
+    },
+    {
+      "title": "Liberté",
+      "handle": "bracelet-liberte",
+      "type": "Bracelet",
+      "url": "https://hegid.com/products/bracelet-liberte",
+      "image": "/images/brands/hegid/bracelet-liberte.jpg"
+    },
+    {
+      "title": "Laboratoire Colorama Blanche",
+      "handle": "capsule-laboratoire-colorama-blanche",
+      "type": "Capsule",
+      "url": "https://hegid.com/products/capsule-laboratoire-colorama-blanche",
+      "image": "/images/brands/hegid/capsule-laboratoire-colorama-blanche.jpg"
+    },
+    {
+      "title": "Laboratoire Colorama Noire",
+      "handle": "capsule-laboratoire-colorama-noire",
+      "type": "Capsule",
+      "url": "https://hegid.com/products/capsule-laboratoire-colorama-noire",
+      "image": "/images/brands/hegid/capsule-laboratoire-colorama-noire.jpg"
+    },
+    {
+      "title": "Mirage Bleue",
+      "handle": "montre-mirage-bleue",
+      "type": "Montre",
+      "url": "https://hegid.com/products/montre-mirage-bleue",
+      "image": "/images/brands/hegid/montre-mirage-bleue.jpg"
+    },
+    {
+      "title": "Laboratoire Nobel",
+      "handle": "montre-laboratoire-nobel",
+      "type": "Montre",
+      "url": "https://hegid.com/products/montre-laboratoire-nobel",
+      "image": "/images/brands/hegid/montre-laboratoire-nobel.jpg"
+    },
+    {
+      "title": "Atelier découverte Talents de Nature® de Magdaleine Pertusier",
+      "handle": "atelier-decouverte-talent-de-nature-de-magdaleine-pertusier",
+      "type": "Collaboration",
+      "url": "https://hegid.com/products/atelier-decouverte-talent-de-nature-de-magdaleine-pertusier",
+      "image": "/images/brands/hegid/atelier-decouverte-talent-de-nature-de-magdaleine-pertusier.jpg"
+    },
+    {
+      "title": "Affiche Cycles Cavale",
+      "handle": "nicolas-prado-x-hegid-affiches-cavale",
+      "type": "Collaboration",
+      "url": "https://hegid.com/products/nicolas-prado-x-hegid-affiches-cavale",
+      "image": "/images/brands/hegid/nicolas-prado-x-hegid-affiches-cavale.jpg"
+    },
+    {
+      "title": "Pierre de Quartz Dendritique Samuel Huguenin",
+      "handle": "samuel-huguenin-x-hegid-pierre-de-quartz-dendritique",
+      "type": "Collaboration",
+      "url": "https://hegid.com/products/samuel-huguenin-x-hegid-pierre-de-quartz-dendritique",
+      "image": "/images/brands/hegid/samuel-huguenin-x-hegid-pierre-de-quartz-dendritique.jpg"
+    },
+    {
+      "title": "Mirage",
+      "handle": "carrure-mirage",
+      "type": "Carrures",
+      "url": "https://hegid.com/products/carrure-mirage",
+      "image": "/images/brands/hegid/carrure-mirage.jpg"
+    },
+    {
+      "title": "Vision Série Noire (old)",
+      "handle": "carrure-vision-serie-noire-old",
+      "type": "Carrure",
+      "url": "https://hegid.com/products/carrure-vision-serie-noire-old",
+      "image": "/images/brands/hegid/carrure-vision-serie-noire-old.jpg"
+    },
+    {
+      "title": "Expedition (old)",
+      "handle": "carrure-baroud",
+      "type": "Carrures",
+      "url": "https://hegid.com/products/carrure-baroud",
+      "image": "/images/brands/hegid/carrure-baroud.jpg"
+    },
+    {
+      "title": "Laboratoire",
+      "handle": "carrure-laboratoire",
+      "type": "Carrure",
+      "url": "https://hegid.com/products/carrure-laboratoire",
+      "image": "/images/brands/hegid/carrure-laboratoire.jpg"
+    },
+    {
+      "title": "Vision (old)",
+      "handle": "carrure-vision-old",
+      "type": "Carrure",
+      "url": "https://hegid.com/products/carrure-vision-old",
+      "image": "/images/brands/hegid/carrure-vision-old.jpg"
+    },
+    {
+      "title": "Virage",
+      "handle": "bracelet-virage",
+      "type": "Bracelet",
+      "url": "https://hegid.com/products/bracelet-virage",
+      "image": "/images/brands/hegid/bracelet-virage.jpg"
+    },
+    {
+      "title": "Mission",
+      "handle": "bracelet-mission",
+      "type": "Bracelet",
+      "url": "https://hegid.com/products/bracelet-mission",
+      "image": "/images/brands/hegid/bracelet-mission.jpg"
+    },
+    {
+      "title": "Courage",
+      "handle": "bracelet-courage",
+      "type": "Bracelet",
+      "url": "https://hegid.com/products/bracelet-courage",
+      "image": "/images/brands/hegid/bracelet-courage.jpg"
+    },
+    {
+      "title": "Pilote",
+      "handle": "bracelet-pilote",
+      "type": "Bracelet",
+      "url": "https://hegid.com/products/bracelet-pilote",
+      "image": "/images/brands/hegid/bracelet-pilote.jpg"
+    },
+    {
+      "title": "Légende",
+      "handle": "bracelet-legende",
+      "type": "Bracelet",
+      "url": "https://hegid.com/products/bracelet-legende",
+      "image": "/images/brands/hegid/bracelet-legende.jpg"
+    },
+    {
+      "title": "Mirage Bleue",
+      "handle": "capsule-mirage-bleue",
+      "type": "Capsule",
+      "url": "https://hegid.com/products/capsule-mirage-bleue",
+      "image": "/images/brands/hegid/capsule-mirage-bleue.jpg"
+    },
+    {
+      "title": "Mirage Perle",
+      "handle": "capsule-mirage-perle",
+      "type": "Capsule",
+      "url": "https://hegid.com/products/capsule-mirage-perle",
+      "image": "/images/brands/hegid/capsule-mirage-perle.jpg"
+    },
+    {
+      "title": "Mirage Noire",
+      "handle": "capsule-mirage-noire",
+      "type": "Capsule",
+      "url": "https://hegid.com/products/capsule-mirage-noire",
+      "image": "/images/brands/hegid/capsule-mirage-noire.jpg"
+    },
+    {
+      "title": "Mirage perle",
+      "handle": "montre-mirage-perle",
+      "type": "Montre",
+      "url": "https://hegid.com/products/montre-mirage-perle",
+      "image": "/images/brands/hegid/montre-mirage-perle.jpg"
+    },
+    {
+      "title": "Mirage Noire",
+      "handle": "montre-mirage-noire",
+      "type": "Montre",
+      "url": "https://hegid.com/products/montre-mirage-noire",
+      "image": "/images/brands/hegid/montre-mirage-noire.jpg"
+    },
+    {
+      "title": "Bracelet NU Chocolat",
+      "handle": "accessoire-bracelet-nu-chocolat",
+      "type": "Bracelet NU",
+      "url": "https://hegid.com/products/accessoire-bracelet-nu-chocolat",
+      "image": "/images/brands/hegid/accessoire-bracelet-nu-chocolat.jpg"
+    },
+    {
+      "title": "Porte-clés BRIN Mission Chocolat",
+      "handle": "accessoire-porte-cles-brin-chocolat",
+      "type": "Porte-clés BRIN",
+      "url": "https://hegid.com/products/accessoire-porte-cles-brin-chocolat",
+      "image": "/images/brands/hegid/accessoire-porte-cles-brin-chocolat.jpg"
+    },
+    {
+      "title": "Porte-clés BRIN Mission Noir",
+      "handle": "accessoire-porte-cles-brin-noir",
+      "type": "Porte-clés BRIN",
+      "url": "https://hegid.com/products/accessoire-porte-cles-brin-noir",
+      "image": "/images/brands/hegid/accessoire-porte-cles-brin-noir.jpg"
+    },
+    {
+      "title": "Bracelet NU Noir",
+      "handle": "accessoire-bracelet-nu-noir",
+      "type": "Bracelet NU",
+      "url": "https://hegid.com/products/accessoire-bracelet-nu-noir",
+      "image": "/images/brands/hegid/accessoire-bracelet-nu-noir.jpg"
+    },
+    {
+      "title": "Vision Série Noire (old)",
+      "handle": "montre-vision-serie-noire-old",
+      "type": "Montre",
+      "url": "https://hegid.com/products/montre-vision-serie-noire-old",
+      "image": "/images/brands/hegid/montre-vision-serie-noire-old.jpg"
+    },
+    {
+      "title": "Vision Officieuse",
+      "handle": "montre-vision-officieuse",
+      "type": "Montre",
+      "url": "https://hegid.com/products/montre-vision-officieuse",
+      "image": "/images/brands/hegid/montre-vision-officieuse.jpg"
+    },
+    {
+      "title": "Laboratoire Darwin",
+      "handle": "montre-laboratoire-darwin",
+      "type": "Montre",
+      "url": "https://hegid.com/products/montre-laboratoire-darwin",
+      "image": "/images/brands/hegid/montre-laboratoire-darwin.jpg"
+    },
+    {
+      "title": "Vision Officielle",
+      "handle": "montre-vision-officielle",
+      "type": "Montre",
+      "url": "https://hegid.com/products/montre-vision-officielle",
+      "image": "/images/brands/hegid/montre-vision-officielle.jpg"
+    },
+    {
+      "title": "Expedition",
+      "handle": "montre-expedition-old",
+      "type": "Montre",
+      "url": "https://hegid.com/products/montre-expedition-old",
+      "image": "/images/brands/hegid/montre-expedition-old.jpg"
+    },
+    {
+      "title": "Série Inaugurale Retro",
+      "handle": "capsule-serie-inaugurale-retro",
+      "type": "Capsule",
+      "url": "https://hegid.com/products/capsule-serie-inaugurale-retro",
+      "image": "/images/brands/hegid/capsule-serie-inaugurale-retro.jpg"
+    },
+    {
+      "title": "Configurateur",
+      "handle": "configurateur",
+      "type": "",
+      "url": "https://hegid.com/products/configurateur",
+      "image": "/images/brands/hegid/configurateur.png"
+    },
+    {
+      "title": "Vision Eclipse",
+      "handle": "montre-vision-eclipse",
+      "type": "Montre",
+      "url": "https://hegid.com/products/montre-vision-eclipse",
+      "image": "/images/brands/hegid/montre-vision-eclipse.jpg"
+    },
+    {
+      "title": "Série Inaugurale Neo",
+      "handle": "capsule-serie-inaugurale-neo",
+      "type": "Capsule",
+      "url": "https://hegid.com/products/capsule-serie-inaugurale-neo",
+      "image": "/images/brands/hegid/capsule-serie-inaugurale-neo.jpg"
+    },
+    {
+      "title": "Carte cadeau",
+      "handle": "voucher",
+      "type": "Voucher",
+      "url": "https://hegid.com/products/voucher",
+      "image": "/images/brands/hegid/voucher.png"
+    },
+    {
+      "title": "Laboratoire Clandestin",
+      "handle": "montre-laboratoire-clandestin",
+      "type": "Montre",
+      "url": "https://hegid.com/products/montre-laboratoire-clandestin",
+      "image": "/images/brands/hegid/montre-laboratoire-clandestin.jpg"
+    }
+  ]
+}

@@ -1,0 +1,470 @@
+{
+  "brand": "beaubleu",
+  "base": "https://beaubleu-paris.com",
+  "method": "shopify",
+  "fetched": "2026-10-12T15:07:28.528Z",
+  "products": [
+    {
+      "title": "Flat White | Écailles rondes - 18 mm",
+      "handle": "flat-white-ecailles-rondes-18-mm",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/flat-white-ecailles-rondes-18-mm",
+      "image": "/images/brands/beaubleu/flat-white-ecailles-rondes-18-mm.webp"
+    },
+    {
+      "title": "Flat White | Écailles mixtes - 18 mm",
+      "handle": "flat-white-ecailles-mixtes-18-mm",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/flat-white-ecailles-mixtes-18-mm",
+      "image": "/images/brands/beaubleu/flat-white-ecailles-mixtes-18-mm.webp"
+    },
+    {
+      "title": "Flat White - Écailles rondes",
+      "handle": "flat-white-ecailles-rondes",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/flat-white-ecailles-rondes",
+      "image": "/images/brands/beaubleu/flat-white-ecailles-rondes.webp"
+    },
+    {
+      "title": "Flat White - Écailles mixtes",
+      "handle": "flat-white-ecailles-mixtes",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/flat-white-ecailles-mixtes",
+      "image": "/images/brands/beaubleu/flat-white-ecailles-mixtes.webp"
+    },
+    {
+      "title": "La Pièce n°1 - Graphite",
+      "handle": "la-piece-n-1-graphite",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/la-piece-n-1-graphite",
+      "image": "/images/brands/beaubleu/la-piece-n-1-graphite.webp"
+    },
+    {
+      "title": "La Pièce n°1 - Champagne",
+      "handle": "la-piece-n-1-champagne",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/la-piece-n-1-champagne",
+      "image": "/images/brands/beaubleu/la-piece-n-1-champagne.webp"
+    },
+    {
+      "title": "La Pièce n°1 - Moka",
+      "handle": "la-piece-n-1-moka",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/la-piece-n-1-moka",
+      "image": "/images/brands/beaubleu/la-piece-n-1-moka.webp"
+    },
+    {
+      "title": "La Pièce n°1 - Bleu Empire",
+      "handle": "la-piece-n-1-bleu-empire",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/la-piece-n-1-bleu-empire",
+      "image": "/images/brands/beaubleu/la-piece-n-1-bleu-empire.webp"
+    },
+    {
+      "title": "La Pièce n°1 - Vert Olive",
+      "handle": "la-piece-n-1-vert-olive",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/la-piece-n-1-vert-olive",
+      "image": "/images/brands/beaubleu/la-piece-n-1-vert-olive.webp"
+    },
+    {
+      "title": "La Pièce n°1 - Lie de vin",
+      "handle": "la-piece-n-1-lie-de-vin",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/la-piece-n-1-lie-de-vin",
+      "image": "/images/brands/beaubleu/la-piece-n-1-lie-de-vin.webp"
+    },
+    {
+      "title": "La Pièce n°2 - Noir",
+      "handle": "la-piece-n-2-noir",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/la-piece-n-2-noir",
+      "image": "/images/brands/beaubleu/la-piece-n-2-noir.webp"
+    },
+    {
+      "title": "La Pièce n°2 - Or Rose",
+      "handle": "la-piece-n-2-or-rose",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/la-piece-n-2-or-rose",
+      "image": "/images/brands/beaubleu/la-piece-n-2-or-rose.webp"
+    },
+    {
+      "title": "La Pièce n°2 - Argent",
+      "handle": "la-piece-n-2-argent",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/la-piece-n-2-argent",
+      "image": "/images/brands/beaubleu/la-piece-n-2-argent.webp"
+    },
+    {
+      "title": "Vitruve Origine Bleu",
+      "handle": "vitruve-origine-bleu",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/vitruve-origine-bleu",
+      "image": "/images/brands/beaubleu/vitruve-origine-bleu.webp"
+    },
+    {
+      "title": "Seconde Française 20.24 | Gris Perle",
+      "handle": "seconde-francaise-gris-perle",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/seconde-francaise-gris-perle",
+      "image": "/images/brands/beaubleu/seconde-francaise-gris-perle.webp"
+    },
+    {
+      "title": "Boucle double déployante",
+      "handle": "boucle-double-deployante",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/boucle-double-deployante",
+      "image": "/images/brands/beaubleu/boucle-double-deployante.png"
+    },
+    {
+      "title": "Acier Tressé - 18 mm",
+      "handle": "acier-tresse-18-mm",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/acier-tresse-18-mm",
+      "image": "/images/brands/beaubleu/acier-tresse-18-mm.webp"
+    },
+    {
+      "title": "Acier Tressé Or Rose - 18 mm",
+      "handle": "acier-tresse-or-rose-18-mm",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/acier-tresse-or-rose-18-mm",
+      "image": "/images/brands/beaubleu/acier-tresse-or-rose-18-mm.webp"
+    },
+    {
+      "title": "Crème Grainé - 18 mm",
+      "handle": "creme-graine-18-mm",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/creme-graine-18-mm",
+      "image": "/images/brands/beaubleu/creme-graine-18-mm.webp"
+    },
+    {
+      "title": "Noir Grainé - 18 mm",
+      "handle": "noir-graine-18-mm",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/noir-graine-18-mm",
+      "image": "/images/brands/beaubleu/noir-graine-18-mm.webp"
+    },
+    {
+      "title": "Bleu Grainé - 18 mm",
+      "handle": "bleu-graine-18-mm",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/bleu-graine-18-mm",
+      "image": "/images/brands/beaubleu/bleu-graine-18-mm.webp"
+    },
+    {
+      "title": "Ecce Figura Sienna",
+      "handle": "ecce-figura-sienna",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/ecce-figura-sienna",
+      "image": "/images/brands/beaubleu/ecce-figura-sienna.webp"
+    },
+    {
+      "title": "Ecce Figura Smalt",
+      "handle": "ecce-figura-smalt",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/ecce-figura-smalt",
+      "image": "/images/brands/beaubleu/ecce-figura-smalt.webp"
+    },
+    {
+      "title": "Ecce Figura Vesperal",
+      "handle": "ecce-figura-vesperal",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/ecce-figura-vesperal",
+      "image": "/images/brands/beaubleu/ecce-figura-vesperal.webp"
+    },
+    {
+      "title": "Ecce Figura Onyx",
+      "handle": "ecce-figura-onyx",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/ecce-figura-onyx",
+      "image": "/images/brands/beaubleu/ecce-figura-onyx.webp"
+    },
+    {
+      "title": "Ecce Figura Alba",
+      "handle": "ecce-figura-alba",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/ecce-figura-alba",
+      "image": "/images/brands/beaubleu/ecce-figura-alba.webp"
+    },
+    {
+      "title": "Ecce Figura Lys",
+      "handle": "ecce-figura-lys",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/ecce-figura-lys",
+      "image": "/images/brands/beaubleu/ecce-figura-lys.webp"
+    },
+    {
+      "title": "Ambassador Plus",
+      "handle": "ambassador-plus",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/ambassador-plus",
+      "image": "/images/brands/beaubleu/ambassador-plus.webp"
+    },
+    {
+      "title": "Crème Grainé",
+      "handle": "creme-graine",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/creme-graine",
+      "image": "/images/brands/beaubleu/creme-graine.webp"
+    },
+    {
+      "title": "Gravure Laser",
+      "handle": "gravure-laser",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/gravure-laser",
+      "image": "/images/brands/beaubleu/gravure-laser.png"
+    },
+    {
+      "title": "Seconde Française 20.24 | Saumon",
+      "handle": "seconde-francaise-saumon",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/seconde-francaise-saumon",
+      "image": "/images/brands/beaubleu/seconde-francaise-saumon.webp"
+    },
+    {
+      "title": "Seconde Française 19.24 | Vert Impérial",
+      "handle": "seconde-francaise-vert-imperial",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/seconde-francaise-vert-imperial",
+      "image": "/images/brands/beaubleu/seconde-francaise-vert-imperial.webp"
+    },
+    {
+      "title": "Seconde Française 19.24 | Gris Anthracite",
+      "handle": "seconde-francaise-gris-anthracite",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/seconde-francaise-gris-anthracite",
+      "image": "/images/brands/beaubleu/seconde-francaise-gris-anthracite.webp"
+    },
+    {
+      "title": "Seconde Française 19.24 | Bleu de minuit",
+      "handle": "seconde-francaise-bleu-de-minuit",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/seconde-francaise-bleu-de-minuit",
+      "image": "/images/brands/beaubleu/seconde-francaise-bleu-de-minuit.webp"
+    },
+    {
+      "title": "Seconde Française 19.24 | Blanc Ivoire",
+      "handle": "seconde-francaise-blanc-ivoire",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/seconde-francaise-blanc-ivoire",
+      "image": "/images/brands/beaubleu/seconde-francaise-blanc-ivoire.webp"
+    },
+    {
+      "title": "Noir Grainé",
+      "handle": "noir-graine",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/noir-graine",
+      "image": "/images/brands/beaubleu/noir-graine.webp"
+    },
+    {
+      "title": "Vert Grainé",
+      "handle": "vert-graine",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/vert-graine",
+      "image": "/images/brands/beaubleu/vert-graine.webp"
+    },
+    {
+      "title": "Bleu Grainé",
+      "handle": "bleu-graine",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/bleu-graine",
+      "image": "/images/brands/beaubleu/bleu-graine.webp"
+    },
+    {
+      "title": "Embossage",
+      "handle": "engrave",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/engrave",
+      "image": "/images/brands/beaubleu/engrave.jpg"
+    },
+    {
+      "title": "B01 Le Lumineux",
+      "handle": "b01-le-lumineux",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/b01-le-lumineux",
+      "image": "/images/brands/beaubleu/b01-le-lumineux.webp"
+    },
+    {
+      "title": "B01 Le Mystérieux",
+      "handle": "b01-le-mysterieux",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/b01-le-mysterieux",
+      "image": "/images/brands/beaubleu/b01-le-mysterieux.webp"
+    },
+    {
+      "title": "B01 Le Survolté",
+      "handle": "b01-le-survolte",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/b01-le-survolte",
+      "image": "/images/brands/beaubleu/b01-le-survolte.webp"
+    },
+    {
+      "title": "Union Audace",
+      "handle": "union-audace",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/union-audace",
+      "image": "/images/brands/beaubleu/union-audace.webp"
+    },
+    {
+      "title": "Union Brio Bleu",
+      "handle": "union-bleu",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/union-bleu",
+      "image": "/images/brands/beaubleu/union-bleu.webp"
+    },
+    {
+      "title": "Union Brio Rouge Vermillon",
+      "handle": "union-brio-rouge-vermillon",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/union-brio-rouge-vermillon",
+      "image": "/images/brands/beaubleu/union-brio-rouge-vermillon.webp"
+    },
+    {
+      "title": "Union Brio Vert Emeraude",
+      "handle": "union-brio-vert-emeraude",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/union-brio-vert-emeraude",
+      "image": "/images/brands/beaubleu/union-brio-vert-emeraude.webp"
+    },
+    {
+      "title": "Union Intrépide Blanc Albâtre",
+      "handle": "union-intrepide-blanc-albatre",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/union-intrepide-blanc-albatre",
+      "image": "/images/brands/beaubleu/union-intrepide-blanc-albatre.webp"
+    },
+    {
+      "title": "Union Intrépide Bleu",
+      "handle": "union-intrepide-bleu",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/union-intrepide-bleu",
+      "image": "/images/brands/beaubleu/union-intrepide-bleu.webp"
+    },
+    {
+      "title": "Union Olympe",
+      "handle": "union-olympe",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/union-olympe",
+      "image": "/images/brands/beaubleu/union-olympe.webp"
+    },
+    {
+      "title": "B01 Le Dynamique",
+      "handle": "b01-le-dynamique",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/b01-le-dynamique",
+      "image": "/images/brands/beaubleu/b01-le-dynamique.webp"
+    },
+    {
+      "title": "Acier Tressé Or Rose",
+      "handle": "acier-tresse-or-rose",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/acier-tresse-or-rose",
+      "image": "/images/brands/beaubleu/acier-tresse-or-rose.webp"
+    },
+    {
+      "title": "Tropic Gris",
+      "handle": "tropic-gris",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/tropic-gris",
+      "image": "/images/brands/beaubleu/tropic-gris.webp"
+    },
+    {
+      "title": "Tropic Khaki",
+      "handle": "tropic-khaki",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/tropic-khaki",
+      "image": "/images/brands/beaubleu/tropic-khaki.webp"
+    },
+    {
+      "title": "Tropic Bleu",
+      "handle": "tropic-bleu",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/tropic-bleu",
+      "image": "/images/brands/beaubleu/tropic-bleu.webp"
+    },
+    {
+      "title": "Tropic Noir",
+      "handle": "tropic-noir",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/tropic-noir",
+      "image": "/images/brands/beaubleu/tropic-noir.webp"
+    },
+    {
+      "title": "Acier Tressé",
+      "handle": "acier-tresse",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/acier-tresse",
+      "image": "/images/brands/beaubleu/acier-tresse.webp"
+    },
+    {
+      "title": "Caïman Bleu",
+      "handle": "caiman-bleu",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/caiman-bleu",
+      "image": "/images/brands/beaubleu/caiman-bleu.webp"
+    },
+    {
+      "title": "Caïman Noir",
+      "handle": "caiman-noir",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/caiman-noir",
+      "image": "/images/brands/beaubleu/caiman-noir.webp"
+    },
+    {
+      "title": "Vitruve Date Acier",
+      "handle": "vitruve-date-acier",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/vitruve-date-acier",
+      "image": "/images/brands/beaubleu/vitruve-date-acier.webp"
+    },
+    {
+      "title": "Vitruve Date Noir",
+      "handle": "vitruve-date-noir",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/vitruve-date-noir",
+      "image": "/images/brands/beaubleu/vitruve-date-noir.webp"
+    },
+    {
+      "title": "Vitruve GMT Bleu",
+      "handle": "vitruve-gmt-bleu",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/vitruve-gmt-bleu",
+      "image": "/images/brands/beaubleu/vitruve-gmt-bleu.webp"
+    },
+    {
+      "title": "Vitruve GMT Vert",
+      "handle": "vitruve-gmt-vert",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/vitruve-gmt-vert",
+      "image": "/images/brands/beaubleu/vitruve-gmt-vert.webp"
+    },
+    {
+      "title": "Vitruve Origine Cognac",
+      "handle": "vitruve-origine-cognac",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/vitruve-origine-cognac",
+      "image": "/images/brands/beaubleu/vitruve-origine-cognac.webp"
+    },
+    {
+      "title": "Ecce Smalt",
+      "handle": "ecce-smalt",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/ecce-smalt",
+      "image": "/images/brands/beaubleu/ecce-smalt.webp"
+    },
+    {
+      "title": "Ecce Vesperal",
+      "handle": "ecce-vesperal",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/ecce-vesperal",
+      "image": "/images/brands/beaubleu/ecce-vesperal.webp"
+    },
+    {
+      "title": "Ecce Lys",
+      "handle": "ecce-lys",
+      "type": "",
+      "url": "https://beaubleu-paris.com/products/ecce-lys",
+      "image": "/images/brands/beaubleu/ecce-lys.webp"
+    }
+  ]
+}

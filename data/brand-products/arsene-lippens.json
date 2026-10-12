@@ -1,0 +1,183 @@
+{
+  "brand": "arsene-lippens",
+  "base": "https://www.arsenelippens.com",
+  "method": "shopify",
+  "fetched": "2026-10-12T15:07:03.448Z",
+  "products": [
+    {
+      "title": "Artigiano \"Sashiko Denim\"",
+      "handle": "artigiano-sashiko-denim",
+      "type": "",
+      "url": "https://www.arsenelippens.com/products/artigiano-sashiko-denim",
+      "image": "/images/brands/arsene-lippens/artigiano-sashiko-denim.webp"
+    },
+    {
+      "title": "Classico Serafico Edition",
+      "handle": "classico-serafico-edition",
+      "type": "",
+      "url": "https://www.arsenelippens.com/products/classico-serafico-edition",
+      "image": "/images/brands/arsene-lippens/classico-serafico-edition.webp"
+    },
+    {
+      "title": "Artigiano Threads Of Arabian Heritage",
+      "handle": "artigiano-threads-of-arabian-heritage",
+      "type": "",
+      "url": "https://www.arsenelippens.com/products/artigiano-threads-of-arabian-heritage",
+      "image": "/images/brands/arsene-lippens/artigiano-threads-of-arabian-heritage.png"
+    },
+    {
+      "title": "Artigiano Como",
+      "handle": "artigiano-como",
+      "type": "",
+      "url": "https://www.arsenelippens.com/products/artigiano-como",
+      "image": "/images/brands/arsene-lippens/artigiano-como.webp"
+    },
+    {
+      "title": "Artigiano Portofino",
+      "handle": "artigiano-portofino",
+      "type": "",
+      "url": "https://www.arsenelippens.com/products/artigiano-portofino",
+      "image": "/images/brands/arsene-lippens/artigiano-portofino.webp"
+    },
+    {
+      "title": "Artigiano Chianti",
+      "handle": "artigiano-chianti",
+      "type": "",
+      "url": "https://www.arsenelippens.com/products/artigiano-chianti",
+      "image": "/images/brands/arsene-lippens/artigiano-chianti.webp"
+    },
+    {
+      "title": "Scheletrato Blu Opaco",
+      "handle": "scheletrato-blu-opaco",
+      "type": "",
+      "url": "https://www.arsenelippens.com/products/scheletrato-blu-opaco",
+      "image": "/images/brands/arsene-lippens/scheletrato-blu-opaco.webp"
+    },
+    {
+      "title": "Scheletrato Grigio Opaco",
+      "handle": "scheletrato-grigio-opaco",
+      "type": "",
+      "url": "https://www.arsenelippens.com/products/scheletrato-grigio-opaco",
+      "image": "/images/brands/arsene-lippens/scheletrato-grigio-opaco.webp"
+    },
+    {
+      "title": "Classico Blu",
+      "handle": "classico-blu",
+      "type": "",
+      "url": "https://www.arsenelippens.com/products/classico-blu",
+      "image": "/images/brands/arsene-lippens/classico-blu.webp"
+    },
+    {
+      "title": "Classico Grigio",
+      "handle": "classico-grigio",
+      "type": "",
+      "url": "https://www.arsenelippens.com/products/classico-grigio",
+      "image": "/images/brands/arsene-lippens/classico-grigio.webp"
+    },
+    {
+      "title": "Visionario Flyback",
+      "handle": "visionario-flyback",
+      "type": "",
+      "url": "https://www.arsenelippens.com/products/visionario-flyback",
+      "image": "/images/brands/arsene-lippens/visionario-flyback.webp"
+    },
+    {
+      "title": "Tokei Ronin Community Edition",
+      "handle": "artigiano-tokei-ronin-edition",
+      "type": "",
+      "url": "https://www.arsenelippens.com/products/artigiano-tokei-ronin-edition",
+      "image": "/images/brands/arsene-lippens/artigiano-tokei-ronin-edition.webp"
+    },
+    {
+      "title": "Visionario Salmone",
+      "handle": "salmone-1",
+      "type": "",
+      "url": "https://www.arsenelippens.com/products/salmone-1",
+      "image": "/images/brands/arsene-lippens/salmone-1.webp"
+    },
+    {
+      "title": "Visionario Sabbia",
+      "handle": "sabbia-1",
+      "type": "",
+      "url": "https://www.arsenelippens.com/products/sabbia-1",
+      "image": "/images/brands/arsene-lippens/sabbia-1.webp"
+    },
+    {
+      "title": "Visionario Pietre Nere",
+      "handle": "pietre-nere-1",
+      "type": "",
+      "url": "https://www.arsenelippens.com/products/pietre-nere-1",
+      "image": "/images/brands/arsene-lippens/pietre-nere-1.webp"
+    },
+    {
+      "title": "Numerico Sole Bianco",
+      "handle": "sole-bianco",
+      "type": "",
+      "url": "https://www.arsenelippens.com/products/sole-bianco",
+      "image": "/images/brands/arsene-lippens/sole-bianco.webp"
+    },
+    {
+      "title": "Numerico Blu Mezzanotte",
+      "handle": "blu-mezzanotte",
+      "type": "",
+      "url": "https://www.arsenelippens.com/products/blu-mezzanotte",
+      "image": "/images/brands/arsene-lippens/blu-mezzanotte.webp"
+    },
+    {
+      "title": "Visionario Terracotta",
+      "handle": "terracotta",
+      "type": "",
+      "url": "https://www.arsenelippens.com/products/terracotta",
+      "image": "/images/brands/arsene-lippens/terracotta.webp"
+    },
+    {
+      "title": "Numerico Sabbia",
+      "handle": "sabbia",
+      "type": "",
+      "url": "https://www.arsenelippens.com/products/sabbia",
+      "image": "/images/brands/arsene-lippens/sabbia.webp"
+    },
+    {
+      "title": "Numerico Salmone",
+      "handle": "salmone",
+      "type": "",
+      "url": "https://www.arsenelippens.com/products/salmone",
+      "image": "/images/brands/arsene-lippens/salmone.webp"
+    },
+    {
+      "title": "Numerico Pietre Nere",
+      "handle": "pietre-nere",
+      "type": "",
+      "url": "https://www.arsenelippens.com/products/pietre-nere",
+      "image": "/images/brands/arsene-lippens/pietre-nere.webp"
+    },
+    {
+      "title": "Visionario Neve",
+      "handle": "neve",
+      "type": "",
+      "url": "https://www.arsenelippens.com/products/neve",
+      "image": "/images/brands/arsene-lippens/neve.webp"
+    },
+    {
+      "title": "Visionario Blu Cielo",
+      "handle": "blu-cielo",
+      "type": "",
+      "url": "https://www.arsenelippens.com/products/blu-cielo",
+      "image": "/images/brands/arsene-lippens/blu-cielo.webp"
+    },
+    {
+      "title": "Visionario Abete",
+      "handle": "abete",
+      "type": "",
+      "url": "https://www.arsenelippens.com/products/abete",
+      "image": "/images/brands/arsene-lippens/abete.webp"
+    },
+    {
+      "title": "Scheletrato FAM-edition",
+      "handle": "scheletrato",
+      "type": "",
+      "url": "https://www.arsenelippens.com/products/scheletrato",
+      "image": "/images/brands/arsene-lippens/scheletrato.webp"
+    }
+  ]
+}

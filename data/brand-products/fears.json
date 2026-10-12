@@ -1,0 +1,666 @@
+{
+  "brand": "fears",
+  "base": "https://www.fearswatches.com",
+  "method": "shopify",
+  "fetched": "2026-10-12T15:08:16.041Z",
+  "products": [
+    {
+      "title": "Brunswick 39 Perpetual Calendar",
+      "handle": "brunswick-39-perpetual-calendar",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-39-perpetual-calendar",
+      "image": "/images/brands/fears/brunswick-39-perpetual-calendar.jpg"
+    },
+    {
+      "title": "Brunswick 40.5 Jump Hour 'Ultimus'",
+      "handle": "brunswick-40-5-jump-hour-ultimus",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-40-5-jump-hour-ultimus",
+      "image": "/images/brands/fears/brunswick-40-5-jump-hour-ultimus.png"
+    },
+    {
+      "title": "Brunswick 40 'Helmsman' ES",
+      "handle": "brunswick-40-helmsman-es",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-40-helmsman-es",
+      "image": "/images/brands/fears/brunswick-40-helmsman-es.png"
+    },
+    {
+      "title": "Brunswick 40.5 Jump Hour 'China Blue'",
+      "handle": "brunswick-40-5-jump-hour-china-blue",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-40-5-jump-hour-china-blue",
+      "image": "/images/brands/fears/brunswick-40-5-jump-hour-china-blue.png"
+    },
+    {
+      "title": "Redcliff 39.5 Sherbet Yellow",
+      "handle": "redcliff-39-5-sherbet-yellow",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/redcliff-39-5-sherbet-yellow",
+      "image": "/images/brands/fears/redcliff-39-5-sherbet-yellow.png"
+    },
+    {
+      "title": "Redcliff 39.5 Soft Peach",
+      "handle": "redcliff-39-5-soft-peach",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/redcliff-39-5-soft-peach",
+      "image": "/images/brands/fears/redcliff-39-5-soft-peach.png"
+    },
+    {
+      "title": "Redcliff 39.5 Pale Lilac",
+      "handle": "redcliff-39-5-pale-lilac",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/redcliff-39-5-pale-lilac",
+      "image": "/images/brands/fears/redcliff-39-5-pale-lilac.png"
+    },
+    {
+      "title": "Brunswick 40 Filton 'Raven Black'",
+      "handle": "brunswick-40-filton-raven-black",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-40-filton-raven-black",
+      "image": "/images/brands/fears/brunswick-40-filton-raven-black.png"
+    },
+    {
+      "title": "Brunswick 40 Filton 'Squadron Green'",
+      "handle": "brunswick-40-filton-squadron-green",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-40-filton-squadron-green",
+      "image": "/images/brands/fears/brunswick-40-filton-squadron-green.png"
+    },
+    {
+      "title": "Redcliff 39.5 Date 'Meta Collection'",
+      "handle": "redcliff-39-5-date-meta-collection",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/redcliff-39-5-date-meta-collection",
+      "image": "/images/brands/fears/redcliff-39-5-date-meta-collection.png"
+    },
+    {
+      "title": "Redcliff 39.5 Date 'WhatsApp Edition'",
+      "handle": "redcliff-39-5-date-whatsapp-edition",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/redcliff-39-5-date-whatsapp-edition",
+      "image": "/images/brands/fears/redcliff-39-5-date-whatsapp-edition.png"
+    },
+    {
+      "title": "Redcliff 39.5 Date 'Facebook Edition'",
+      "handle": "redcliff-39-5-date-facebook-edition",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/redcliff-39-5-date-facebook-edition",
+      "image": "/images/brands/fears/redcliff-39-5-date-facebook-edition.png"
+    },
+    {
+      "title": "Redcliff 39.5 Date 'Instagram Edition'",
+      "handle": "redcliff-39-5-date-instagram-edition",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/redcliff-39-5-date-instagram-edition",
+      "image": "/images/brands/fears/redcliff-39-5-date-instagram-edition.png"
+    },
+    {
+      "title": "Brunswick 40.5 Jump Hour 'Celestial'",
+      "handle": "brunswick-40-5-jump-hour-celestial",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-40-5-jump-hour-celestial",
+      "image": "/images/brands/fears/brunswick-40-5-jump-hour-celestial.png"
+    },
+    {
+      "title": "Brunswick 40 '1846 Edition'",
+      "handle": "brunswick-40-1846-edition",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-40-1846-edition",
+      "image": "/images/brands/fears/brunswick-40-1846-edition.png"
+    },
+    {
+      "title": "Brunswick 40 'Silver Noir'",
+      "handle": "brunswick-40-silver-noir",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-40-silver-noir",
+      "image": "/images/brands/fears/brunswick-40-silver-noir.png"
+    },
+    {
+      "title": "Brunswick 38 'De Stijl Edition' (exclusively for Ace Jewelers)",
+      "handle": "brunswick-38-de-stijl-edition-for-ace-jewelers",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-38-de-stijl-edition-for-ace-jewelers",
+      "image": "/images/brands/fears/brunswick-38-de-stijl-edition-for-ace-jewelers.png"
+    },
+    {
+      "title": "Blush Pink",
+      "handle": "blush-pink",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/blush-pink",
+      "image": "/images/brands/fears/blush-pink.png"
+    },
+    {
+      "title": "Brunswick 38 'Charcoal Rose'",
+      "handle": "brunswick-38-charcoal-rose",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-38-charcoal-rose",
+      "image": "/images/brands/fears/brunswick-38-charcoal-rose.png"
+    },
+    {
+      "title": "Brunswick 40.5 Jump Hour 'Barleycorn Plum'",
+      "handle": "brunswick-40-5-jump-hour-barleycorn",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-40-5-jump-hour-barleycorn",
+      "image": "/images/brands/fears/brunswick-40-5-jump-hour-barleycorn.png"
+    },
+    {
+      "title": "Redcliff 39.5 'ES'",
+      "handle": "redcliff-39-5-date-es",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/redcliff-39-5-date-es",
+      "image": "/images/brands/fears/redcliff-39-5-date-es.png"
+    },
+    {
+      "title": "Open Caseback (Brunswick 40.5 Jump Hour)",
+      "handle": "open-caseback-brunswick-40-5-jump-hour",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/open-caseback-brunswick-40-5-jump-hour",
+      "image": "/images/brands/fears/open-caseback-brunswick-40-5-jump-hour.png"
+    },
+    {
+      "title": "Brunswick 40 ‘Odyssey Edition’",
+      "handle": "brunswick-40-odyssey-edition",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-40-odyssey-edition",
+      "image": "/images/brands/fears/brunswick-40-odyssey-edition.png"
+    },
+    {
+      "title": "Arnos Pewter Blue",
+      "handle": "arnos-pewter-blue",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/arnos-pewter-blue",
+      "image": "/images/brands/fears/arnos-pewter-blue.png"
+    },
+    {
+      "title": "Redcliff 39.5 Burlingame Edition 'Confetti'",
+      "handle": "redcliff-39-5-burlingame-edition-confetti",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/redcliff-39-5-burlingame-edition-confetti",
+      "image": "/images/brands/fears/redcliff-39-5-burlingame-edition-confetti.png"
+    },
+    {
+      "title": "Brunswick 40.5 Jump Hour 'Edwardian Edition'",
+      "handle": "brunswick-40-5-jump-hour-edwardian-edition",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-40-5-jump-hour-edwardian-edition",
+      "image": "/images/brands/fears/brunswick-40-5-jump-hour-edwardian-edition.png"
+    },
+    {
+      "title": "Brunswick 38 'Orchid'",
+      "handle": "brunswick-38-orchid",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-38-orchid",
+      "image": "/images/brands/fears/brunswick-38-orchid.png"
+    },
+    {
+      "title": "Brunswick 40.5 Jump Hour Raven Black",
+      "handle": "brunswick-40-5-jump-hour-raven-black",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-40-5-jump-hour-raven-black",
+      "image": "/images/brands/fears/brunswick-40-5-jump-hour-raven-black.png"
+    },
+    {
+      "title": "Brunswick 40.5 Jump Hour Coral Lacquer",
+      "handle": "brunswick-40-5-jump-hour-coral",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-40-5-jump-hour-coral",
+      "image": "/images/brands/fears/brunswick-40-5-jump-hour-coral.png"
+    },
+    {
+      "title": "Brunswick 40.5 Jump Hour 'Boutique Edition'",
+      "handle": "brunswick-40-5-jump-hour-boutique-edition",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-40-5-jump-hour-boutique-edition",
+      "image": "/images/brands/fears/brunswick-40-5-jump-hour-boutique-edition.png"
+    },
+    {
+      "title": "Open Caseback (Brunswick 40)",
+      "handle": "open-caseback-brunswick-40",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/open-caseback-brunswick-40",
+      "image": "/images/brands/fears/open-caseback-brunswick-40.png"
+    },
+    {
+      "title": "Open Caseback (Brunswick 38)",
+      "handle": "open-caseback-brunswick-38",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/open-caseback-brunswick-38",
+      "image": "/images/brands/fears/open-caseback-brunswick-38.png"
+    },
+    {
+      "title": "Open Caseback (Redcliff 39.5 Date)",
+      "handle": "open-caseback-redcliff-39-5-date",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/open-caseback-redcliff-39-5-date",
+      "image": "/images/brands/fears/open-caseback-redcliff-39-5-date.png"
+    },
+    {
+      "title": "Brunswick Midas II",
+      "handle": "brunswick-midas-ii",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-midas-ii",
+      "image": "/images/brands/fears/brunswick-midas-ii.png"
+    },
+    {
+      "title": "Pewter Grey",
+      "handle": "pewter-grey-barenia",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/pewter-grey-barenia",
+      "image": "/images/brands/fears/pewter-grey-barenia.png"
+    },
+    {
+      "title": "Fears Blue",
+      "handle": "fears-blue-barenia-leather",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/fears-blue-barenia-leather",
+      "image": "/images/brands/fears/fears-blue-barenia-leather.png"
+    },
+    {
+      "title": "Raven Black",
+      "handle": "raven-black-strap",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/raven-black-strap",
+      "image": "/images/brands/fears/raven-black-strap.png"
+    },
+    {
+      "title": "Brunswick 40 Topper Edition 'Winter Lake'",
+      "handle": "brunswick-40-topper-edition-winter-lake-1",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-40-topper-edition-winter-lake-1",
+      "image": "/images/brands/fears/brunswick-40-topper-edition-winter-lake-1.png"
+    },
+    {
+      "title": "Brunswick 40 Topper Edition 'Whiteout'",
+      "handle": "brunswick-40-topper-edition-whiteout",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-40-topper-edition-whiteout",
+      "image": "/images/brands/fears/brunswick-40-topper-edition-whiteout.png"
+    },
+    {
+      "title": "Brunswick 40 Topper Edition 'Snowed In'",
+      "handle": "brunswick-40-topper-edition-winter-lake",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-40-topper-edition-winter-lake",
+      "image": "/images/brands/fears/brunswick-40-topper-edition-winter-lake.png"
+    },
+    {
+      "title": "Brunswick 40 Topper Edition 'Pacific'",
+      "handle": "brunswick-40-topper-edition-pacific",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-40-topper-edition-pacific",
+      "image": "/images/brands/fears/brunswick-40-topper-edition-pacific.png"
+    },
+    {
+      "title": "Brunswick 38 'Boutique Edition'",
+      "handle": "brunswick-38-boutique-edition-event-exclusive",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-38-boutique-edition-event-exclusive",
+      "image": "/images/brands/fears/brunswick-38-boutique-edition-event-exclusive.png"
+    },
+    {
+      "title": "Brunswick 38 Topper Edition 'Silver Sector'",
+      "handle": "brunswick-38-topper-edition-silver-sector",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-38-topper-edition-silver-sector",
+      "image": "/images/brands/fears/brunswick-38-topper-edition-silver-sector.png"
+    },
+    {
+      "title": "Archival 1930 'Perpétuel Edition'",
+      "handle": "archival-1930-perpetuel-edition",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/archival-1930-perpetuel-edition",
+      "image": "/images/brands/fears/archival-1930-perpetuel-edition.png"
+    },
+    {
+      "title": "Black",
+      "handle": "black-goat-leather-watch-strap",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/black-goat-leather-watch-strap",
+      "image": "/images/brands/fears/black-goat-leather-watch-strap.jpg"
+    },
+    {
+      "title": "Brunswick 38 'Silver Noir'",
+      "handle": "brunswick-38-silver-noir",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-38-silver-noir",
+      "image": "/images/brands/fears/brunswick-38-silver-noir.png"
+    },
+    {
+      "title": "Redcliff 39.5 Onyx (exclusively for Collective Horology)",
+      "handle": "redcliff-39-5-onyx-collective-horology",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/redcliff-39-5-onyx-collective-horology",
+      "image": "/images/brands/fears/redcliff-39-5-onyx-collective-horology.png"
+    },
+    {
+      "title": "Redcliff 39.5 Date 'Boutique Edition'",
+      "handle": "redcliff-39-5-date-boutique-edition",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/redcliff-39-5-date-boutique-edition",
+      "image": "/images/brands/fears/redcliff-39-5-date-boutique-edition.png"
+    },
+    {
+      "title": "Redcliff 39.5 Date Cherry Red",
+      "handle": "redcliff-39-5-date-cherry-red",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/redcliff-39-5-date-cherry-red",
+      "image": "/images/brands/fears/redcliff-39-5-date-cherry-red.png"
+    },
+    {
+      "title": "Redcliff 39.5 Date Raven Black",
+      "handle": "redcliff-39-5-date-raven-black",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/redcliff-39-5-date-raven-black",
+      "image": "/images/brands/fears/redcliff-39-5-date-raven-black.png"
+    },
+    {
+      "title": "Redcliff 39.5 Date Pewter Grey",
+      "handle": "redcliff-39-5-date-pewter-grey",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/redcliff-39-5-date-pewter-grey",
+      "image": "/images/brands/fears/redcliff-39-5-date-pewter-grey.png"
+    },
+    {
+      "title": "Brunswick 38 '1924 Edition'",
+      "handle": "brunswick-38-1924-edition",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-38-1924-edition",
+      "image": "/images/brands/fears/brunswick-38-1924-edition.png"
+    },
+    {
+      "title": "Redcliff 'Edwin Edition'",
+      "handle": "redcliff-edwin-edition",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/redcliff-edwin-edition",
+      "image": "/images/brands/fears/redcliff-edwin-edition.jpg"
+    },
+    {
+      "title": "Archival 1930",
+      "handle": "archival-1930",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/archival-1930",
+      "image": "/images/brands/fears/archival-1930.jpg"
+    },
+    {
+      "title": "Brunswick 40 'Aurora'",
+      "handle": "brunswick-40-aurora",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-40-aurora",
+      "image": "/images/brands/fears/brunswick-40-aurora.png"
+    },
+    {
+      "title": "Brunswick 40 Copper Salmon",
+      "handle": "brunswick-40-copper-salmon",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-40-copper-salmon",
+      "image": "/images/brands/fears/brunswick-40-copper-salmon.png"
+    },
+    {
+      "title": "Chocolate Brown",
+      "handle": "chocolate-brown-buffalo",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/chocolate-brown-buffalo",
+      "image": "/images/brands/fears/chocolate-brown-buffalo.png"
+    },
+    {
+      "title": "Brunswick 40 White Topper Edition",
+      "handle": "brunswick-40-white-topper-edition",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-40-white-topper-edition",
+      "image": "/images/brands/fears/brunswick-40-white-topper-edition.png"
+    },
+    {
+      "title": "Brunswick 40 Black Topper Edition",
+      "handle": "brunswick-40-topper-edition-black",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-40-topper-edition-black",
+      "image": "/images/brands/fears/brunswick-40-topper-edition-black.png"
+    },
+    {
+      "title": "Brunswick 'Ice'",
+      "handle": "fears-brunswick-ice",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/fears-brunswick-ice",
+      "image": "/images/brands/fears/fears-brunswick-ice.png"
+    },
+    {
+      "title": "Brunswick 40 ‘Boutique Edition’",
+      "handle": "brunswick-40-mallard-green",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-40-mallard-green",
+      "image": "/images/brands/fears/brunswick-40-mallard-green.png"
+    },
+    {
+      "title": "Brunswick 38 'Boutique Edition'",
+      "handle": "brunswick-38-mallard-green",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-38-mallard-green",
+      "image": "/images/brands/fears/brunswick-38-mallard-green.png"
+    },
+    {
+      "title": "Alliance 01",
+      "handle": "alliance-01-bs240500-br",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/alliance-01-bs240500-br",
+      "image": "/images/brands/fears/alliance-01-bs240500-br.jpg"
+    },
+    {
+      "title": "Brunswick Pure",
+      "handle": "brunswick-pure",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-pure",
+      "image": "/images/brands/fears/brunswick-pure.jpg"
+    },
+    {
+      "title": "Brunswick White Series 2 (2019)",
+      "handle": "brunswick-white-series-2",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-white-series-2",
+      "image": "/images/brands/fears/brunswick-white-series-2.jpg"
+    },
+    {
+      "title": "Brunswick Brown",
+      "handle": "brunswick-brown",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-brown",
+      "image": "/images/brands/fears/brunswick-brown.jpg"
+    },
+    {
+      "title": "Brunswick Midas Silver",
+      "handle": "brunswick-midas-silver",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-midas-silver",
+      "image": "/images/brands/fears/brunswick-midas-silver.jpg"
+    },
+    {
+      "title": "Brunswick White Series 1 (2017)",
+      "handle": "brunswick-series-1",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-series-1",
+      "image": "/images/brands/fears/brunswick-series-1.jpg"
+    },
+    {
+      "title": "Redcliff \"Streamline\" (2019)",
+      "handle": "redcliff-streamline",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/redcliff-streamline",
+      "image": "/images/brands/fears/redcliff-streamline.jpg"
+    },
+    {
+      "title": "Redcliff \"Bee\" (2018)",
+      "handle": "redcliff-bee",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/redcliff-bee",
+      "image": "/images/brands/fears/redcliff-bee.jpg"
+    },
+    {
+      "title": "Redcliff Continental (2017)",
+      "handle": "redcliff-continental",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/redcliff-continental",
+      "image": "/images/brands/fears/redcliff-continental.jpg"
+    },
+    {
+      "title": "Redcliff Date (2016)",
+      "handle": "redcliff-date",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/redcliff-date",
+      "image": "/images/brands/fears/redcliff-date.jpg"
+    },
+    {
+      "title": "Brunswick Blue",
+      "handle": "brunswick-blue",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-blue",
+      "image": "/images/brands/fears/brunswick-blue.jpg"
+    },
+    {
+      "title": "Brunswick Midas White",
+      "handle": "brunswick-midas-white",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-midas-white",
+      "image": "/images/brands/fears/brunswick-midas-white.jpg"
+    },
+    {
+      "title": "\"Up To Town\" by Fab Gorjian",
+      "handle": "up-to-town-by-fab-gorjian",
+      "type": "Limited Edition Prints",
+      "url": "https://www.fearswatches.com/products/up-to-town-by-fab-gorjian",
+      "image": "/images/brands/fears/up-to-town-by-fab-gorjian.jpg"
+    },
+    {
+      "title": "\"Stepping Out\" by Fab Gorjian",
+      "handle": "stepping-out-by-fab-gorjian",
+      "type": "Limited Edition Prints",
+      "url": "https://www.fearswatches.com/products/stepping-out-by-fab-gorjian",
+      "image": "/images/brands/fears/stepping-out-by-fab-gorjian.jpg"
+    },
+    {
+      "title": "\"Day's End\" by Fab Gorjian",
+      "handle": "days-end-by-fab-gorjian",
+      "type": "Limited Edition Prints",
+      "url": "https://www.fearswatches.com/products/days-end-by-fab-gorjian",
+      "image": "/images/brands/fears/days-end-by-fab-gorjian.jpg"
+    },
+    {
+      "title": "Fears x Cased In Time Watch Case",
+      "handle": "fears-cased-in-time-watch-case",
+      "type": "Case",
+      "url": "https://www.fearswatches.com/products/fears-cased-in-time-watch-case",
+      "image": "/images/brands/fears/fears-cased-in-time-watch-case.png"
+    },
+    {
+      "title": "Brunswick Au",
+      "handle": "brunswick-au",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-au",
+      "image": "/images/brands/fears/brunswick-au.png"
+    },
+    {
+      "title": "Brunswick x James Porter & Son Limited Edition",
+      "handle": "brunswick-x-james-porter-son-limited-edition",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-x-james-porter-son-limited-edition",
+      "image": "/images/brands/fears/brunswick-x-james-porter-son-limited-edition.jpg"
+    },
+    {
+      "title": "Brunswick Bracelet",
+      "handle": "brunswick-bracelet",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-bracelet",
+      "image": "/images/brands/fears/brunswick-bracelet.png"
+    },
+    {
+      "title": "Brunswick 40 Silver",
+      "handle": "brunswick-40-silver",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-40-silver",
+      "image": "/images/brands/fears/brunswick-40-silver.jpg"
+    },
+    {
+      "title": "Brunswick 40 Pink",
+      "handle": "brunswick40-pink",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick40-pink",
+      "image": "/images/brands/fears/brunswick40-pink.jpg"
+    },
+    {
+      "title": "Brunswick 40 Blue",
+      "handle": "brunswick40-blue",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick40-blue",
+      "image": "/images/brands/fears/brunswick40-blue.jpg"
+    },
+    {
+      "title": "Brunswick 'Jubilee Edition'",
+      "handle": "brunswickjubilee",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswickjubilee",
+      "image": "/images/brands/fears/brunswickjubilee.jpg"
+    },
+    {
+      "title": "Brunswick 38 Champagne",
+      "handle": "brunswickchampagne",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswickchampagne",
+      "image": "/images/brands/fears/brunswickchampagne.png"
+    },
+    {
+      "title": "Garrick",
+      "handle": "garrick",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/garrick",
+      "image": "/images/brands/fears/garrick.jpg"
+    },
+    {
+      "title": "Archival 1930 Small Seconds",
+      "handle": "archival-1930-small-seconds",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/archival-1930-small-seconds",
+      "image": "/images/brands/fears/archival-1930-small-seconds.jpg"
+    },
+    {
+      "title": "'Elegantly Understated'",
+      "handle": "elegantly-understated-book",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/elegantly-understated-book",
+      "image": "/images/brands/fears/elegantly-understated-book.jpg"
+    },
+    {
+      "title": "Brunswick Pt",
+      "handle": "brunswick-pt",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-pt",
+      "image": "/images/brands/fears/brunswick-pt.jpg"
+    },
+    {
+      "title": "Brunswick 38 Salmon",
+      "handle": "brunswick-salmon",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-salmon",
+      "image": "/images/brands/fears/brunswick-salmon.png"
+    },
+    {
+      "title": "Azzuro Blue",
+      "handle": "azzuro-blue-barenia",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/azzuro-blue-barenia",
+      "image": "/images/brands/fears/azzuro-blue-barenia.jpg"
+    },
+    {
+      "title": "Battery Change",
+      "handle": "battery-change",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/battery-change",
+      "image": "/images/brands/fears/battery-change.jpg"
+    },
+    {
+      "title": "Brunswick 38 White",
+      "handle": "brunswick-white",
+      "type": "",
+      "url": "https://www.fearswatches.com/products/brunswick-white",
+      "image": "/images/brands/fears/brunswick-white.png"
+    }
+  ]
+}

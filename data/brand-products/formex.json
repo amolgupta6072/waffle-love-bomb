@@ -1,0 +1,302 @@
+{
+  "brand": "formex",
+  "base": "https://formexwatch.com",
+  "method": "html",
+  "fetched": "2026-10-12T15:09:01.382Z",
+  "products": [
+    {
+      "title": "Automatic COSC Radiant Bronze 39 mm",
+      "handle": "essence-39-automatic-cosc-radiant-bronze",
+      "type": "",
+      "url": "https://formexwatch.com/watches/essence-39-automatic-cosc-radiant-bronze/",
+      "image": "/images/brands/formex/essence-39-automatic-cosc-radiant-bronze.jpg"
+    },
+    {
+      "title": "Automatic COSC Alpine White 39 mm",
+      "handle": "essence-39-automatic-cosc-alpine-white",
+      "type": "",
+      "url": "https://formexwatch.com/watches/essence-39-automatic-cosc-alpine-white/",
+      "image": "/images/brands/formex/essence-39-automatic-cosc-alpine-white.jpg"
+    },
+    {
+      "title": "Automatic COSC Blue 39 mm",
+      "handle": "essence-39-automatic-cosc-blue",
+      "type": "",
+      "url": "https://formexwatch.com/watches/essence-39-automatic-cosc-blue/",
+      "image": "/images/brands/formex/essence-39-automatic-cosc-blue.jpg"
+    },
+    {
+      "title": "Automatic Chronometer Malachite 41 mm",
+      "handle": "essence-41-automatic-chronometer-malachite",
+      "type": "",
+      "url": "https://formexwatch.com/watches/essence-41-automatic-chronometer-malachite/",
+      "image": "/images/brands/formex/essence-41-automatic-chronometer-malachite.jpg"
+    },
+    {
+      "title": "Automatic Chronometer Black Pearl 39 mm",
+      "handle": "essence-39-automatic-chronometer-black-pearl",
+      "type": "",
+      "url": "https://formexwatch.com/watches/essence-39-automatic-chronometer-black-pearl/",
+      "image": "/images/brands/formex/essence-39-automatic-chronometer-black-pearl.jpg"
+    },
+    {
+      "title": "Automatic Manufacture Chronometer 40 mm",
+      "handle": "aria-manufacture-chronometer-ardesia-grey",
+      "type": "",
+      "url": "https://formexwatch.com/watches/aria-manufacture-chronometer-ardesia-grey/",
+      "image": "/images/brands/formex/aria-manufacture-chronometer-ardesia-grey.jpg"
+    },
+    {
+      "title": "Automatic Manufacture Chronometer 40 mm",
+      "handle": "aria-manufacture-chronometer-selva-green",
+      "type": "",
+      "url": "https://formexwatch.com/watches/aria-manufacture-chronometer-selva-green/",
+      "image": "/images/brands/formex/aria-manufacture-chronometer-selva-green.jpg"
+    },
+    {
+      "title": "Automatic Manufacture Chronometer 40 mm",
+      "handle": "aria-manufacture-chronometer-denso-blue",
+      "type": "",
+      "url": "https://formexwatch.com/watches/aria-manufacture-chronometer-denso-blue/",
+      "image": "/images/brands/formex/aria-manufacture-chronometer-denso-blue.jpg"
+    },
+    {
+      "title": "Automatic Golden Honey 40 mm",
+      "handle": "field-automatic-golden-honey-40-mm",
+      "type": "",
+      "url": "https://formexwatch.com/watches/field-automatic-golden-honey-40-mm/",
+      "image": "/images/brands/formex/field-automatic-golden-honey-40-mm.jpg"
+    },
+    {
+      "title": "Automatic Deep Blue 40 mm",
+      "handle": "field-automatic-deep-blue-40-mm",
+      "type": "",
+      "url": "https://formexwatch.com/watches/field-automatic-deep-blue-40-mm/",
+      "image": "/images/brands/formex/field-automatic-deep-blue-40-mm.jpg"
+    },
+    {
+      "title": "Automatic Basalt Grey 40 mm",
+      "handle": "field-automatic-basalt-grey-40-mm",
+      "type": "",
+      "url": "https://formexwatch.com/watches/field-automatic-basalt-grey-40-mm/",
+      "image": "/images/brands/formex/field-automatic-basalt-grey-40-mm.jpg"
+    },
+    {
+      "title": "Automatic Coho Salmon 40 mm",
+      "handle": "field-coho-salmon-40-mm",
+      "type": "",
+      "url": "https://formexwatch.com/watches/field-coho-salmon-40-mm/",
+      "image": "/images/brands/formex/field-coho-salmon-40-mm.jpg"
+    },
+    {
+      "title": "Automatic Ice Blue 40 mm",
+      "handle": "field-automatic-ice-blue-40-mm",
+      "type": "",
+      "url": "https://formexwatch.com/watches/field-automatic-ice-blue-40-mm/",
+      "image": "/images/brands/formex/field-automatic-ice-blue-40-mm.jpg"
+    },
+    {
+      "title": "Automatic COSC 300M Green 42 mm",
+      "handle": "reef-42mm-automatic-cosc-300m-green",
+      "type": "",
+      "url": "https://formexwatch.com/watches/reef-42mm-automatic-cosc-300m-green/",
+      "image": "/images/brands/formex/reef-42mm-automatic-cosc-300m-green.jpg"
+    },
+    {
+      "title": "AUTOMATIC GMT COSC 300M BLACK/RED 42 MM",
+      "handle": "reef-gmt-42mm-automatic-cosc-300m-black-red",
+      "type": "",
+      "url": "https://formexwatch.com/watches/reef-gmt-42mm-automatic-cosc-300m-black-red/",
+      "image": "/images/brands/formex/reef-gmt-42mm-automatic-cosc-300m-black-red.jpg"
+    },
+    {
+      "title": "Automatic Chronometer Skeleton &quot;Stradale&quot;  41 mm Limited Edition",
+      "handle": "essence-fortyone-automatic-chronometer-skeleton-stradale-limited-edition",
+      "type": "",
+      "url": "https://formexwatch.com/watches/essence-fortyone-automatic-chronometer-skeleton-stradale-limited-edition/",
+      "image": "/images/brands/formex/essence-fortyone-automatic-chronometer-skeleton-stradale-limited-edition.jpg"
+    },
+    {
+      "title": "Automatic Chronometer &quot;Dégradé&quot; 41 mm",
+      "handle": "essence-fortyone-automatic-chronometer-degrade",
+      "type": "",
+      "url": "https://formexwatch.com/watches/essence-fortyone-automatic-chronometer-degrade/",
+      "image": "/images/brands/formex/essence-fortyone-automatic-chronometer-degrade.jpg"
+    },
+    {
+      "title": "Automatic Chronometer &quot;Arctic White&quot; 41 mm",
+      "handle": "essence-fortyone-automatic-chronometer-arctic-white",
+      "type": "",
+      "url": "https://formexwatch.com/watches/essence-fortyone-automatic-chronometer-arctic-white/",
+      "image": "/images/brands/formex/essence-fortyone-automatic-chronometer-arctic-white.jpg"
+    },
+    {
+      "title": "Automatic Chronometer &quot;Blue&quot; 41 mm",
+      "handle": "essence-fortyone-automatic-chronometer-blue",
+      "type": "",
+      "url": "https://formexwatch.com/watches/essence-fortyone-automatic-chronometer-blue/",
+      "image": "/images/brands/formex/essence-fortyone-automatic-chronometer-blue.jpg"
+    },
+    {
+      "title": "Automatic Chronometer &quot;Malachite&quot; 39 mm",
+      "handle": "essence-thirtynine-automatic-chronometer-malachite",
+      "type": "",
+      "url": "https://formexwatch.com/watches/essence-thirtynine-automatic-chronometer-malachite/",
+      "image": "/images/brands/formex/essence-thirtynine-automatic-chronometer-malachite.jpg"
+    },
+    {
+      "title": "Automatic Chronometer Space Gold 39 mm",
+      "handle": "essence-39-automatic-chronometer-space-gold",
+      "type": "",
+      "url": "https://formexwatch.com/watches/essence-39-automatic-chronometer-space-gold/",
+      "image": "/images/brands/formex/essence-39-automatic-chronometer-space-gold.jpg"
+    },
+    {
+      "title": "Automatic Chronometer Space Ghost 39 mm",
+      "handle": "essence-39-automatic-chronometer-space-ghost",
+      "type": "",
+      "url": "https://formexwatch.com/watches/essence-39-automatic-chronometer-space-ghost/",
+      "image": "/images/brands/formex/essence-39-automatic-chronometer-space-ghost.jpg"
+    },
+    {
+      "title": "Automatic Chronometer &quot;Gamaret&quot; 41 mm",
+      "handle": "essence-fortyone-automatic-chronometer-gamaret",
+      "type": "",
+      "url": "https://formexwatch.com/watches/essence-fortyone-automatic-chronometer-gamaret/",
+      "image": "/images/brands/formex/essence-fortyone-automatic-chronometer-gamaret.jpg"
+    },
+    {
+      "title": "Automatic Chronometer Space Ghost 41 mm",
+      "handle": "essence-fortyone-automatic-chronometer-space-ghost",
+      "type": "",
+      "url": "https://formexwatch.com/watches/essence-fortyone-automatic-chronometer-space-ghost/",
+      "image": "/images/brands/formex/essence-fortyone-automatic-chronometer-space-ghost.jpg"
+    },
+    {
+      "title": "Automatic Chronometer &quot;Space Glacier&quot; 39 mm",
+      "handle": "essence-thirtynine-automatic-chronometer-space-glacier",
+      "type": "",
+      "url": "https://formexwatch.com/watches/essence-thirtynine-automatic-chronometer-space-glacier/",
+      "image": "/images/brands/formex/essence-thirtynine-automatic-chronometer-space-glacier.jpg"
+    },
+    {
+      "title": "Baguette Diamond Automatic Chronometer Green 39 mm",
+      "handle": "essence-thirtynine-automatic-chronometer-green-baguette-diamond",
+      "type": "",
+      "url": "https://formexwatch.com/watches/essence-thirtynine-automatic-chronometer-green-baguette-diamond/",
+      "image": "/images/brands/formex/essence-thirtynine-automatic-chronometer-green-baguette-diamond.jpg"
+    },
+    {
+      "title": "Automatic Chronometer &quot;Uhrforum 20th Anniversary Limited Edition&quot; 41 mm",
+      "handle": "essence-fortyone-automatic-chronometer-uhrforum-anniversary-limited-edition",
+      "type": "",
+      "url": "https://formexwatch.com/watches/essence-fortyone-automatic-chronometer-uhrforum-anniversary-limited-edition/",
+      "image": "/images/brands/formex/essence-fortyone-automatic-chronometer-uhrforum-anniversary-limited-edition.jpg"
+    },
+    {
+      "title": "Automatic Chronometer Space Glacier 41 mm",
+      "handle": "essence-leggera-41mm-automatic-chronometer-space-glacier",
+      "type": "",
+      "url": "https://formexwatch.com/watches/essence-leggera-41mm-automatic-chronometer-space-glacier/",
+      "image": "/images/brands/formex/essence-leggera-41mm-automatic-chronometer-space-glacier.jpg"
+    },
+    {
+      "title": "Automatic Chronometer Space Gold 41mm",
+      "handle": "essence-leggera-41mm-automatic-chronometer-space-gold",
+      "type": "",
+      "url": "https://formexwatch.com/watches/essence-leggera-41mm-automatic-chronometer-space-gold/",
+      "image": "/images/brands/formex/essence-leggera-41mm-automatic-chronometer-space-gold.jpg"
+    },
+    {
+      "title": "Radiant Bronze COSC 300M",
+      "handle": "reef-automatic-chronometer-cosc-300m-radiant-bronze",
+      "type": "",
+      "url": "https://formexwatch.com/watches/reef-automatic-chronometer-cosc-300m-radiant-bronze/",
+      "image": "/images/brands/formex/reef-automatic-chronometer-cosc-300m-radiant-bronze.jpg"
+    },
+    {
+      "title": "AUTOMATIC COSC 300M BLUE 42 MM",
+      "handle": "reef-42mm-automatic-cosc-300m-blue",
+      "type": "",
+      "url": "https://formexwatch.com/watches/reef-42mm-automatic-cosc-300m-blue/",
+      "image": "/images/brands/formex/reef-42mm-automatic-cosc-300m-blue.png"
+    },
+    {
+      "title": "Automatic COSC 300M Silver 42 mm",
+      "handle": "reef-42mm-automatic-cosc-300m-silver",
+      "type": "",
+      "url": "https://formexwatch.com/watches/reef-42mm-automatic-cosc-300m-silver/",
+      "image": "/images/brands/formex/reef-42mm-automatic-cosc-300m-silver.jpg"
+    },
+    {
+      "title": "Automatic  COSC 300M White 42 mm",
+      "handle": "reef-42mm-automatic-cosc-300m-white",
+      "type": "",
+      "url": "https://formexwatch.com/watches/reef-42mm-automatic-cosc-300m-white/",
+      "image": "/images/brands/formex/reef-42mm-automatic-cosc-300m-white.jpg"
+    },
+    {
+      "title": "AUTOMATIC GMT COSC 300M GREEN 42 MM",
+      "handle": "reef-gmt-42mm-automatic-cosc-300m-green",
+      "type": "",
+      "url": "https://formexwatch.com/watches/reef-gmt-42mm-automatic-cosc-300m-green/",
+      "image": "/images/brands/formex/reef-gmt-42mm-automatic-cosc-300m-green.jpg"
+    },
+    {
+      "title": "AUTOMATIC GMT COSC 300M BLACK/GILT 42 MM",
+      "handle": "reef-gmt-42mm-automatic-cosc-300m-black-gilt",
+      "type": "",
+      "url": "https://formexwatch.com/watches/reef-gmt-42mm-automatic-cosc-300m-black-gilt/",
+      "image": "/images/brands/formex/reef-gmt-42mm-automatic-cosc-300m-black-gilt.jpg"
+    },
+    {
+      "title": "AUTOMATIC GMT COSC 300M GREEN/GILT 42 MM",
+      "handle": "reef-gmt-42mm-automatic-cosc-300m-green-gilt",
+      "type": "",
+      "url": "https://formexwatch.com/watches/reef-gmt-42mm-automatic-cosc-300m-green-gilt/",
+      "image": "/images/brands/formex/reef-gmt-42mm-automatic-cosc-300m-green-gilt.jpg"
+    },
+    {
+      "title": "AUTOMATIC GMT COSC 300M BLACK/BLUE 42 MM",
+      "handle": "reef-gmt-42mm-automatic-cosc-300m-black-blue",
+      "type": "",
+      "url": "https://formexwatch.com/watches/reef-gmt-42mm-automatic-cosc-300m-black-blue/",
+      "image": "/images/brands/formex/reef-gmt-42mm-automatic-cosc-300m-black-blue.jpg"
+    },
+    {
+      "title": "AUTOMATIC GMT COSC 300M WHITE 42 MM",
+      "handle": "reef-gmt-42mm-automatic-cosc-300m-white",
+      "type": "",
+      "url": "https://formexwatch.com/watches/reef-gmt-42mm-automatic-cosc-300m-white/",
+      "image": "/images/brands/formex/reef-gmt-42mm-automatic-cosc-300m-white.jpg"
+    },
+    {
+      "title": "Automatic UTC True Pilot Blue 41 mm",
+      "handle": "stratos-41mm-utc-automatic-blue",
+      "type": "",
+      "url": "https://formexwatch.com/watches/stratos-41mm-utc-automatic-blue/",
+      "image": "/images/brands/formex/stratos-41mm-utc-automatic-blue.jpg"
+    },
+    {
+      "title": "Automatic UTC True Pilot Green 41 mm",
+      "handle": "stratos-41mm-utc-automatic-green",
+      "type": "",
+      "url": "https://formexwatch.com/watches/stratos-41mm-utc-automatic-green/",
+      "image": "/images/brands/formex/stratos-41mm-utc-automatic-green.jpg"
+    },
+    {
+      "title": "Automatic UTC True Pilot Grey 41 mm",
+      "handle": "stratos-41mm-utc-automatic-grey",
+      "type": "",
+      "url": "https://formexwatch.com/watches/stratos-41mm-utc-automatic-grey/",
+      "image": "/images/brands/formex/stratos-41mm-utc-automatic-grey.jpg"
+    },
+    {
+      "title": "Automatic Tarmac Grey 40 mm",
+      "handle": "air-field-automatic-tarmac-grey-40-mm",
+      "type": "",
+      "url": "https://formexwatch.com/watches/air-field-automatic-tarmac-grey-40-mm/",
+      "image": "/images/brands/formex/air-field-automatic-tarmac-grey-40-mm.jpg"
+    }
+  ]
+}

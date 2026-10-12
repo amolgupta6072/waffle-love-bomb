@@ -1,0 +1,134 @@
+{
+  "brand": "atelier-wen",
+  "base": "https://us.atelierwen.com",
+  "method": "shopify",
+  "fetched": "2026-10-12T15:07:56.882Z",
+  "products": [
+    {
+      "title": "Atelier Wen x Massena LAB Inflection Shuò",
+      "handle": "massenalab-inflectionshuo",
+      "type": "Watch",
+      "url": "https://us.atelierwen.com/products/massenalab-inflectionshuo",
+      "image": "/images/brands/atelier-wen/massenalab-inflectionshuo.png"
+    },
+    {
+      "title": "Perception",
+      "handle": "perception-v1",
+      "type": "Watch",
+      "url": "https://us.atelierwen.com/products/perception-v1",
+      "image": "/images/brands/atelier-wen/perception-v1.webp"
+    },
+    {
+      "title": "Perception v2 - Titanium Bracelet",
+      "handle": "titanium-bracelet",
+      "type": "",
+      "url": "https://us.atelierwen.com/products/titanium-bracelet",
+      "image": "/images/brands/atelier-wen/titanium-bracelet.png"
+    },
+    {
+      "title": "Millésime 2025 - Perception 漩 (Xuán)",
+      "handle": "perception-xuan",
+      "type": "",
+      "url": "https://us.atelierwen.com/products/perception-xuan",
+      "image": "/images/brands/atelier-wen/perception-xuan.png"
+    },
+    {
+      "title": "Perception v3",
+      "handle": "perception",
+      "type": "Watch",
+      "url": "https://us.atelierwen.com/products/perception",
+      "image": "/images/brands/atelier-wen/perception.jpg"
+    },
+    {
+      "title": "Inflection watch bundle",
+      "handle": "inflection",
+      "type": "Watch",
+      "url": "https://us.atelierwen.com/products/inflection",
+      "image": "/images/brands/atelier-wen/inflection.png"
+    },
+    {
+      "title": "Ancestra - Launch Edition",
+      "handle": "ancestra-jiao",
+      "type": "Watch",
+      "url": "https://us.atelierwen.com/products/ancestra-jiao",
+      "image": "/images/brands/atelier-wen/ancestra-jiao.png"
+    },
+    {
+      "title": "Millésime 2024 — Perception 睦 (Mù)",
+      "handle": "perception-mu",
+      "type": "Watch",
+      "url": "https://us.atelierwen.com/products/perception-mu",
+      "image": "/images/brands/atelier-wen/perception-mu.webp"
+    },
+    {
+      "title": "Balance 70% - Perception - Steel Bracelet",
+      "handle": "balance-70-perception-steel-bracelet",
+      "type": "Accessories",
+      "url": "https://us.atelierwen.com/products/balance-70-perception-steel-bracelet",
+      "image": "/images/brands/atelier-wen/balance-70-perception-steel-bracelet.webp"
+    },
+    {
+      "title": "Perception - Steel Bracelet",
+      "handle": "metal-bracelet",
+      "type": "Accessories",
+      "url": "https://us.atelierwen.com/products/metal-bracelet",
+      "image": "/images/brands/atelier-wen/metal-bracelet.webp"
+    },
+    {
+      "title": "Balance 70% - Atelier Wen Perception - Shopify",
+      "handle": "balance-70-atelier-wen-perception-shopify",
+      "type": "",
+      "url": "https://us.atelierwen.com/products/balance-70-atelier-wen-perception-shopify",
+      "image": "/images/brands/atelier-wen/balance-70-atelier-wen-perception-shopify.png"
+    },
+    {
+      "title": "Balance 80% - Atelier Wen Perception - Shopify",
+      "handle": "balance-atelier-wen-perception-shopify",
+      "type": "",
+      "url": "https://us.atelierwen.com/products/balance-atelier-wen-perception-shopify",
+      "image": "/images/brands/atelier-wen/balance-atelier-wen-perception-shopify.png"
+    },
+    {
+      "title": "Balance - Atelier Wen Perception - RSVP list",
+      "handle": "balance-atelier-wen-perception-rsvp-list",
+      "type": "",
+      "url": "https://us.atelierwen.com/products/balance-atelier-wen-perception-rsvp-list",
+      "image": "/images/brands/atelier-wen/balance-atelier-wen-perception-rsvp-list.png"
+    },
+    {
+      "title": "Porcelain Odyssey - Hao Purple Edition",
+      "handle": "atelier-wen-hao-purple-edition",
+      "type": "Watch",
+      "url": "https://us.atelierwen.com/products/atelier-wen-hao-purple-edition",
+      "image": "/images/brands/atelier-wen/atelier-wen-hao-purple-edition.png"
+    },
+    {
+      "title": "Porcelain Odyssey - Hao Red Edition",
+      "handle": "porcelain-odyssey-hao-red-edition",
+      "type": "Watch",
+      "url": "https://us.atelierwen.com/products/porcelain-odyssey-hao-red-edition",
+      "image": "/images/brands/atelier-wen/porcelain-odyssey-hao-red-edition.png"
+    },
+    {
+      "title": "Porcelain Odyssey - Hao Green Edition",
+      "handle": "porcelain-odyssey-hao-green-edition",
+      "type": "Watch",
+      "url": "https://us.atelierwen.com/products/porcelain-odyssey-hao-green-edition",
+      "image": "/images/brands/atelier-wen/porcelain-odyssey-hao-green-edition.png"
+    },
+    {
+      "title": "Porcelain Odyssey - Ji",
+      "handle": "the-porcelain-odyssey-ji",
+      "type": "Watch",
+      "url": "https://us.atelierwen.com/products/the-porcelain-odyssey-ji",
+      "image": "/images/brands/atelier-wen/the-porcelain-odyssey-ji.png"
+    },
+    {
+      "title": "Porcelain Odyssey - Hao",
+      "handle": "porcelain-odyssey-hao-0",
+      "type": "Watch",
+      "url": "https://us.atelierwen.com/products/porcelain-odyssey-hao-0",
+      "image": "/images/brands/atelier-wen/porcelain-odyssey-hao-0.png"
+    }
+  ]
+}
