@@ -1,74 +1,75 @@
-# lynq
+# LYNQ
 
-**One link for everything you share.** lynq is a link-in-bio platform: people sign up, build a page of links, pick a theme, and share a single URL like `yoursite.com/ava`.
+**A dedicated platform for independent watchmaking. An initiative by Ethos.**
 
-## Features
+LYNQ is a digital-first discovery platform for founder-led and independent watch brands, intended for thisislynq.com. Collectors can explore each maison's story and collection, then order, enquire, book a gallery appointment or reserve a place at a collector evening. The LYNQ team handles all of that from a built-in admin back office.
 
-- **Landing page** with a "claim your username" box
-- **Accounts**: sign up / log in / log out, live username availability check, delete account
-- **Dashboard**
-  - Add, edit, delete, show/hide links
-  - Reorder by drag-and-drop or ↑/↓ buttons
-  - Profile: display name, bio, avatar image URL
-  - 6 themes (Midnight, Sunrise, Forest, Ocean, Paper, Candy)
-  - Live phone preview of your public page
-  - Analytics: page views, clicks per link, click rate
-  - One-click copy of your public link
-- **Public profile pages** at `/:username`, server-rendered, fast, mobile-first
-- **Click tracking** through `/go/:id` redirects
+## What's included
 
-## Running it
+**Public site**
+- **Home**: manifesto, selected pieces, the eight curations (The Independents, The Complicated, The Artisans, The Icons, The Next, The Rare, The Architects, The Collectors), the maisons, the LYNQ Gallery and the LYNQ Circle newsletter.
+- **Discover** (`/discover`): every watch, filterable by curation, maison, origin and availability.
+- **Watch pages** (`/watches/:slug`): story, specifications, price or "Price on request", and the actions *Order this piece*, *Request an appointment* and *Enquire*.
+- **Maisons** (`/maisons`, `/maisons/:slug`): brand stories, highlights and collections.
+- **The Gallery** (`/gallery`): the gallery concept, locations and video consultations.
+- **Events** (`/events`): collector evenings and private previews with RSVPs and capacity limits.
+- **Appointments** (`/appointment`), **Enquiries and orders** (`/enquire`), **For independent brands** (`/partner`) and **About**.
 
-Requires **Node.js 22.5+** (it uses the built-in `node:sqlite`, so there is no native database driver to compile).
+**Admin** (`/admin`)
+- **Inbox**: orders, enquiries, appointments, RSVPs, brand introductions and newsletter sign-ups. Each has a reference (e.g. `LQ-000042`), a status (new, in progress or closed), internal notes and CSV export.
+- **Content management** for watches, maisons, events and gallery locations, including publish and unpublish, featured pieces, pricing and availability.
+
+**Ordering.** A watch can be ordered online when it is marked *Available to order* and has a price. An order creates a request for a specialist to confirm and take payment. No card payment is taken on the site. The deck plans a Shopify backend for this, which can be connected later.
+
+**Watch imagery.** Until product photography is uploaded, every watch is drawn as an SVG illustration from its case shape, dial layout, dial colour, metal and strap colour. All of these can be edited in the admin. Adding a *Product image URL* replaces the illustration.
+
+## Getting started
+
+Requires **Node.js 22.5+**. The app uses the built-in `node:sqlite`, so there is no database server to install.
 
 ```bash
 npm install
-npm start          # http://localhost:3000
-npm run dev        # restarts on file changes
+npm run create-admin -- you@ethos.example "a long password" "Your Name"
+npm start            # http://localhost:3000, admin at /admin
 npm test
 ```
 
-| Variable        | Default        | Purpose                                      |
-| --------------- | -------------- | -------------------------------------------- |
-| `PORT`          | `3000`         | HTTP port                                    |
-| `DATABASE_FILE` | `data/lynq.db` | SQLite database file                         |
-| `NODE_ENV`      | –              | Set to `production` to mark cookies `Secure` (requires HTTPS) |
+On first start the catalogue is seeded with the 10 LYNQ maisons and 37 models from the brand portfolio deck. The seed contains public brand information only. No commercial terms are stored anywhere, prices are left as "on request" and specifications are blank, ready for the team to fill in.
+
+| Variable | Default | Purpose |
+| --- | --- | --- |
+| `PORT` | `3000` | HTTP port |
+| `DATABASE_FILE` | `data/lynq.db` | SQLite database file (back this up) |
+| `NODE_ENV` | | Set to `production` to send admin cookies only over HTTPS |
+| `ADMIN_EMAIL` / `ADMIN_PASSWORD` | | Optionally create or update an admin on start-up |
+| `TRUST_PROXY` | `loopback` | Number of proxy hops in front of the app (e.g. `1` behind a load balancer), so rate limiting sees real visitor IPs |
 
 ## Project layout
 
 ```
 src/
-  server.js        entry point
-  app.js           Express app: pages, public profiles, click redirects
-  api.js           JSON API (/api/...)
-  auth.js          scrypt password hashing, DB-backed sessions
-  db.js            SQLite schema
-  validate.js      input validation (only http/https links allowed)
-  profile-page.js  server-rendered public profile HTML
-public/            landing, auth, dashboard pages, CSS, and browser JS
-test/              end-to-end API tests (node:test)
+  server.js          entry point (seeding, admin bootstrap)
+  app.js             Express app, security headers
+  routes/public.js   public pages and form handling
+  routes/admin.js    admin auth, inbox, generic content CRUD
+  resources.js       admin field definitions for watches, maisons, events, locations
+  views/             server-rendered HTML (auto-escaped templates)
+  watch-art.js       SVG watch illustrations
+  seed.js            starter catalogue
+  catalog.js         curations, statuses and labels
+public/              CSS, small browser scripts, favicon
+test/                end-to-end tests (node:test)
 ```
 
-## API
+## Security
 
-All mutating requests must send `X-Lynq-Request: 1` (CSRF protection) and JSON bodies.
+- Admin passwords are hashed with scrypt. Sessions are HttpOnly, SameSite cookies, and every admin form carries a CSRF token. Repeated failed sign-ins are throttled.
+- All output is HTML-escaped. Only `http(s)` links are accepted for URLs. A strict Content-Security-Policy is sent.
+- Public forms are protected by a honeypot field and a per-IP rate limit. CSV exports neutralise spreadsheet formulas.
 
-| Method & path                 | Description                               |
-| ----------------------------- | ----------------------------------------- |
-| `POST /api/signup`            | `{ email, username, password }`           |
-| `POST /api/login`             | `{ login, password }` (username or email) |
-| `POST /api/logout`            |                                           |
-| `GET /api/check-username`     | `?username=` availability check           |
-| `GET /api/me`                 | current user + links                      |
-| `PATCH /api/me`               | `{ display_name, bio, avatar_url, theme }`|
-| `DELETE /api/me`              | delete account                            |
-| `POST /api/links`             | `{ title, url }`                          |
-| `PATCH /api/links/:id`        | `{ title?, url?, enabled? }`              |
-| `DELETE /api/links/:id`       |                                           |
-| `PUT /api/links/order`        | `{ ids: [...] }` new order                |
+## Before launch
 
-## Security notes
-
-- Passwords hashed with scrypt + per-user salt; sessions are random 256-bit tokens in an `HttpOnly`, `SameSite=Lax` cookie.
-- Links and avatars must be `http(s)` URLs, so `javascript:` and similar can't be injected; all user text is HTML-escaped.
-- Users can only modify their own links. Usernames that collide with app routes (`login`, `dashboard`, `api`, …) are reserved.
+- Confirm which maisons and models should be public. Unpublish any whose agreements aren't signed.
+- Add INR prices, specifications and product photography in the admin.
+- Set gallery address, hours and phone once the first location is confirmed.
+- Optional: connect email notifications for new inbox items, and Shopify for payments.

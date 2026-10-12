@@ -1,7 +1,7 @@
 {
   "name": "lynq",
   "version": "0.1.0",
-  "description": "lynq — one link for everything you share. A link-in-bio website platform.",
+  "description": "LYNQ: a dedicated platform for independent watchmaking. An initiative by Ethos.",
   "private": true,
   "type": "module",
   "main": "src/server.js",
@@ -11,6 +11,7 @@
   "scripts": {
     "start": "node --disable-warning=ExperimentalWarning src/server.js",
     "dev": "node --disable-warning=ExperimentalWarning --watch src/server.js",
+    "create-admin": "node --disable-warning=ExperimentalWarning src/create-admin.js",
     "test": "node --disable-warning=ExperimentalWarning --test test/*.test.js"
   },
   "dependencies": {
