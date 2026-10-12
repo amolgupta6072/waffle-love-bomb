@@ -339,3 +339,12 @@ main + .site-footer { margin-top: 0; }
   .event-feature { padding: 24px; }
   .maison-list a { flex-direction: column; gap: 2px; }
 }
+
+/* ---------- Product photography ---------- */
+/* Brand packshots usually sit on white; multiply blends that into the stage colour. */
+.watch-stage .watch-img, .product-stage .watch-img, .brand-card-art .watch-img, .vitrine-cell .watch-img, .watch-summary .mini .watch-img {
+  object-fit: contain; mix-blend-mode: multiply;
+}
+.watch-stage .watch-img { padding: 4% 8%; }
+.product-stage .watch-img { padding: 4%; }
+.brand-hero-art .watch-img { height: 100%; width: auto; max-width: 100%; object-fit: contain; background: var(--paper); padding: 16px; }

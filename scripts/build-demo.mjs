@@ -6,7 +6,8 @@
 // Forms in the demo don't send anything; submitting one shows the matching
 // thank-you page. Admin pages carry sample inbox entries and don't save.
 
-import { mkdirSync, writeFileSync, readFileSync, rmSync } from 'node:fs';
+import { mkdirSync, writeFileSync, readFileSync, rmSync, copyFileSync } from 'node:fs';
+import { dirname } from 'node:path';
 import { join } from 'node:path';
 import { openDatabase } from '../src/db.js';
 import { createApp } from '../src/app.js';
@@ -150,6 +151,8 @@ function transform(htmlText, isAdmin) {
     const to = isAdmin ? '' : formTarget(action, inner);
     return `<form${a}action="#"${b}${to ? ` data-demo-to="${to}"` : ''}>${inner}</form>`;
   });
+  // Product photos: copy each one used into the demo and point at it relatively.
+  out = out.replace(/src="\/(images\/[^"]+)"/g, (m, rel) => { usedImages.add(rel); return `src="${rel}"`; });
   out = out.replace(/(href|data-href)="(\/[^"]*)"/g, (m, attr, url) => `${attr}="${mapUrl(url.replace(/&amp;/g, '&'))}"`);
   out = out.replace(/<body([^>]*)>/, `<body$1><div class="demo-bar">${isAdmin
     ? 'Demo of the LYNQ team admin · sample entries · changes are not saved'
@@ -157,12 +160,18 @@ function transform(htmlText, isAdmin) {
   return out;
 }
 
+const usedImages = new Set();
 rmSync(OUT, { recursive: true, force: true });
 mkdirSync(OUT, { recursive: true });
 for (const [url, file] of pages) {
   const { status, text } = await call('GET', url);
   if (status !== 200 && !(url === '/nothing-here' && status === 404)) throw new Error(`${url} returned ${status}`);
   writeFileSync(join(OUT, file), transform(text, url.startsWith('/admin')));
+}
+
+for (const rel of usedImages) {
+  mkdirSync(join(OUT, dirname(rel)), { recursive: true });
+  copyFileSync(join(root, 'public', rel), join(OUT, rel));
 }
 
 // The entry page is the home page without its document wrapper, for hosts that
@@ -173,4 +182,4 @@ const body = /<body[^>]*>([\s\S]*)<\/body>/.exec(home)[1];
 writeFileSync(join(OUT, 'index.html'), `${head.replace(/<title>[^<]*<\/title>/, '<title>LYNQ Website Preview</title>')}\n${body}`);
 
 server.close();
-console.log(`Demo written to ${OUT}/ (${pages.size + 1} pages). Open ${OUT}/home.html in a browser.`);
+console.log(`Demo written to ${OUT}/ (${pages.size + 1} pages, ${usedImages.size} photos). Open ${OUT}/home.html in a browser.`);

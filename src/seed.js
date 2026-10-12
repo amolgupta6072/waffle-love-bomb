@@ -7,6 +7,7 @@
 // Illustration colours are approximations of each dial, used until product
 // photography is uploaded.
 
+import { readFileSync } from 'node:fs';
 import { transaction } from './db.js';
 
 // Watch tuple: [model name, collection, curation, case shape, dial layout, dial colour, case metal, strap colour, featured?, availability?]
@@ -260,20 +261,49 @@ const BRANDS = [
 const slugify = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()
   .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
+// Product photos downloaded from each brand's website (scripts/fetch-brand-images.mjs).
+const normalise = (s) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
+  .replace(/[«»‘’“”'"()]/g, ' ').replace(/[^a-z0-9.]+/g, ' ').trim().split(/\s+/).filter(Boolean);
+
+function brandPhotos(slug) {
+  try {
+    const file = new URL(`../data/brand-products/${slug}.json`, import.meta.url);
+    return JSON.parse(readFileSync(file, 'utf8')).products || [];
+  } catch {
+    return [];
+  }
+}
+
+// Picks the product whose title shares the most words with the model name.
+export function matchPhoto(products, brandName, modelName) {
+  const brandWords = new Set(normalise(brandName));
+  const want = normalise(modelName).filter((w) => !brandWords.has(w) && !['son', 'mai', 'the'].includes(w));
+  if (!want.length) return '';
+  let best = null;
+  for (const p of products) {
+    const have = new Set(normalise(`${p.title} ${p.handle.replace(/-/g, ' ')}`));
+    const hits = want.filter((w) => have.has(w)).length;
+    const score = hits / want.length - have.size * 0.001;
+    if (hits && (!best || score > best.score)) best = { score, image: p.image };
+  }
+  return best && best.score >= 0.6 ? best.image : '';
+}
+
 export function seedIfEmpty(db) {
   if (db.prepare('SELECT COUNT(*) AS n FROM brands').get().n > 0) return false;
   transaction(db, () => {
     const insBrand = db.prepare(`INSERT INTO brands (slug, name, country, city, founded, tagline, story, highlights, website, position)
       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`);
     const insWatch = db.prepare(`INSERT INTO watches
-      (slug, brand_id, name, collection, curation, description, art_shape, art_style, art_dial, art_case, art_strap, featured, availability, position)
-      VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`);
+      (slug, brand_id, name, collection, curation, description, art_shape, art_style, art_dial, art_case, art_strap, featured, availability, position, image_url)
+      VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`);
     BRANDS.forEach((b, i) => {
+      const photos = brandPhotos(b.slug);
       const { lastInsertRowid: brandId } = insBrand.run(b.slug, b.name, b.country, b.city, b.founded || '', b.tagline, b.story, b.highlights, b.website || '', i);
       b.watches.forEach(([name, collection, curation, shape, style, dial, metal, strap, featured = 0, availability = 'request'], j) => {
         const note = b.notes?.[collection] || `From the ${collection} collection by ${b.name}.`;
         insWatch.run(slugify(`${b.name} ${name}`), brandId, name, collection, curation,
-          `${note}\n\n${b.tagline}`, shape, style, dial, metal, strap, featured, availability, j);
+          `${note}\n\n${b.tagline}`, shape, style, dial, metal, strap, featured, availability, j, matchPhoto(photos, b.name, name));
       });
     });
     db.prepare(`INSERT INTO locations (slug, name, city, status, status_note, description, position)
