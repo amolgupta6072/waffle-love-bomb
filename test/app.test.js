@@ -42,7 +42,7 @@ const future = (days) => new Date(Date.now() + days * 864e5).toISOString().slice
 
 test('public pages render with seeded catalogue', async () => {
   const get = client();
-  for (const path of ['/', '/discover', '/maisons', '/maisons/formex', '/watches/fears-brunswick', '/gallery', '/events', '/about', '/partner', '/appointment', '/enquire']) {
+  for (const path of ['/', '/discover', '/maisons', '/maisons/formex', '/watches/fears-brunswick-38-white', '/gallery', '/events', '/about', '/partner', '/appointment', '/enquire']) {
     const res = await get('GET', path);
     assert.equal(res.status, 200, path);
   }
@@ -65,9 +65,9 @@ test('discover filters by curation, maison and origin', async () => {
   const get = client();
   let res = await get('GET', '/discover?curation=the-artisans');
   assert.match(res.text, /Son Mài/);
-  assert.doesNotMatch(res.text, /href="\/watches\/formex-reef"/);
+  assert.doesNotMatch(res.text, /href="\/watches\/formex-reef-39-5"/);
   res = await get('GET', '/discover?brand=amida');
-  assert.match(res.text, /2 watches/);
+  assert.match(res.text, /3 watches/);
   res = await get('GET', '/discover?country=United%20Kingdom');
   assert.match(res.text, /Brunswick/);
   assert.doesNotMatch(res.text, /href="\/watches\/hegid-vision"/);
@@ -75,7 +75,7 @@ test('discover filters by curation, maison and origin', async () => {
 
 test('enquiry is stored and shows a reference', async () => {
   const post = client();
-  const res = await post('POST', '/enquire', { watch: 'awake-silver-leaf', name: 'Riya <b>Shah</b>', email: 'riya@example.com', message: 'Is the Silver Leaf available in Delhi?' });
+  const res = await post('POST', '/enquire', { watch: 'awake-son-mai-silver-leaf-ultra-violet', name: 'Riya <b>Shah</b>', email: 'riya@example.com', message: 'Is the Silver Leaf available in Delhi?' });
   assert.equal(res.status, 303);
   assert.match(res.location, /\/thank-you\?type=enquiry&ref=LQ-\d{6}/);
   const r = lastRequest();
@@ -91,17 +91,17 @@ test('enquiry is stored and shows a reference', async () => {
 test('orders are only possible for available, priced pieces', async () => {
   const post = client();
   // Seeded watches are "on request": an order attempt is downgraded to an enquiry.
-  let page = await post('GET', '/enquire?type=order&watch=formex-essence');
+  let page = await post('GET', '/enquire?type=order&watch=formex-essence-thirtynine-blue');
   assert.doesNotMatch(page.text, /Submit order request/);
 
-  db.prepare(`UPDATE watches SET availability = 'available', price_inr = 450000 WHERE slug = 'formex-essence'`).run();
-  page = await post('GET', '/watches/formex-essence');
+  db.prepare(`UPDATE watches SET availability = 'available', price_inr = 450000 WHERE slug = 'formex-essence-thirtynine-blue'`).run();
+  page = await post('GET', '/watches/formex-essence-thirtynine-blue');
   assert.match(page.text, /Order this piece/);
   assert.match(page.text, /₹4,50,000/);
 
-  const noPhone = await post('POST', '/enquire', { type: 'order', watch: 'formex-essence', name: 'Arjun', email: 'arjun@example.com' });
+  const noPhone = await post('POST', '/enquire', { type: 'order', watch: 'formex-essence-thirtynine-blue', name: 'Arjun', email: 'arjun@example.com' });
   assert.equal(noPhone.status, 400);
-  const ok = await post('POST', '/enquire', { type: 'order', watch: 'formex-essence', name: 'Arjun', email: 'arjun@example.com', phone: '+91 98765 43210' });
+  const ok = await post('POST', '/enquire', { type: 'order', watch: 'formex-essence-thirtynine-blue', name: 'Arjun', email: 'arjun@example.com', phone: '+91 98765 43210' });
   assert.equal(ok.status, 303);
   assert.equal(lastRequest().type, 'order');
 });
@@ -185,19 +185,19 @@ test('admin manages content and requests end to end', async () => {
   const brandId = db.prepare(`SELECT id FROM brands WHERE slug = 'hegid'`).get().id;
 
   let res = await admin('POST', '/admin/watches/new', {
-    _csrf: csrf, brand_id: String(brandId), name: 'Vision <script>alert(1)</script>', slug: '', curation: 'the-rare',
+    _csrf: csrf, brand_id: String(brandId), name: 'Vision <script>alert(1)</script>', slug: '', curation: 'the-collectors',
     description: 'Limited test piece.', price_inr: '3,25,000', availability: 'available', published: '1',
     art_shape: 'round', art_style: 'chrono', art_case: 'steel', art_dial: '#112233', art_strap: '#445566', image_url: 'javascript:alert(1)',
   });
   assert.equal(res.status, 400, 'javascript: image URL is rejected');
 
   res = await admin('POST', '/admin/watches/new', {
-    _csrf: csrf, brand_id: String(brandId), name: 'Vision <script>alert(1)</script>', slug: '', curation: 'the-rare',
+    _csrf: csrf, brand_id: String(brandId), name: 'Vision <script>alert(1)</script>', slug: '', curation: 'the-collectors',
     description: 'Limited test piece.', price_inr: '3,25,000', availability: 'available', published: '1',
     art_shape: 'round', art_style: 'chrono', art_case: 'steel', art_dial: '#112233', art_strap: '#445566', image_url: '',
   });
   assert.equal(res.status, 303);
-  const watch = db.prepare(`SELECT * FROM watches WHERE curation = 'the-rare'`).get();
+  const watch = db.prepare(`SELECT * FROM watches WHERE curation = 'the-collectors' AND brand_id = (SELECT id FROM brands WHERE slug = 'hegid') AND name LIKE 'Vision <%'`).get();
   assert.equal(watch.slug, 'hegid-vision-script-alert-1-script');
   assert.equal(watch.price_inr, 325000);
 
@@ -206,12 +206,12 @@ test('admin manages content and requests end to end', async () => {
   assert.equal(res.status, 200);
   assert.doesNotMatch(res.text, /<script>alert/);
   assert.match(res.text, /&lt;script&gt;/);
-  res = await pub('GET', '/discover?curation=the-rare');
-  assert.match(res.text, /1 watch/);
+  res = await pub('GET', '/discover?curation=the-collectors');
+  assert.match(res.text, /2 watches/);
 
   // Unpublishing hides the piece.
   res = await admin('POST', `/admin/watches/${watch.id}`, {
-    _csrf: csrf, brand_id: String(brandId), name: watch.name, slug: watch.slug, curation: 'the-rare', availability: 'available',
+    _csrf: csrf, brand_id: String(brandId), name: watch.name, slug: watch.slug, curation: 'the-collectors', availability: 'available',
     art_shape: 'round', art_style: 'chrono', art_case: 'steel', art_dial: '#112233', art_strap: '#445566',
   });
   assert.equal(res.status, 303);

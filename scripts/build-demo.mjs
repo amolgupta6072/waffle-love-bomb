@@ -39,8 +39,8 @@ async function call(method, path, form) {
 
 // ---------- Sample inbox entries (clearly sample data) ----------
 const soon = (d) => new Date(Date.now() + d * 864e5).toISOString().slice(0, 10);
-await call('POST', '/appointment', { location: 'delhi-ncr', watch: 'awake-son-mai-guilloche-main', preferred_date: soon(6), slot: 'Evening', name: 'Sample Client A', email: 'client.a@example.com', phone: '+91 90000 00001', city: 'New Delhi', message: 'Would like to compare the Son Mài dials side by side.' });
-await call('POST', '/enquire', { watch: 'fears-brunswick', name: 'Sample Client B', email: 'client.b@example.com', city: 'Mumbai', message: 'Is the Brunswick available with a white dial in India?' });
+await call('POST', '/appointment', { location: 'delhi-ncr', watch: 'awake-son-mai-guilloche-main-alba', preferred_date: soon(6), slot: 'Evening', name: 'Sample Client A', email: 'client.a@example.com', phone: '+91 90000 00001', city: 'New Delhi', message: 'Would like to compare the Son Mài dials side by side.' });
+await call('POST', '/enquire', { watch: 'fears-brunswick-38-white', name: 'Sample Client B', email: 'client.b@example.com', city: 'Mumbai', message: 'Is the Brunswick available with a white dial in India?' });
 await call('POST', '/appointment', { location: 'virtual', brand: 'amida', preferred_date: soon(3), slot: 'Morning', name: 'Sample Client C', email: 'client.c@example.com', phone: '+91 90000 00003', city: 'Bengaluru' });
 await call('POST', '/partner', { company: 'Sample Atelier', name: 'Sample Founder', email: 'founder@example.com', message: 'Founder-led brand producing around 500 pieces a year, interested in India.' });
 await call('POST', '/newsletter', { email: 'circle.member@example.com' });
@@ -63,7 +63,8 @@ const pages = new Map([
   ['/admin/events', 'admin-events.html'], ['/admin/locations', 'admin-locations.html'],
 ]);
 for (const c of CURATIONS) if (usedCurations.has(c.slug)) pages.set(`/discover?curation=${c.slug}`, `discover-${c.slug}.html`);
-for (const w of watches) { pages.set(`/watches/${w.slug}`, `watch-${w.slug}.html`); pages.set(`/admin/watches/${w.id}`, `admin-watch-${w.id}.html`); }
+// Admin edit screens for a handful of watches are enough to show how editing works.
+watches.forEach((w, i) => { pages.set(`/watches/${w.slug}`, `watch-${w.slug}.html`); if (i < 12) pages.set(`/admin/watches/${w.id}`, `admin-watch-${w.id}.html`); });
 for (const b of brands) { pages.set(`/maisons/${b.slug}`, `maison-${b.slug}.html`); pages.set(`/admin/brands/${b.id}`, `admin-brand-${b.id}.html`); }
 for (const r of requests) pages.set(`/admin/requests/${r.id}`, `admin-request-${r.id}.html`);
 for (const l of locations) pages.set(`/admin/locations/${l.id}`, `admin-location-${l.id}.html`);

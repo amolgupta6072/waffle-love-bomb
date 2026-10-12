@@ -34,7 +34,7 @@ npm start            # http://localhost:3000, admin at /admin
 npm test
 ```
 
-On first start the catalogue is seeded with the 10 LYNQ maisons and 37 models from the brand portfolio deck. The seed contains public brand information only. No commercial terms are stored anywhere, prices are left as "on request" and specifications are blank, ready for the team to fill in.
+On first start the catalogue is seeded with the 10 LYNQ maisons and 106 current models listed on the brands’ official websites (see `docs/brand-catalogue.csv`), with brand stories from the portfolio deck. The seed contains public information only. No commercial terms are stored anywhere, prices are left as "on request" and specifications are blank, ready for the team to fill in.
 
 | Variable | Default | Purpose |
 | --- | --- | --- |
