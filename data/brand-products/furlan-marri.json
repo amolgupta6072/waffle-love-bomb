@@ -1,64 +1,7 @@
 {
   "brand": "furlan-marri",
   "base": "https://www.furlanmarri.com",
-  "method": "html",
-  "fetched": "2026-10-12T15:07:16.295Z",
-  "products": [
-    {
-      "title": "Nero Sabbia",
-      "handle": "1072-a-nero-sabbia",
-      "type": "",
-      "url": "https://www.furlanmarri.com/products/1072-a-nero-sabbia",
-      "image": "/images/brands/furlan-marri/1072-a-nero-sabbia.webp"
-    },
-    {
-      "title": "Rosso Grigio",
-      "handle": "1085-a-rosso-grigio",
-      "type": "",
-      "url": "https://www.furlanmarri.com/products/1085-a-rosso-grigio",
-      "image": "/images/brands/furlan-marri/1085-a-rosso-grigio.webp"
-    },
-    {
-      "title": "Blue Sector",
-      "handle": "blue-sector",
-      "type": "",
-      "url": "https://www.furlanmarri.com/products/blue-sector",
-      "image": "/images/brands/furlan-marri/blue-sector.webp"
-    },
-    {
-      "title": "Disco Celeste",
-      "handle": "disco-celeste-20205",
-      "type": "",
-      "url": "https://www.furlanmarri.com/products/disco-celeste-20205",
-      "image": ""
-    },
-    {
-      "title": "Salmon Sector",
-      "handle": "salmon-sector-2154-a",
-      "type": "",
-      "url": "https://www.furlanmarri.com/products/salmon-sector-2154-a",
-      "image": "/images/brands/furlan-marri/salmon-sector-2154-a.webp"
-    },
-    {
-      "title": "Furlan Marri, MR. Grey Ref. 1041",
-      "handle": "mr-grey-ref-1041-a",
-      "type": "",
-      "url": "https://www.gphg.org/en/watches/mr-grey-ref-1041-a",
-      "image": ""
-    },
-    {
-      "title": "Sabbia Rosa",
-      "handle": "sabbia-rosa",
-      "type": "",
-      "url": "https://www.furlanmarri.com/products/sabbia-rosa",
-      "image": "/images/brands/furlan-marri/sabbia-rosa.webp"
-    },
-    {
-      "title": "White Sector",
-      "handle": "white-sector-2161-a",
-      "type": "",
-      "url": "https://www.furlanmarri.com/products/white-sector-2161-a",
-      "image": "/images/brands/furlan-marri/white-sector-2161-a.webp"
-    }
-  ]
+  "method": "shopify-js",
+  "fetched": "2026-10-14T07:21:17.727Z",
+  "products": []
 }
