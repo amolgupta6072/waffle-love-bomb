@@ -2,7 +2,7 @@
   "brand": "furlan-marri",
   "base": "https://www.furlanmarri.com",
   "method": "image-file-names",
-  "fetched": "2026-10-14T07:25:37.887Z",
+  "fetched": "2026-10-14T07:26:32.494Z",
   "products": [
     {
       "title": "sabbia rosa",
@@ -35,6 +35,14 @@
       "url": "https://www.furlanmarri.com/products/castagna",
       "image": "/images/brands/furlan-marri/castagna.png",
       "source": "https://cdn.shopify.com/s/files/1/0558/4024/3844/files/castagna-2025-shopify-2.png"
+    },
+    {
+      "title": "rosso grigio",
+      "handle": "rosso-grigio",
+      "type": "",
+      "url": "https://www.furlanmarri.com/products/rosso-grigio",
+      "image": "/images/brands/furlan-marri/rosso-grigio.png",
+      "source": "https://cdn.shopify.com/s/files/1/0558/4024/3844/files/Rosso_Grigio_Shopify.png"
     },
     {
       "title": "salmon sector",
