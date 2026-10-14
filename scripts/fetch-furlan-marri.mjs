@@ -32,22 +32,48 @@ console.log(`${handles.size} product handles`);
 
 const dir = 'public/images/brands/furlan-marri';
 mkdirSync(dir, { recursive: true });
+
+// Finds the main product photo on a product page: JSON-LD Product image first,
+// then the first large gallery image that isn't a logo or share banner.
+function productImage(html, handle) {
+  for (const m of html.matchAll(/<script[^>]+application\/ld\+json[^>]*>([\s\S]*?)<\/script>/gi)) {
+    try {
+      const data = [].concat(JSON.parse(m[1]));
+      for (const d of data.flatMap((x) => x['@graph'] || [x])) {
+        if (/product/i.test(d['@type'])) {
+          const img = [].concat(d.image || [])[0];
+          if (img) return typeof img === 'string' ? img : img.url;
+        }
+      }
+    } catch { /* ignore malformed JSON-LD */ }
+  }
+  const srcs = [...html.matchAll(/<img[^>]+(?:data-src|src)=["']([^"']+)["']/gi)].map((m) => m[1]);
+  const words = handle.split('-').filter((w) => w.length > 3);
+  return srcs.find((u) => words.some((w) => u.toLowerCase().includes(w)) && !/logo|icon|banner|og|share/i.test(u)) || '';
+}
+
 const products = [];
 for (const handle of handles) {
   try {
-    const p = await get(`${BASE}/products/${handle}.js`);
-    const src = p.featured_image || p.images?.[0];
-    if (!src) continue;
-    const url = new URL(src.startsWith('//') ? `https:${src}` : src);
-    url.searchParams.set('width', '900');
+    const html = await get(`${BASE}/products/${handle}`, 'text');
+    const title = (html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i)?.[1] || handle).replace(/<[^>]+>/g, '').trim();
+    let src = productImage(html, handle);
+    if (!src) {
+      const sample = [...html.matchAll(/<img[^>]+(?:data-src|src)=["']([^"']+)["']/gi)].slice(0, 12).map((m) => m[1]);
+      console.log(`no image for ${handle}; first images on page:\n  ${sample.join('\n  ')}`);
+      continue;
+    }
+    const url = new URL(src.startsWith('//') ? `https:${src}` : src, BASE);
     const ext = (url.pathname.match(/\.(jpe?g|png|webp)$/i)?.[1] || 'jpg').toLowerCase().replace('jpeg', 'jpg');
     const file = `${handle}-product.${ext}`;
     writeFileSync(join(dir, file), await get(url.href, 'buffer'));
-    products.push({ title: p.title, handle, type: p.type || '', url: `${BASE}/products/${handle}`, image: `/images/brands/furlan-marri/${file}` });
-    console.log(`ok ${handle}: ${p.title}`);
+    products.push({ title, handle, type: '', url: `${BASE}/products/${handle}`, image: `/images/brands/furlan-marri/${file}` });
+    console.log(`ok ${handle}: ${title} <- ${url.href}`);
   } catch (err) { console.log(`skip ${handle}: ${err.message}`); }
   await sleep(250);
 }
-mkdirSync('data/brand-products', { recursive: true });
-writeFileSync('data/brand-products/furlan-marri.json', `${JSON.stringify({ brand: 'furlan-marri', base: BASE, method: 'shopify-js', fetched: new Date().toISOString(), products }, null, 2)}\n`);
 console.log(`${products.length} photos saved`);
+if (products.length) {
+  mkdirSync('data/brand-products', { recursive: true });
+  writeFileSync('data/brand-products/furlan-marri.json', `${JSON.stringify({ brand: 'furlan-marri', base: BASE, method: 'product-pages', fetched: new Date().toISOString(), products }, null, 2)}\n`);
+}
