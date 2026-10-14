@@ -5,25 +5,27 @@ import { layout, logoMark } from './layout.js';
 
 // ---------- Shared pieces ----------
 
-export function watchVisual(w) {
-  if (w.image_url) return html`<img class="watch-img" src="${w.image_url}" alt="${w.brand_name} ${w.name}" loading="lazy">`;
+export function watchVisual(w, { eager = false } = {}) {
+  if (w.image_url) return html`<img class="watch-img" src="${w.image_url}" alt="${w.brand_name} ${w.name}" ${eager ? '' : html`loading="lazy"`}>`;
   return watchArt({ ...w, name: `${w.brand_name} ${w.name}` });
 }
 
 const priceLabel = (w) => (w.price_inr ? formatInr(w.price_inr) : 'Price on request');
+const canOrder = (w) => w.availability === 'available' && Boolean(w.price_inr);
+const origin = (b) => [b.city, b.country].filter(Boolean).join(', ');
 
 function watchCard(w) {
   return html`<a class="watch-card" href="/watches/${w.slug}" data-brand="${w.brand_slug || ''}" data-country="${w.brand_country || ''}" data-availability="${w.availability}">
     <div class="watch-stage">${watchVisual(w)}</div>
     <div class="watch-meta">
-      <span class="eyebrow">${w.brand_name}</span>
+      <span class="card-brand">${w.brand_name}</span>
       <h3>${w.name}</h3>
-      <span class="muted small">${w.availability === 'sold' ? 'Sold out' : priceLabel(w)}</span>
+      <span class="card-price">${w.availability === 'sold' ? 'Sold out' : priceLabel(w)}</span>
     </div>
   </a>`;
 }
 
-export const watchGrid = (watches) => html`<div class="watch-grid">${watches.map(watchCard)}</div>`;
+export const watchGrid = (watches, cls = '') => html`<div class="watch-grid ${cls}">${watches.map(watchCard)}</div>`;
 
 const field = (label, input, hint = '') => html`<div class="field"><label>${label}${input}</label>${hint ? html`<p class="hint">${hint}</p>` : ''}</div>`;
 const input = (name, v, attrs = '') => html`<input name="${name}" value="${v[name] ?? ''}" ${attrs}>`;
@@ -38,7 +40,7 @@ function contactFields(v, { phoneRequired = false } = {}) {
     </div>
     <div class="field-row">
       ${field(phoneRequired ? 'Phone' : 'Phone (optional)', input('phone', v, html`type="tel" autocomplete="tel" ${phoneRequired ? html`required` : ''}`))}
-      ${field('City', input('city', v, html`type="text" autocomplete="address-level2" maxlength="80"`))}
+      ${field('City', input('city', v, html`type="text" autocomplete="address-level2" maxlength="80" ${phoneRequired ? html`required` : ''}`))}
     </div>`;
 }
 
@@ -50,6 +52,14 @@ function pageHead(eyebrow, title, intro = '') {
   </section>`;
 }
 
+// The four chapters of the LYNQ journey, shown as a thin progress line.
+const STEPS = [['/about', 'Discover LYNQ'], ['/maisons', 'The Maisons'], ['/discover', 'The Collection'], ['/checkout', 'Your Order']];
+function journey(current) {
+  return html`<ol class="journey wrap" aria-label="Your journey">
+    ${STEPS.map(([href, label], i) => html`<li class="${i === current ? 'is-current' : ''} ${i < current ? 'is-done' : ''}"><a href="${href}"><span class="num">${['I', 'II', 'III', 'IV'][i]}</span>${label}</a></li>`)}
+  </ol>`;
+}
+
 // ---------- Pages ----------
 
 export function homePage({ featured, brands, curations, nextEvent, location }) {
@@ -58,69 +68,69 @@ export function homePage({ featured, brands, curations, nextEvent, location }) {
     bodyClass: 'home',
     body: html`
     <section class="hero">
-      <div class="hero-silk" aria-hidden="true"></div>
+      <img class="hero-bg" src="/images/lynq/silk.webp" alt="" aria-hidden="true">
       <div class="wrap hero-inner">
-        <p class="eyebrow light">An initiative by Ethos</p>
-        <h1 class="hero-title">${logoMark('hero-mark')}<span>LYNQ</span></h1>
-        <p class="hero-sub">A dedicated platform for independent watchmaking.</p>
-        <p class="hero-tag">Curated. Exceptional. Unconventional.</p>
+        ${logoMark('hero-mark')}
+        <h1 class="hero-title">LYNQ</h1>
+        <p class="hero-sub">A dedicated platform for independent watchmaking</p>
+        <p class="hero-tag">Curated · Exceptional · Unconventional</p>
         <div class="hero-cta">
-          <a class="btn btn-light" href="/discover">Discover the collection</a>
-          <a class="btn btn-ghost-light" href="/appointment">Book a private viewing</a>
+          <a class="btn btn-light" href="#chapter-1">Begin the journey</a>
+          <a class="btn btn-ghost-light" href="/maisons">Explore the maisons</a>
         </div>
       </div>
+      <p class="hero-foot">An initiative by Ethos</p>
     </section>
 
-    <section class="manifesto wrap">
-      <p class="eyebrow">Why LYNQ</p>
-      <p class="statement">As collectors move toward independent, design-led and founder-driven watchmaking, LYNQ is a home built around <em>discovery</em>, <em>storytelling</em> and <em>community</em>.</p>
-      <div class="pillars">
-        <div><span class="num">01</span><h3>Independence preserved</h3><p>Founder-led maisons presented alongside like-minded peers, never diluted in a crowded showroom.</p></div>
-        <div><span class="num">02</span><h3>Storytelling leads</h3><p>The vision, philosophy and craft behind every brand, so you understand a watch before you wear it.</p></div>
-        <div><span class="num">03</span><h3>Community over scale</h3><p>Private previews, collector evenings and direct conversations with the people who make the watches.</p></div>
+    <section class="chapter wrap" id="chapter-1">
+      <div class="chapter-copy">
+        <p class="chapter-num">Chapter I</p>
+        <h2>Discover LYNQ</h2>
+        <p class="lede">As collectors move toward independent, design-led and founder-driven watchmaking, LYNQ is a home built around discovery, storytelling and community.</p>
+        <p>Where independence is preserved. Where storytelling leads. Where community matters more than scale.</p>
+        <a class="link-arrow" href="/about">Our story</a>
       </div>
+      <figure class="chapter-image"><img src="/images/lynq/wall.webp" alt="The LYNQ wall: curated independent watches displayed in eight themes"></figure>
     </section>
 
-    <section class="section wrap">
-      <div class="section-head">
-        <div><p class="eyebrow">Selected pieces</p><h2>From the maisons</h2></div>
-        <a class="link-arrow" href="/discover">View all watches</a>
-      </div>
-      ${watchGrid(featured)}
-    </section>
-
-    <section class="curations-band">
+    <section class="chapter-band">
       <div class="wrap">
-        <div class="section-head"><div><p class="eyebrow light">Ways to discover</p><h2>The curations</h2></div></div>
-        <div class="curation-grid">
-          ${curations.map((c) => html`<a class="curation" href="/discover?curation=${c.slug}">
-            <h3>${c.name}</h3><p>${c.blurb}</p><span class="count">${c.count} ${c.count === 1 ? 'piece' : 'pieces'}</span>
+        <div class="section-head center">
+          <p class="chapter-num">Chapter II</p>
+          <h2>The Maisons</h2>
+          <p class="lede">Ten founder-led and independent houses, each with a distinct point of view.</p>
+        </div>
+        <div class="maison-tiles">
+          ${brands.map((b) => html`<a class="maison-tile" href="/maisons/${b.slug}">
+            <div class="tile-stage">${b.lead ? watchVisual({ ...b.lead, brand_name: b.name }) : ''}</div>
+            <span class="tile-name">${b.name}</span>
+            <span class="tile-origin">${origin(b)}</span>
           </a>`)}
         </div>
       </div>
     </section>
 
     <section class="section wrap">
-      <div class="section-head">
-        <div><p class="eyebrow">The portfolio</p><h2>The maisons</h2></div>
-        <a class="link-arrow" href="/maisons">Meet every maison</a>
+      <div class="section-head center">
+        <p class="chapter-num">Chapter III</p>
+        <h2>The Collection</h2>
+        <p class="lede">Selected pieces from the maisons. Discover by theme, or browse the full collection.</p>
       </div>
-      <ul class="maison-list">
-        ${brands.map((b) => html`<li><a href="/maisons/${b.slug}"><span class="maison-name">${b.name}</span><span class="maison-origin">${[b.city, b.country].filter(Boolean).join(', ')}</span></a></li>`)}
-      </ul>
+      <nav class="curation-links" aria-label="Curations">
+        ${curations.map((c) => html`<a href="/discover?curation=${c.slug}">${c.name}</a>`)}
+      </nav>
+      ${watchGrid(featured)}
+      <p class="center-cta"><a class="btn btn-outline" href="/discover">View the full collection</a></p>
     </section>
 
-    <section class="split wrap">
-      <div class="split-copy">
-        <p class="eyebrow">The LYNQ Gallery</p>
-        <h2>A space for discovery, conversation and context</h2>
-        <p>A gallery-led home for independent watchmaking. Each LYNQ Gallery brings together a small circle of like-minded brands, with minimal display that reflects limited production and puts storytelling and craft first.</p>
-        ${location ? html`<p class="status-line"><strong>${location.name}</strong> · ${location.status_note || (location.status === 'open' ? 'Now open' : 'Coming soon')}</p>` : ''}
-        <div class="btn-row"><a class="btn btn-dark" href="/gallery">Visit the gallery</a><a class="btn btn-outline" href="/appointment">Request an appointment</a></div>
-      </div>
-      <div class="split-visual gallery-visual" aria-hidden="true">
-        <div class="vitrine">${featured.slice(0, 3).map((w) => html`<div class="vitrine-cell">${watchVisual(w)}</div>`)}</div>
-        <p class="wall-text">Curated · Intimate · Independent</p>
+    <section class="feature-image">
+      <img src="/images/lynq/gallery.webp" alt="Concept render of the LYNQ Gallery">
+      <div class="feature-card">
+        <p class="chapter-num">Chapter IV</p>
+        <h2>The LYNQ Gallery</h2>
+        <p>A space designed for discovery, conversation and context, where collectors meet independent watchmaking in person.</p>
+        ${location ? html`<p class="status-line">${location.name} · ${location.status_note || (location.status === 'open' ? 'Now open' : 'Coming soon')}</p>` : ''}
+        <div class="btn-row"><a class="btn btn-dark" href="/appointment">Book a private viewing</a><a class="link-arrow" href="/gallery">About the gallery</a></div>
       </div>
     </section>
 
@@ -132,8 +142,11 @@ export function homePage({ featured, brands, curations, nextEvent, location }) {
     </section>` : ''}
 
     <section class="circle-band">
+      <img class="circle-bg" src="/images/lynq/silk.webp" alt="" aria-hidden="true">
       <div class="wrap circle-inner">
-        <div><p class="eyebrow light">The LYNQ Circle</p><h2>Be first to know</h2><p>New arrivals, private previews and invitations to collector evenings, shared sparingly.</p></div>
+        <p class="eyebrow light">The LYNQ Circle</p>
+        <h2>Be first to know</h2>
+        <p>New arrivals, private previews and invitations to collector evenings, shared sparingly.</p>
         <form class="inline-form big" method="post" action="/newsletter">
           <label class="sr-only" for="circle-email">Email</label>
           <input id="circle-email" type="email" name="email" placeholder="Your email address" required>
@@ -149,15 +162,20 @@ export function discoverPage({ watches, brands, curations, countries, filters })
   const opt = (value, label, current) => html`<option value="${value}" ${value === current ? html`selected` : ''}>${label}</option>`;
   const active = curationBySlug[filters.curation];
   return layout({
-    title: active ? active.name : 'Discover',
+    title: active ? active.name : 'The Collection',
     path: '/discover',
     body: html`
-    ${pageHead('Discover', active ? active.name : 'The collection', active ? active.blurb : 'Explore independent watches by maison, origin or curation. Every piece is presented with its story, and can be enquired after, ordered or viewed in person.')}
+    ${journey(2)}
+    <section class="page-head wrap center">
+      <p class="chapter-num">Chapter III · The Collection</p>
+      <h1>${active ? active.name : 'The Collection'}</h1>
+      <p class="lede">${active ? active.blurb : 'Every piece is presented with its story, and can be ordered, reserved for a private viewing or discussed with a specialist.'}</p>
+    </section>
     <section class="wrap">
-      <div class="chips" role="list">
-        <a role="listitem" class="chip ${!filters.curation ? 'active' : ''}" href="/discover">All</a>
-        ${curations.map((c) => html`<a role="listitem" class="chip ${filters.curation === c.slug ? 'active' : ''}" href="/discover?curation=${c.slug}">${c.name}</a>`)}
-      </div>
+      <nav class="curation-links tabs" aria-label="Curations">
+        <a class="${!filters.curation ? 'active' : ''}" href="/discover">All</a>
+        ${curations.map((c) => html`<a class="${filters.curation === c.slug ? 'active' : ''}" href="/discover?curation=${c.slug}">${c.name}</a>`)}
+      </nav>
       <form class="filters" method="get" action="/discover" data-autosubmit>
         ${filters.curation ? html`<input type="hidden" name="curation" value="${filters.curation}">` : ''}
         <label>Maison<select name="brand">${opt('', 'All maisons', filters.brand)}${brands.map((b) => opt(b.slug, b.name, filters.brand))}</select></label>
@@ -177,35 +195,51 @@ export function watchPage({ watch: w, brand, related }) {
     ['Collection', w.collection], ['Reference', w.reference], ['Case', w.case_material], ['Size', w.case_size],
     ['Movement', w.movement], ['Dial', w.dial], ['Strap', w.strap], ['Edition', w.edition],
   ].filter(([, v]) => v);
-  const canOrder = w.availability === 'available' && w.price_inr;
+  const orderable = canOrder(w);
   return layout({
     title: `${brand.name} ${w.name}`,
     description: `${brand.name} ${w.name}. ${brand.tagline}`,
     path: '/discover',
     body: html`
-    <nav class="crumbs wrap" aria-label="Breadcrumb"><a href="/discover">Discover</a><span>/</span><a href="/maisons/${brand.slug}">${brand.name}</a><span>/</span><span aria-current="page">${w.name}</span></nav>
+    ${journey(2)}
+    <nav class="crumbs wrap" aria-label="Breadcrumb"><a href="/maisons">The Maisons</a><span>/</span><a href="/maisons/${brand.slug}">${brand.name}</a><span>/</span><span aria-current="page">${w.name}</span></nav>
     <section class="product wrap">
-      <div class="product-stage">${watchVisual({ ...w, brand_name: brand.name })}</div>
+      <div class="product-stage">${watchVisual({ ...w, brand_name: brand.name }, { eager: true })}</div>
       <div class="product-info">
-        <a class="eyebrow" href="/maisons/${brand.slug}">${brand.name}</a>
+        <a class="product-brand" href="/maisons/${brand.slug}">${brand.name}</a>
         <h1>${w.name}</h1>
-        ${curation ? html`<a class="tag" href="/discover?curation=${curation.slug}">${curation.name}</a>` : ''}
+        <p class="product-sub">${[w.collection, curation?.name].filter(Boolean).join(' · ')}</p>
         <p class="price">${priceLabel(w)}</p>
         <p class="availability ${w.availability}">${AVAILABILITY[w.availability] || ''}</p>
-        <div class="prose">${paragraphs(w.description)}</div>
         <div class="product-actions">
-          ${canOrder ? html`<a class="btn btn-dark" href="/enquire?type=order&watch=${w.slug}">Order this piece</a>` : ''}
-          ${w.availability !== 'sold' ? html`<a class="btn ${canOrder ? 'btn-outline' : 'btn-dark'}" href="/appointment?watch=${w.slug}">Request an appointment</a>` : ''}
-          <a class="btn btn-outline" href="/enquire?watch=${w.slug}">${w.availability === 'sold' ? 'Ask about similar pieces' : 'Enquire'}</a>
+          ${orderable ? html`<button class="btn btn-dark btn-block" type="button" data-add-to-bag
+              data-bag-slug="${w.slug}" data-bag-name="${w.name}" data-bag-brand="${brand.name}" data-bag-price="${w.price_inr}"
+              data-bag-image="${w.image_url}" data-bag-url="/watches/${w.slug}">Add to bag</button>`
+          : html`<a class="btn btn-dark btn-block" href="/enquire?watch=${w.slug}">${w.availability === 'sold' ? 'Ask about similar pieces' : 'Enquire about this piece'}</a>`}
+          ${w.availability !== 'sold' ? html`<a class="btn btn-outline btn-block" href="/appointment?watch=${w.slug}">Book a private viewing</a>` : ''}
+          ${orderable ? html`<a class="text-link" href="/enquire?watch=${w.slug}">Speak to a LYNQ specialist</a>` : ''}
         </div>
-        ${specs.length ? html`<dl class="specs">${specs.map(([k, v]) => html`<div><dt>${k}</dt><dd>${v}</dd></div>`)}</dl>` : html`<p class="muted small">Full specifications are available on request from our watch specialists.</p>`}
+        <ul class="product-assurance">
+          <li>Authenticity guaranteed by Ethos</li>
+          <li>Complimentary insured delivery</li>
+          <li>After-sales by Ethos Care</li>
+        </ul>
+        <details class="accordion" open><summary>The piece</summary><div class="prose">${paragraphs(w.description)}</div></details>
+        <details class="accordion"><summary>Specifications</summary>
+          ${specs.length ? html`<dl class="specs">${specs.map(([k, v]) => html`<div><dt>${k}</dt><dd>${v}</dd></div>`)}</dl>` : html`<p class="muted">Full specifications are available on request from our watch specialists.</p>`}
+        </details>
+        <details class="accordion"><summary>Delivery &amp; after-sales</summary>
+          <p>Every order is confirmed personally by a LYNQ specialist, then delivered fully insured across India. After-sales care is provided by Ethos Care, Ethos’ dedicated service centre.</p>
+        </details>
       </div>
     </section>
-    <section class="brand-strip wrap">
-      <div><p class="eyebrow">The maison</p><h2>${brand.name}</h2><p class="lede">${brand.tagline}</p></div>
-      <a class="link-arrow" href="/maisons/${brand.slug}">Read the story</a>
+    <section class="brand-strip">
+      <div class="wrap brand-strip-inner">
+        <div><p class="eyebrow">The maison</p><h2>${brand.name}</h2><p class="lede">${brand.tagline}</p></div>
+        <a class="btn btn-outline" href="/maisons/${brand.slug}">Discover ${brand.name}</a>
+      </div>
     </section>
-    ${related.length ? html`<section class="section wrap"><div class="section-head"><div><p class="eyebrow">Also from ${brand.name}</p><h2>More from the maison</h2></div></div>${watchGrid(related)}</section>` : ''}`,
+    ${related.length ? html`<section class="section wrap"><div class="section-head center"><p class="eyebrow">Also from ${brand.name}</p><h2>More from the maison</h2></div>${watchGrid(related)}</section>` : ''}`,
   });
 }
 
@@ -214,15 +248,20 @@ export function brandsPage({ brands }) {
     title: 'The Maisons',
     path: '/maisons',
     body: html`
-    ${pageHead('The portfolio', 'The maisons', 'Founder-led and independent brands with a strong vision, distinctive design language and limited production, each chosen for its resonance with collectors.')}
-    <section class="wrap brand-cards">
-      ${brands.map((b) => html`<a class="brand-card" href="/maisons/${b.slug}">
-        <div class="brand-card-art">${b.lead ? watchVisual({ ...b.lead, brand_name: b.name }) : ''}</div>
-        <div class="brand-card-copy">
-          <p class="eyebrow">${[b.city, b.country].filter(Boolean).join(', ')}${b.founded ? ` · Est. ${b.founded}` : ''}</p>
+    ${journey(1)}
+    <section class="page-head wrap center">
+      <p class="chapter-num">Chapter II · The Maisons</p>
+      <h1>The Maisons</h1>
+      <p class="lede">Founder-led and independent brands with a strong vision, a distinctive design language and limited production, each chosen for its resonance with collectors.</p>
+    </section>
+    <section class="wrap maison-rows">
+      ${brands.map((b, i) => html`<a class="maison-row ${i % 2 ? 'flip' : ''}" href="/maisons/${b.slug}">
+        <div class="maison-row-art">${b.lead ? watchVisual({ ...b.lead, brand_name: b.name }) : ''}</div>
+        <div class="maison-row-copy">
+          <p class="eyebrow">${origin(b)}${b.founded ? ` · Est. ${b.founded}` : ''}</p>
           <h2>${b.name}</h2>
-          <p>${b.tagline}</p>
-          <span class="link-arrow">${b.watch_count} ${b.watch_count === 1 ? 'watch' : 'watches'}</span>
+          <p class="lede">${b.tagline}</p>
+          <span class="link-arrow">Discover the maison · ${b.watch_count} ${b.watch_count === 1 ? 'piece' : 'pieces'}</span>
         </div>
       </a>`)}
     </section>`,
@@ -230,34 +269,64 @@ export function brandsPage({ brands }) {
 }
 
 export function brandPage({ brand: b, watches }) {
-  const collections = [...new Set(watches.map((w) => w.collection).filter(Boolean))];
+  const collections = [];
+  for (const w of watches) {
+    let c = collections.find((x) => x.name === w.collection);
+    if (!c) {
+      c = { name: w.collection || 'The collection', intro: paragraphs(w.description)[0] || '', watches: [] };
+      collections.push(c);
+    }
+    c.watches.push(w);
+  }
+  const hero = watches.find((w) => w.featured && w.image_url) || watches.find((w) => w.image_url) || watches[0];
+  const facts = [['Origin', origin(b)], ['Founded', b.founded], ['Collections', String(collections.length)], ['Pieces at LYNQ', String(watches.length)]].filter(([, v]) => v);
   return layout({
     title: b.name,
     description: `${b.name}: ${b.tagline}`,
     path: '/maisons',
     body: html`
-    <section class="brand-hero">
-      <div class="wrap brand-hero-inner">
-        <div>
-          <p class="eyebrow light">${[b.city, b.country].filter(Boolean).join(', ')}${b.founded ? ` · Est. ${b.founded}` : ''}</p>
+    ${journey(1)}
+    <section class="maison-hero">
+      <div class="wrap maison-hero-inner">
+        <div class="maison-hero-copy">
+          <p class="eyebrow light">The Maisons</p>
           <h1>${b.name}</h1>
-          <p class="lede">${b.tagline}</p>
+          <p class="maison-tagline">${b.tagline}</p>
+          <a class="btn btn-light" href="#portfolio">View the portfolio</a>
         </div>
-        ${watches[0] ? html`<div class="brand-hero-art">${watchVisual(watches[0])}</div>` : ''}
+        ${hero ? html`<div class="maison-hero-art">${watchVisual({ ...hero, brand_name: b.name }, { eager: true })}</div>` : ''}
       </div>
     </section>
-    <section class="wrap brand-story">
-      <div class="prose large">${paragraphs(b.story)}</div>
+    <section class="wrap maison-story">
+      <div>
+        <p class="eyebrow">The story</p>
+        <div class="prose large dropcap">${paragraphs(b.story)}</div>
+      </div>
       <aside>
-        ${lines(b.highlights).length ? html`<h2 class="eyebrow">At a glance</h2><ul class="ticks">${lines(b.highlights).map((l) => html`<li>${l}</li>`)}</ul>` : ''}
-        ${collections.length ? html`<h2 class="eyebrow">Collections</h2><p>${collections.join(' · ')}</p>` : ''}
-        ${b.website ? html`<p><a class="link-arrow" href="${b.website}" target="_blank" rel="noopener">Official website</a></p>` : ''}
-        <a class="btn btn-dark" href="/appointment?brand=${b.slug}">Discover ${b.name} in person</a>
+        <dl class="facts">${facts.map(([k, v]) => html`<div><dt>${k}</dt><dd>${v}</dd></div>`)}</dl>
+        ${lines(b.highlights).length ? html`<ul class="ticks">${lines(b.highlights).map((l) => html`<li>${l}</li>`)}</ul>` : ''}
+        ${b.website ? html`<p><a class="text-link" href="${b.website}" target="_blank" rel="noopener">Official ${b.name} website ↗</a></p>` : ''}
       </aside>
     </section>
-    <section class="section wrap">
-      <div class="section-head"><div><p class="eyebrow">The collection</p><h2>${b.name} at LYNQ</h2></div></div>
-      ${watches.length ? watchGrid(watches) : html`<p class="muted">Pieces from ${b.name} are arriving soon. <a href="/enquire">Register your interest</a>.</p>`}
+    <section class="wrap portfolio" id="portfolio">
+      <div class="section-head center">
+        <p class="eyebrow">The portfolio</p>
+        <h2>${b.name} at LYNQ</h2>
+        <nav class="curation-links" aria-label="Collections">${collections.map((c, i) => html`<a href="#collection-${i}">${c.name}</a>`)}</nav>
+      </div>
+      ${collections.map((c, i) => html`<div class="collection" id="collection-${i}">
+        <div class="collection-head"><h3>${c.name}</h3>${c.intro}</div>
+        ${watchGrid(c.watches)}
+      </div>`)}
+      ${watches.length ? '' : html`<p class="muted center">Pieces from ${b.name} are arriving soon. <a href="/enquire">Register your interest</a>.</p>`}
+    </section>
+    <section class="feature-image slim">
+      <img src="/images/lynq/gallery-2.webp" alt="" aria-hidden="true">
+      <div class="feature-card">
+        <h2>Experience ${b.name} in person</h2>
+        <p>Reserve a private viewing at the LYNQ Gallery, or let a specialist present the collection to you by video call.</p>
+        <a class="btn btn-dark" href="/appointment?brand=${b.slug}">Book a private viewing</a>
+      </div>
     </section>`,
   });
 }
@@ -268,6 +337,7 @@ export function galleryPage({ locations }) {
     path: '/gallery',
     body: html`
     ${pageHead('The LYNQ Gallery', 'A space designed for discovery, conversation and context', 'Moving away from traditional retail, each LYNQ Gallery is an immersive, design-led environment where collectors discover independent brands in context. Minimal display reflects limited production; storytelling and craft lead.')}
+    <figure class="wrap page-figure"><img src="/images/lynq/gallery.webp" alt="Concept render of the LYNQ Gallery"><figcaption>Concept render of the first LYNQ Gallery</figcaption></figure>
     <section class="wrap gallery-points">
       <div><h3>10–12 maisons</h3><p>Each gallery features a tight circle of like-minded brands, so every one receives focused attention.</p></div>
       <div><h3>Collector-led</h3><p>Our specialists are trained by the founders themselves. Expect conversation, not a sales pitch.</p></div>
@@ -353,13 +423,16 @@ export function aboutPage() {
     title: 'About',
     path: '/about',
     body: html`
-    ${pageHead('About LYNQ', 'Connection in its most deliberate form')}
+    ${journey(0)}
+    ${pageHead('Chapter I · Discover LYNQ', 'Connection in its most deliberate form')}
+    <figure class="wrap page-figure"><img src="/images/lynq/wall.webp" alt="The LYNQ wall"><figcaption>Curated · Exceptional · Unconventional</figcaption></figure>
     <section class="wrap prose large about">
       <p>LYNQ signifies a link between Ethos and the world of independent watchmaking: a bridge between India’s evolving collector community and niche global brands that operate outside traditional luxury structures. Above all, it is a connection between creators and connoisseurs, where dialogue, trust and shared passion shape every interaction.</p>
       <p>Independent brands grow through storytelling, community and founder-led vision. LYNQ provides a dedicated environment where they can be discovered, understood and appreciated beyond transactional retail.</p>
       <p>The name expresses alignment rather than distribution. LYNQ is not simply a channel but a connector of ecosystems that naturally belong together, bringing institutional strength and independent creativity into long-term partnership.</p>
       <p>India’s watch collector community is growing and changing. Enthusiasts are moving beyond mainstream names toward brands that have a founder story, that experiment, that feel genuinely scarce. LYNQ is built for precisely this shift, at the moment the Indian collector is ready for it.</p>
       <blockquote>LYNQ exists to serve this difference with precision, partnership and long-term commitment.</blockquote>
+      <p><a class="btn btn-dark" href="/maisons">Continue to the maisons</a></p>
     </section>
     <section class="wrap ethos-band">
       <div><p class="eyebrow">An initiative by Ethos</p><h2>Backed by India’s leading luxury watch retailer</h2></div>
@@ -511,3 +584,115 @@ export function notFoundPage() {
 }
 
 export { CURATIONS };
+
+// ---------- Bag, checkout, confirmation ----------
+
+export function bagPage() {
+  return layout({
+    title: 'Your bag',
+    path: '/bag',
+    body: html`
+    ${journey(3)}
+    <section class="page-head wrap center"><p class="chapter-num">Chapter IV · Your Order</p><h1>Your bag</h1></section>
+    <section class="wrap checkout-grid">
+      <div>
+        <div class="empty" data-bag-empty><p>Your bag is empty.</p><a class="btn btn-outline" href="/discover">Explore the collection</a></div>
+        <ul class="bag-list large" data-bag-list></ul>
+      </div>
+      <aside class="summary" data-bag-full hidden>
+        <h2>Summary</h2>
+        <div class="summary-row"><span>Subtotal</span><span data-bag-total>₹0</span></div>
+        <div class="summary-row"><span>Insured delivery</span><span>Complimentary</span></div>
+        <div class="summary-row total"><span>Total</span><strong data-bag-total>₹0</strong></div>
+        <a class="btn btn-dark btn-block" href="/checkout">Proceed to checkout</a>
+        <a class="text-link" href="/appointment">Prefer to see it first? Book a private viewing</a>
+      </aside>
+    </section>`,
+  });
+}
+
+export function checkoutPage({ values = {}, error } = {}) {
+  const v = values;
+  const pay = v.payment || 'card';
+  const radio = (value, label, note) => html`<label class="pay-option"><input type="radio" name="payment" value="${value}" ${pay === value ? html`checked` : ''}><span><strong>${label}</strong><small>${note}</small></span></label>`;
+  return layout({
+    title: 'Checkout',
+    path: '/checkout',
+    bodyClass: 'checkout',
+    body: html`
+    ${journey(3)}
+    <section class="page-head wrap center"><p class="chapter-num">Chapter IV · Your Order</p><h1>Checkout</h1></section>
+    <section class="wrap">
+      <div class="empty" data-bag-empty><p>Your bag is empty.</p><a class="btn btn-outline" href="/discover">Explore the collection</a></div>
+    </section>
+    <form class="wrap checkout-grid" method="post" action="/checkout" data-checkout data-bag-full hidden>
+      <div class="checkout-steps">
+        ${errorBox(error)}
+        <input type="hidden" name="items" value="">
+        <fieldset class="step"><legend><span class="num">1</span>Contact</legend>${contactFields(v, { phoneRequired: true })}</fieldset>
+        <fieldset class="step"><legend><span class="num">2</span>Delivery</legend>
+          ${field('Address', input('address1', v, html`type="text" autocomplete="address-line1" required maxlength="200"`))}
+          ${field('Apartment, building, landmark (optional)', input('address2', v, html`type="text" autocomplete="address-line2" maxlength="200"`))}
+          <div class="field-row">
+            ${field('State', input('state', v, html`type="text" autocomplete="address-level1" required maxlength="60"`))}
+            ${field('PIN code', input('pincode', v, html`type="text" inputmode="numeric" pattern="[0-9]{6}" autocomplete="postal-code" required maxlength="6"`))}
+          </div>
+          <div data-pan hidden>${field('PAN', input('pan', v, html`type="text" maxlength="10" autocapitalize="characters"`), 'Required by Indian tax rules for purchases above ₹2,00,000.')}</div>
+          ${field('Notes for your specialist (optional)', html`<textarea name="notes" rows="2" maxlength="1000" placeholder="Gift wrapping, strap size, preferred delivery time…">${v.notes || ''}</textarea>`)}
+        </fieldset>
+        <fieldset class="step"><legend><span class="num">3</span>Payment</legend>
+          <div class="pay-options">
+            ${radio('card', 'Credit or debit card', 'Visa, Mastercard, RuPay, Amex')}
+            ${radio('upi', 'UPI', 'Google Pay, PhonePe, Paytm and others')}
+            ${radio('netbanking', 'Net banking', 'All major Indian banks')}
+            ${radio('emi', 'EMI', 'No-cost EMI on eligible cards')}
+          </div>
+          <div class="pay-panel" data-pay-panel="card" ${pay === 'card' ? '' : html`hidden`}>
+            <div class="field-row">
+              ${field('Card number', html`<input type="text" inputmode="numeric" autocomplete="off" placeholder="1234 5678 9012 3456">`)}
+              ${field('Name on card', html`<input type="text" autocomplete="off">`)}
+            </div>
+            <div class="field-row">
+              ${field('Expiry', html`<input type="text" autocomplete="off" placeholder="MM / YY">`)}
+              ${field('CVV', html`<input type="password" autocomplete="off" placeholder="•••">`)}
+            </div>
+          </div>
+          <div class="pay-panel" data-pay-panel="upi" ${pay === 'upi' ? '' : html`hidden`}>${field('UPI ID', html`<input type="text" autocomplete="off" placeholder="yourname@bank">`)}</div>
+          <div class="pay-panel" data-pay-panel="netbanking" ${pay === 'netbanking' ? '' : html`hidden`}><p class="hint">You will be taken to your bank’s secure page to complete payment.</p></div>
+          <div class="pay-panel" data-pay-panel="emi" ${pay === 'emi' ? '' : html`hidden`}><p class="hint">Choose your card and EMI tenure on the next secure screen.</p></div>
+          <p class="secure-note">Payments are processed securely by our payment partner. Card details are never stored by LYNQ.</p>
+        </fieldset>
+        ${honeypot}
+      </div>
+      <aside class="summary">
+        <h2>Your order</h2>
+        <ul class="bag-list compact" data-bag-list="static"></ul>
+        <div class="summary-row"><span>Subtotal</span><span data-bag-total>₹0</span></div>
+        <div class="summary-row"><span>Insured delivery</span><span>Complimentary</span></div>
+        <div class="summary-row total"><span>Total</span><strong data-bag-total>₹0</strong></div>
+        <button class="btn btn-dark btn-block" type="submit">Place order</button>
+        <p class="hint">A LYNQ specialist will call to confirm your order before dispatch.</p>
+      </aside>
+    </form>`,
+  });
+}
+
+export function orderConfirmedPage({ ref } = {}) {
+  return layout({
+    title: 'Order confirmed',
+    path: '/checkout',
+    body: html`
+    <section class="wrap narrow thanks" data-order-confirmed>
+      ${logoMark('thanks-mark')}
+      <p class="chapter-num">Thank you</p>
+      <h1>Your order is confirmed</h1>
+      <p class="lede">A LYNQ specialist will call you shortly to confirm the details and arrange insured delivery.</p>
+      ${ref ? html`<p class="muted">Order reference: <strong>${ref}</strong></p>` : ''}
+      <div class="order-recap" data-order-has-items hidden>
+        <ul class="bag-list compact" data-order-list></ul>
+        <div class="summary-row total"><span>Total</span><strong data-order-total></strong></div>
+      </div>
+      <div class="btn-row center"><a class="btn btn-dark" href="/maisons">Continue discovering</a><a class="btn btn-outline" href="/appointment">Book a private viewing</a></div>
+    </section>`,
+  });
+}

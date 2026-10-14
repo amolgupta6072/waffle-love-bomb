@@ -23,6 +23,25 @@ const db = openDatabase(':memory:');
 seedIfEmpty(db);
 upsertAdmin(db, { email: 'demo@lynq.local', password: 'demo-password-123' });
 
+// Sample prices (INR) so the preview can show the full bag and checkout journey.
+// These are illustrative only; real Indian prices come from Ethos.
+const SAMPLE_PRICES = {
+  'arsene-lippens': { Visionario: 240000, Scheletrato: 420000, Artigiano: 135000 },
+  'furlan-marri': { Mechaquartz: 74000, 'Cornes de Vache': 145000, 'Disco Volante': 360000, 'Hunter & Outback': 170000 },
+  beaubleu: { Ecce: 105000, 'Ecce Figura': 125000, 'Seconde Française': 165000, Vitruve: 185000, 'La Pièce': 195000 },
+  dennison: { 'ALD Time Only': 78000, 'ALD Mini': 72000, 'ALD Dual Time': 95000 },
+  awake: { 'Frosted Leaf': 305000, 'Guilloché Main': 340000, 'Silver Leaf': 290000, Fragments: 295000 },
+  'atelier-wen': { Perception: 410000, Millésime: 440000, Inflection: 2800000, Ancestra: 650000 },
+  amida: { Digitrend: 440000 },
+  fears: { Brunswick: 490000, Redcliff: 370000, Arnos: 520000 },
+  formex: { Essence: 160000, Reef: 210000, Stratos: 330000, Field: 145000, AirField: 150000, Aria: 690000 },
+  hegid: { Expedition: 360000, Vision: 360000, Mirage: 360000, Laboratoire: 360000, Royaume: 450000 },
+};
+for (const w of db.prepare('SELECT w.id, w.collection, w.availability, b.slug AS brand FROM watches w JOIN brands b ON b.id = w.brand_id').all()) {
+  const price = SAMPLE_PRICES[w.brand]?.[w.collection];
+  if (price && w.availability !== 'sold') db.prepare("UPDATE watches SET price_inr = ?, availability = 'available' WHERE id = ?").run(price, w.id);
+}
+
 const server = await new Promise((resolve) => { const s = createApp(db, { formLimit: 1e6 }).listen(0, () => resolve(s)); });
 const base = `http://127.0.0.1:${server.address().port}`;
 let cookie = '';
@@ -59,7 +78,7 @@ const locations = db.prepare('SELECT id FROM locations').all();
 const pages = new Map([
   ['/', 'home.html'], ['/discover', 'discover.html'], ['/maisons', 'maisons.html'], ['/gallery', 'gallery.html'],
   ['/events', 'events.html'], ['/about', 'about.html'], ['/partner', 'partner.html'], ['/appointment', 'appointment.html'],
-  ['/enquire', 'enquire.html'], ['/nothing-here', '404.html'],
+  ['/enquire', 'enquire.html'], ['/nothing-here', '404.html'], ['/bag', 'bag.html'], ['/checkout', 'checkout.html'], ['/order-confirmed', 'order-confirmed.html'],
   ['/admin', 'admin.html'], ['/admin/watches', 'admin-watches.html'], ['/admin/brands', 'admin-brands.html'],
   ['/admin/events', 'admin-events.html'], ['/admin/locations', 'admin-locations.html'],
 ]);
@@ -133,6 +152,7 @@ function formTarget(action, formHtml) {
   if (action === '/enquire') return /name="type" value="order"/.test(formHtml) ? 'thank-you-order.html' : 'thank-you-enquiry.html';
   if (action === '/appointment') return 'thank-you-appointment.html';
   if (action === '/partner') return 'thank-you-partner.html';
+  if (action === '/checkout') return 'order-confirmed.html';
   if (action === '/newsletter') return 'thank-you-newsletter.html';
   if (/^\/events\/.+\/rsvp$/.test(action)) return 'thank-you-event.html';
   return '';
@@ -152,8 +172,9 @@ function transform(htmlText, isAdmin) {
     return `<form${a}action="#"${b}${to ? ` data-demo-to="${to}"` : ''}>${inner}</form>`;
   });
   // Product photos: copy each one used into the demo and point at it relatively.
-  out = out.replace(/src="\/(images\/[^"]+)"/g, (m, rel) => { usedImages.add(rel); return `src="${rel}"`; });
-  out = out.replace(/(href|data-href)="(\/[^"]*)"/g, (m, attr, url) => `${attr}="${mapUrl(url.replace(/&amp;/g, '&'))}"`);
+  out = out.replace(/(src|data-bag-image)="\/(images\/[^"]+)"/g, (m, attr, rel) => { usedImages.add(rel); return `${attr}="${rel}"`; });
+  out = out.replace(/<p class="price">([^<]*₹[^<]*)<\/p>/g, '<p class="price">$1<span class="price-note">Sample price for this preview</span></p>');
+  out = out.replace(/(href|data-href|data-bag-url)="(\/[^"]*)"/g, (m, attr, url) => `${attr}="${mapUrl(url.replace(/&amp;/g, '&'))}"`);
   out = out.replace(/<body([^>]*)>/, `<body$1><div class="demo-bar">${isAdmin
     ? 'Demo of the LYNQ team admin · sample entries · changes are not saved'
     : 'LYNQ concept preview for internal review · forms do not send'}</div>`);

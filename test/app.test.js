@@ -96,7 +96,7 @@ test('orders are only possible for available, priced pieces', async () => {
 
   db.prepare(`UPDATE watches SET availability = 'available', price_inr = 450000 WHERE slug = 'formex-essence-thirtynine-blue'`).run();
   page = await post('GET', '/watches/formex-essence-thirtynine-blue');
-  assert.match(page.text, /Order this piece/);
+  assert.match(page.text, /data-add-to-bag/);
   assert.match(page.text, /₹4,50,000/);
 
   const noPhone = await post('POST', '/enquire', { type: 'order', watch: 'formex-essence-thirtynine-blue', name: 'Arjun', email: 'arjun@example.com' });
@@ -104,6 +104,36 @@ test('orders are only possible for available, priced pieces', async () => {
   const ok = await post('POST', '/enquire', { type: 'order', watch: 'formex-essence-thirtynine-blue', name: 'Arjun', email: 'arjun@example.com', phone: '+91 98765 43210' });
   assert.equal(ok.status, 303);
   assert.equal(lastRequest().type, 'order');
+});
+
+test('checkout validates the bag and records the order', async () => {
+  const post = client();
+  db.prepare(`UPDATE watches SET availability = 'available', price_inr = 250000 WHERE slug = 'fears-redcliff-pale-lilac'`).run();
+  const base = {
+    name: 'Meera', email: 'meera@example.com', phone: '+91 98111 22333', city: 'Mumbai',
+    address1: '12 Marine Drive', state: 'Maharashtra', pincode: '400002', payment: 'upi',
+  };
+  for (const path of ['/bag', '/checkout', '/order-confirmed']) assert.equal((await post('GET', path)).status, 200, path);
+
+  let res = await post('POST', '/checkout', { ...base, items: '' });
+  assert.equal(res.status, 400);
+  assert.match(res.text, /bag is empty/);
+
+  res = await post('POST', '/checkout', { ...base, items: 'awake-son-mai-silver-leaf-golden-hour' });
+  assert.equal(res.status, 400, 'sold-out piece is refused');
+
+  res = await post('POST', '/checkout', { ...base, items: 'fears-redcliff-pale-lilac' });
+  assert.equal(res.status, 400);
+  assert.match(res.text, /PAN is required/);
+
+  res = await post('POST', '/checkout', { ...base, items: 'fears-redcliff-pale-lilac', pan: 'abcde1234f' });
+  assert.equal(res.status, 303);
+  assert.match(res.location, /\/order-confirmed\?ref=LQ-\d{6}/);
+  const r = lastRequest();
+  assert.equal(r.type, 'order');
+  assert.match(r.message, /Total: ₹2,50,000/);
+  assert.match(r.message, /PAN: ABCDE1234F/);
+  assert.match(r.message, /400002/);
 });
 
 test('appointments validate date and location', async () => {

@@ -70,7 +70,10 @@ export function publicRouter(db, { formLimit = 12 } = {}) {
       .get(new Date().toISOString());
     send(res, views.homePage({
       featured: featured.length ? featured : all.slice(0, 8),
-      brands: q.brands(),
+      brands: q.brands().map((b) => {
+        const own = all.filter((w) => w.brand_id === b.id);
+        return { ...b, lead: own.find((w) => w.featured && w.image_url) || own.find((w) => w.image_url) || own[0] };
+      }),
       curations: CURATIONS.map((c) => ({ ...c, count: counts[c.slug] })).filter((c) => c.count > 0),
       nextEvent,
       location: q.locations()[0],
@@ -109,7 +112,7 @@ export function publicRouter(db, { formLimit = 12 } = {}) {
   r.get('/maisons', (req, res) => {
     const brands = q.brands().map((b) => {
       const watches = q.watches('AND w.brand_id = ?', b.id);
-      return { ...b, watch_count: watches.length, lead: watches.find((w) => w.featured) || watches[0] };
+      return { ...b, watch_count: watches.length, lead: watches.find((w) => w.featured && w.image_url) || watches.find((w) => w.image_url) || watches[0] };
     });
     send(res, views.brandsPage({ brands }));
   });

@@ -5,6 +5,8 @@ if (toggle && nav) {
   toggle.addEventListener('click', () => {
     const open = toggle.getAttribute('aria-expanded') === 'true';
     toggle.setAttribute('aria-expanded', String(!open));
+    const head = document.querySelector('.header-top');
+    if (head) document.documentElement.style.setProperty('--header-h', `${head.getBoundingClientRect().bottom}px`);
     document.body.classList.toggle('nav-open', !open);
   });
 }

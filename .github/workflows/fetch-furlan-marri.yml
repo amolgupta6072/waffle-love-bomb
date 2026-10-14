@@ -1,0 +1,32 @@
+name: Fetch Furlan Marri product photos
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [claude/lynq-website-1dqqw4]
+    paths:
+      - scripts/fetch-furlan-marri.mjs
+      - .github/workflows/fetch-furlan-marri.yml
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/fetch-furlan-marri.mjs
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add data/brand-products/furlan-marri.json public/images/brands/furlan-marri
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Add Furlan Marri product photos"
+          git pull --rebase
+          git push
