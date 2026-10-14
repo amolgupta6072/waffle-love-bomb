@@ -1,260 +1,72 @@
 {
   "brand": "furlan-marri",
   "base": "https://www.furlanmarri.com",
-  "method": "product-pages",
-  "fetched": "2026-10-14T07:23:06.097Z",
+  "method": "image-file-names",
+  "fetched": "2026-10-14T07:25:37.887Z",
   "products": [
     {
-      "title": "Ardesia Blu",
-      "handle": "ardesia-blu",
-      "type": "",
-      "url": "https://www.furlanmarri.com/products/ardesia-blu",
-      "image": "/images/brands/furlan-marri/ardesia-blu-product.png"
-    },
-    {
-      "title": "Sabbia Rosa",
+      "title": "sabbia rosa",
       "handle": "sabbia-rosa",
       "type": "",
       "url": "https://www.furlanmarri.com/products/sabbia-rosa",
-      "image": "/images/brands/furlan-marri/sabbia-rosa-product.png"
+      "image": "/images/brands/furlan-marri/sabbia-rosa.png",
+      "source": "https://cdn.shopify.com/s/files/1/0558/4024/3844/files/sabbia-rosa-shopify.png"
     },
     {
-      "title": "Nero Sabbia",
-      "handle": "1072-a-nero-sabbia",
+      "title": "ardesia blu",
+      "handle": "ardesia-blu",
       "type": "",
-      "url": "https://www.furlanmarri.com/products/1072-a-nero-sabbia",
-      "image": "/images/brands/furlan-marri/1072-a-nero-sabbia-product.png"
+      "url": "https://www.furlanmarri.com/products/ardesia-blu",
+      "image": "/images/brands/furlan-marri/ardesia-blu.png",
+      "source": "https://cdn.shopify.com/s/files/1/0558/4024/3844/files/ardesia-blu-shopify.png"
     },
     {
-      "title": "Castagna",
-      "handle": "1009-a-castagna",
+      "title": "nero sabbia",
+      "handle": "nero-sabbia",
       "type": "",
-      "url": "https://www.furlanmarri.com/products/1009-a-castagna",
-      "image": "/images/brands/furlan-marri/1009-a-castagna-product.png"
+      "url": "https://www.furlanmarri.com/products/nero-sabbia",
+      "image": "/images/brands/furlan-marri/nero-sabbia.png",
+      "source": "https://cdn.shopify.com/s/files/1/0558/4024/3844/files/Shopify-nerosabbia-2025_e5c1915e-5b6c-41be-b99f-bd6d334f9289.png"
     },
     {
-      "title": "Rosso Grigio",
-      "handle": "1085-a-rosso-grigio",
+      "title": "castagna",
+      "handle": "castagna",
       "type": "",
-      "url": "https://www.furlanmarri.com/products/1085-a-rosso-grigio",
-      "image": "/images/brands/furlan-marri/1085-a-rosso-grigio-product.png"
+      "url": "https://www.furlanmarri.com/products/castagna",
+      "image": "/images/brands/furlan-marri/castagna.png",
+      "source": "https://cdn.shopify.com/s/files/1/0558/4024/3844/files/castagna-2025-shopify-2.png"
     },
     {
-      "title": "Blue Sector",
-      "handle": "blue-sector",
+      "title": "salmon sector",
+      "handle": "salmon-sector",
       "type": "",
-      "url": "https://www.furlanmarri.com/products/blue-sector",
-      "image": "/images/brands/furlan-marri/blue-sector-product.png"
+      "url": "https://www.furlanmarri.com/products/salmon-sector",
+      "image": "/images/brands/furlan-marri/salmon-sector.png",
+      "source": "https://cdn.shopify.com/s/files/1/0558/4024/3844/files/salmonsector-greenstrap-ref2154A-01-white_3e9fd757-bb91-4ed0-94d1-909a3c4d4a90.png"
     },
     {
-      "title": "Salmon Sector",
-      "handle": "salmon-sector-2154-a",
+      "title": "white sector",
+      "handle": "white-sector",
       "type": "",
-      "url": "https://www.furlanmarri.com/products/salmon-sector-2154-a",
-      "image": "/images/brands/furlan-marri/salmon-sector-2154-a-product.png"
+      "url": "https://www.furlanmarri.com/products/white-sector",
+      "image": "/images/brands/furlan-marri/white-sector.png",
+      "source": "https://cdn.shopify.com/s/files/1/0558/4024/3844/files/whitesector-bluestrap-ref2161A-01-white.png"
     },
     {
-      "title": "White Sector",
-      "handle": "white-sector-2161-a",
-      "type": "",
-      "url": "https://www.furlanmarri.com/products/white-sector-2161-a",
-      "image": "/images/brands/furlan-marri/white-sector-2161-a-product.png"
-    },
-    {
-      "title": "Outback Elegy",
-      "handle": "outback-elegy-2222-a",
-      "type": "",
-      "url": "https://www.furlanmarri.com/products/outback-elegy-2222-a",
-      "image": "/images/brands/furlan-marri/outback-elegy-2222-a-product.png"
-    },
-    {
-      "title": "Disco Onyx Diamonds",
+      "title": "disco onyx diamonds",
       "handle": "disco-onyx-diamonds",
       "type": "",
       "url": "https://www.furlanmarri.com/products/disco-onyx-diamonds",
-      "image": "/images/brands/furlan-marri/disco-onyx-diamonds-product.png"
+      "image": "/images/brands/furlan-marri/disco-onyx-diamonds.png",
+      "source": "https://cdn.shopify.com/s/files/1/0558/4024/3844/files/disco-onyx-diamonds-shopify.png"
     },
     {
-      "title": "Outback Songlines",
-      "handle": "outback-songlines",
+      "title": "outback elegy",
+      "handle": "outback-elegy",
       "type": "",
-      "url": "https://www.furlanmarri.com/products/outback-songlines",
-      "image": "/images/brands/furlan-marri/outback-songlines-product.png"
-    },
-    {
-      "title": "&quot;Prototype&quot; Case N°00",
-      "handle": "prototype-case00",
-      "type": "",
-      "url": "https://www.furlanmarri.com/products/prototype-case00",
-      "image": "/images/brands/furlan-marri/prototype-case00-product.png"
-    },
-    {
-      "title": "Meteorite",
-      "handle": "octa-meteorite",
-      "type": "",
-      "url": "https://www.furlanmarri.com/products/octa-meteorite",
-      "image": "/images/brands/furlan-marri/octa-meteorite-product.png"
-    },
-    {
-      "title": "Sahra Edition",
-      "handle": "sahra-edition",
-      "type": "",
-      "url": "https://www.furlanmarri.com/products/sahra-edition",
-      "image": "/images/brands/furlan-marri/sahra-edition-product.png"
-    },
-    {
-      "title": "Red Hunter",
-      "handle": "red-hunter",
-      "type": "",
-      "url": "https://www.furlanmarri.com/products/red-hunter",
-      "image": "/images/brands/furlan-marri/red-hunter-product.png"
-    },
-    {
-      "title": "Grey Sector",
-      "handle": "grey-sector-2145-a",
-      "type": "",
-      "url": "https://www.furlanmarri.com/products/grey-sector-2145-a",
-      "image": "/images/brands/furlan-marri/grey-sector-2145-a-product.png"
-    },
-    {
-      "title": "Disco Stromatolite",
-      "handle": "disco-stromatolite-for-time-for-art-2024",
-      "type": "",
-      "url": "https://www.furlanmarri.com/products/disco-stromatolite-for-time-for-art-2024",
-      "image": "/images/brands/furlan-marri/disco-stromatolite-for-time-for-art-2024-product.png"
-    },
-    {
-      "title": "Sage Green",
-      "handle": "sage-green",
-      "type": "",
-      "url": "https://www.furlanmarri.com/products/sage-green",
-      "image": "/images/brands/furlan-marri/sage-green-product.png"
-    },
-    {
-      "title": "Secular Perpetual Calendar",
-      "handle": "only-watch-2023",
-      "type": "",
-      "url": "https://www.furlanmarri.com/products/only-watch-2023",
-      "image": "/images/brands/furlan-marri/only-watch-2023-product.png"
-    },
-    {
-      "title": "Disco Celeste",
-      "handle": "disco-celeste-20205",
-      "type": "",
-      "url": "https://www.furlanmarri.com/products/disco-celeste-20205",
-      "image": "/images/brands/furlan-marri/disco-celeste-20205-product.png"
-    },
-    {
-      "title": "Disco Havana",
-      "handle": "disco-havana-20205",
-      "type": "",
-      "url": "https://www.furlanmarri.com/products/disco-havana-20205",
-      "image": "/images/brands/furlan-marri/disco-havana-20205-product.png"
-    },
-    {
-      "title": "Disco Verde",
-      "handle": "disco-verde-20205",
-      "type": "",
-      "url": "https://www.furlanmarri.com/products/disco-verde-20205",
-      "image": "/images/brands/furlan-marri/disco-verde-20205-product.png"
-    },
-    {
-      "title": "Taupe Flyback",
-      "handle": "taupe-flyback-3177-a",
-      "type": "",
-      "url": "https://www.furlanmarri.com/products/taupe-flyback-3177-a",
-      "image": "/images/brands/furlan-marri/taupe-flyback-3177-a-product.png"
-    },
-    {
-      "title": "Honey Blue Flyback",
-      "handle": "honey-blue-flyback-3199-a",
-      "type": "",
-      "url": "https://www.furlanmarri.com/products/honey-blue-flyback-3199-a",
-      "image": "/images/brands/furlan-marri/honey-blue-flyback-3199-a-product.png"
-    },
-    {
-      "title": "Salmon Flyback",
-      "handle": "salmon-flyback-3188-a",
-      "type": "",
-      "url": "https://www.furlanmarri.com/products/salmon-flyback-3188-a",
-      "image": "/images/brands/furlan-marri/salmon-flyback-3188-a-product.png"
-    },
-    {
-      "title": "Furlan Marri + seconde/seconde/",
-      "handle": "seconde-seconde",
-      "type": "",
-      "url": "https://www.furlanmarri.com/products/seconde-seconde",
-      "image": "/images/brands/furlan-marri/seconde-seconde-product.png"
-    },
-    {
-      "title": "Bronzo Rosso",
-      "handle": "bronzo-rosso",
-      "type": "",
-      "url": "https://www.furlanmarri.com/products/bronzo-rosso",
-      "image": "/images/brands/furlan-marri/bronzo-rosso-product.png"
-    },
-    {
-      "title": "Black Sector",
-      "handle": "black-sector-2116-a",
-      "type": "",
-      "url": "https://www.furlanmarri.com/products/black-sector-2116-a",
-      "image": "/images/brands/furlan-marri/black-sector-2116-a-product.png"
-    },
-    {
-      "title": "&quot; Solidarity Blue &quot; Pièce Unique",
-      "handle": "solidarity-blue-piece-unique",
-      "type": "",
-      "url": "https://www.furlanmarri.com/products/solidarity-blue-piece-unique",
-      "image": "/images/brands/furlan-marri/solidarity-blue-piece-unique-product.png"
-    },
-    {
-      "title": "Mare Blu",
-      "handle": "1051-a-mare-blu",
-      "type": "",
-      "url": "https://www.furlanmarri.com/products/1051-a-mare-blu",
-      "image": "/images/brands/furlan-marri/1051-a-mare-blu-product.png"
-    },
-    {
-      "title": "Havana Green",
-      "handle": "havana-green-seddiqi-edition",
-      "type": "",
-      "url": "https://www.furlanmarri.com/products/havana-green-seddiqi-edition",
-      "image": "/images/brands/furlan-marri/havana-green-seddiqi-edition-product.png"
-    },
-    {
-      "title": "Mr. Grey",
-      "handle": "mr-grey-1041-a",
-      "type": "",
-      "url": "https://www.furlanmarri.com/products/mr-grey-1041-a",
-      "image": "/images/brands/furlan-marri/mr-grey-1041-a-product.png"
-    },
-    {
-      "title": "Farro",
-      "handle": "farro-1022-b",
-      "type": "",
-      "url": "https://www.furlanmarri.com/products/farro-1022-b",
-      "image": "/images/brands/furlan-marri/farro-1022-b-product.png"
-    },
-    {
-      "title": "Havana Salmon",
-      "handle": "havana-salmon-1031-a",
-      "type": "",
-      "url": "https://www.furlanmarri.com/products/havana-salmon-1031-a",
-      "image": "/images/brands/furlan-marri/havana-salmon-1031-a-product.png"
-    },
-    {
-      "title": "Laccato Nero",
-      "handle": "laccato-nero",
-      "type": "",
-      "url": "https://www.furlanmarri.com/products/laccato-nero",
-      "image": "/images/brands/furlan-marri/laccato-nero-product.png"
-    },
-    {
-      "title": "Tasti Tondi",
-      "handle": "tasti-tondi-1011-a",
-      "type": "",
-      "url": "https://www.furlanmarri.com/products/tasti-tondi-1011-a",
-      "image": "/images/brands/furlan-marri/tasti-tondi-1011-a-product.png"
+      "url": "https://www.furlanmarri.com/products/outback-elegy",
+      "image": "/images/brands/furlan-marri/outback-elegy.png",
+      "source": "https://cdn.shopify.com/s/files/1/0558/4024/3844/files/outbackelegy-ref2222A-01-white.png"
     }
   ]
 }
