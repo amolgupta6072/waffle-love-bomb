@@ -57,7 +57,7 @@ mkdirSync(dir, { recursive: true });
 const products = [];
 for (const [handle, words] of Object.entries(TARGETS)) {
   // Prefer packshot-style names (shopify/packshot/front) over lifestyle shots.
-  const candidates = all.filter((u) => words.some((w) => u.toLowerCase().split('/').pop().includes(w)));
+  const candidates = all.filter((u) => words.some((w) => u.toLowerCase().split('/').pop().replace(/_/g, '-').includes(w)) && !/header|banner/i.test(u));
   const pick = candidates.find((u) => /shopify|packshot|front|png/i.test(u.split('/').pop())) || candidates[0];
   console.log(`${handle}: ${candidates.length} candidates -> ${pick || 'none'}`);
   if (!pick) continue;
