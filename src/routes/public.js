@@ -252,6 +252,55 @@ export function publicRouter(db, { formLimit = 12 } = {}) {
     thanks(res, 'newsletter');
   });
 
+  // ---------- Bag & checkout ----------
+  // The bag lives in the browser (localStorage); the server re-checks every
+  // item and recomputes the total when the order is placed.
+
+  r.get('/bag', (req, res) => send(res, views.bagPage()));
+  r.get('/checkout', (req, res) => send(res, views.checkoutPage()));
+
+  r.post('/checkout', limiter, form, (req, res) => {
+    if (isBot(req)) return res.redirect(303, '/order-confirmed');
+    try {
+      const slugs = String(req.body.items || '').split(',').map((s) => s.trim()).filter(Boolean).slice(0, 10);
+      if (!slugs.length) throw new v.ValidationError('Your bag is empty.');
+      const items = slugs.map((slug) => {
+        const w = q.watch(slug);
+        if (!w || w.availability !== 'available' || !w.price_inr) throw new v.ValidationError(`${w ? `${w.brand_name} ${w.name}` : 'One of the pieces in your bag'} is no longer available to order online. Please remove it or contact us.`);
+        return w;
+      });
+      const total = items.reduce((sum, w) => sum + w.price_inr, 0);
+      const who = contact(req.body, { phoneRequired: true });
+      const address = [
+        v.text(req.body.address1, 'Address', { max: 200, required: true }),
+        v.text(req.body.address2, 'Address line 2', { max: 200 }),
+        `${who.city} ${v.text(req.body.state, 'State', { max: 60, required: true })} ${v.text(req.body.pincode, 'PIN code', { max: 6, required: true })}`.trim(),
+      ].filter(Boolean).join(', ');
+      if (!/^\d{6}$/.test(req.body.pincode)) throw new v.ValidationError('Please enter a valid 6-digit PIN code.');
+      const pan = v.text(req.body.pan, 'PAN', { max: 10 }).toUpperCase();
+      if (total > 200000 && !/^[A-Z]{5}\d{4}[A-Z]$/.test(pan)) throw new v.ValidationError('A valid PAN is required for purchases above ₹2,00,000.');
+      const payment = v.oneOf(req.body.payment, 'Payment method', ['card', 'upi', 'netbanking', 'emi']);
+      const message = [
+        ...items.map((w) => `${w.brand_name} ${w.name}: ₹${w.price_inr.toLocaleString('en-IN')}`),
+        `Total: ₹${total.toLocaleString('en-IN')}`,
+        `Payment method: ${payment} (payment gateway not yet connected)`,
+        `Deliver to: ${address}`,
+        pan ? `PAN: ${pan}` : '',
+        v.text(req.body.notes, 'Notes', { max: 1000 }),
+      ].filter(Boolean).join('\n');
+      const ref = saveRequest({ type: 'order', ...who, message, watch_id: items[0].id });
+      res.redirect(303, `/order-confirmed?ref=${ref}`);
+    } catch (err) {
+      if (!(err instanceof v.ValidationError)) throw err;
+      send(res, views.checkoutPage({ values: req.body, error: err.message }), 400);
+    }
+  });
+
+  r.get('/order-confirmed', (req, res) => {
+    const ref = /^LQ-\d{6,}$/.test(req.query.ref || '') ? req.query.ref : '';
+    send(res, views.orderConfirmedPage({ ref }));
+  });
+
   r.get('/thank-you', (req, res) => {
     const ref = /^LQ-\d{6,}$/.test(req.query.ref || '') ? req.query.ref : '';
     send(res, views.thanksPage({ type: String(req.query.type || ''), ref }));
