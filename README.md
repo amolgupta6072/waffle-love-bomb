@@ -26,6 +26,16 @@ node scraper/scrape-futbin.mjs --query "version=gold_rare"   # pass FUTBIN list 
 
 This writes `data/players.json`, `data/players.js` and `data/img/<id>.png`.
 
+## Artifact version
+
+`artifact/fut-draft.html` is a single-file version of the game, published as a Claude artifact. It can't reach FUTBIN itself, so load your data into it:
+
+```bash
+node scraper/scrape-futbin.mjs --embed   # writes data/players-embedded.json with pictures packed in
+```
+
+Then use **Load FUTBIN data** on its start screen. Until then it runs on made-up demo players, which are clearly labelled.
+
 ## Play
 
 Open `index.html` in a browser, or run `npm start` and go to http://localhost:5173.

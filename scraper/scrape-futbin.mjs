@@ -7,6 +7,8 @@
 //   node scraper/scrape-futbin.mjs --browser       # use Playwright (gets past JS challenges)
 //   node scraper/scrape-futbin.mjs --html saved/   # parse list pages you saved from your browser
 //   node scraper/scrape-futbin.mjs --no-images     # keep remote image URLs, skip downloading
+//   node scraper/scrape-futbin.mjs --embed         # also write data/players-embedded.json with images
+//                                                  # inlined, for loading into the artifact version
 //
 // FUTBIN's markup changes between seasons, so parsing is heuristic: each table
 // row that links to a /player/ page is read for name, rating, position, club,
@@ -29,13 +31,14 @@ const POSITIONS = new Set([
 ]);
 
 function parseArgs(argv) {
-  const args = { pages: 10, browser: false, html: null, images: true, delay: 1500, query: '' };
+  const args = { pages: 10, browser: false, html: null, images: true, embed: false, delay: 1500, query: '' };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--pages') args.pages = Number(argv[++i]);
     else if (a === '--browser') args.browser = true;
     else if (a === '--html') args.html = argv[++i];
     else if (a === '--no-images') args.images = false;
+    else if (a === '--embed') args.embed = true;
     else if (a === '--delay') args.delay = Number(argv[++i]);
     else if (a === '--query') args.query = argv[++i]; // e.g. "version=gold_rare"
   }
@@ -254,6 +257,19 @@ async function main() {
     // Also as a script so index.html works when opened straight from disk (file://).
     await fs.writeFile(path.join(OUT_DIR, 'players.js'), `window.FUTBIN_PLAYERS = ${JSON.stringify(out)};\n`);
     console.log(`wrote ${players.length} players to data/players.json`);
+
+    if (args.embed) {
+      const embedded = [];
+      for (const p of players) {
+        const q = { ...p };
+        if (p.image?.startsWith('data/img/')) {
+          q.image = 'data:image/png;base64,' + (await fs.readFile(path.join(ROOT, p.image))).toString('base64');
+        }
+        embedded.push(q);
+      }
+      await fs.writeFile(path.join(OUT_DIR, 'players-embedded.json'), JSON.stringify({ ...out, players: embedded }));
+      console.log('wrote data/players-embedded.json (load this file into the artifact)');
+    }
     if (!players.length) {
       console.error('No players parsed. FUTBIN may have blocked the request or changed its markup; try --browser or --html.');
       process.exitCode = 1;
